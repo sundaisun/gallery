@@ -7,6 +7,21 @@ content: " ";
 display: table;
 }
 
+@mixin arrow(){
+     top: 50%;
+     border: solid transparent;
+     content: " ";
+     height: 0;
+     width: 0;
+     position: absolute;
+     border-color: rgba($jet,0);
+     border-width: 10px;
+     border-width: 1.2rem;
+     margin-top: -10px;
+     margin-top: -1.2rem;
+     z-index: 5;
+}
+
 .small-cap{
     font-family:$header-sans;
 }
@@ -14,10 +29,38 @@ display: table;
 .landing-grids{
     display:block;
     width:100%;
+    background-color:$white-smoke;
     .article{
         width:100%;
     }
     .column, .columns{
         padding:$grid-gutter;
     }
+}
+
+.landing-grids{
+    .img-left{
+         .first{
+            float: left;
+                &:after{
+                    @include arrow();
+                     right:0;
+                     border-right-color: $silver;
+                }
+            }
+        .last{
+        float:right;
+    }}
+    .img-right{
+         .first{
+            float: left;
+            }
+         .last{
+            float:right;
+              &:after{
+                   left:0;
+                   @include arrow();
+                   border-left-color: $silver;
+                }
+    }}
 }
