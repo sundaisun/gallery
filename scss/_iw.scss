@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.row:after, .row:before {
+content: " ";
+display: table;
+}
+
+.small-cap{
+    font-family:$header-sans;
+}
+
+.landing-grids{
+    display:block;
+    width:100%;
+    .article{
+        width:100%;
+    }
+    .column, .columns{
+        padding:$grid-gutter;
+    }
+}
