@@ -23603,7 +23603,7 @@ header .header {
 /* line 140, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner {
   padding-left: 50px;
-  padding-top: 180px;
+  padding-top: 30%;
   padding-right: 40px;
 }
 /* line 144, ../scss/_iw.scss */
@@ -23622,41 +23622,42 @@ header .header {
 /* line 155, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner h1 {
   color: white;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
+  line-height: 46px;
 }
 
-/* line 165, ../scss/_iw.scss */
+/* line 166, ../scss/_iw.scss */
 .footer-btm {
   background-color: #333333;
   padding: 38px 0 40px;
   text-align: center;
   color: #EEEEEE;
 }
-/* line 170, ../scss/_iw.scss */
+/* line 171, ../scss/_iw.scss */
 .footer-btm p {
   font-weight: 200;
   font-size: 0.8em;
 }
-/* line 174, ../scss/_iw.scss */
+/* line 175, ../scss/_iw.scss */
 .footer-btm ul {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   display: inline-block;
 }
-/* line 179, ../scss/_iw.scss */
+/* line 180, ../scss/_iw.scss */
 .footer-btm ul li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 30px;
 }
-/* line 184, ../scss/_iw.scss */
+/* line 185, ../scss/_iw.scss */
 .footer-btm ul li:first-child {
   margin-left: 0;
 }
-/* line 187, ../scss/_iw.scss */
+/* line 188, ../scss/_iw.scss */
 .footer-btm ul li a {
   color: #999999;
   font-size: 2.2em;
@@ -23665,26 +23666,26 @@ header .header {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-/* line 191, ../scss/_iw.scss */
+/* line 192, ../scss/_iw.scss */
 .footer-btm ul li a:hover {
   color: gray;
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 201, ../scss/_iw.scss */
+  /* line 202, ../scss/_iw.scss */
   .desc .desc-inner h1 {
     font-size: 20px;
     line-height: 24px;
   }
 }
 @media only screen and (min-width: 75em) {
-  /* line 208, ../scss/_iw.scss */
+  /* line 209, ../scss/_iw.scss */
   .header h1 span {
     display: none;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 215, ../scss/_iw.scss */
+  /* line 216, ../scss/_iw.scss */
   .landing-grids .full .overlay, .landing-grids .full .overlay-inner {
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -23692,7 +23693,7 @@ header .header {
     -o-transition: all 0.35s ease-in-out;
   }
 
-  /* line 218, ../scss/_iw.scss */
+  /* line 219, ../scss/_iw.scss */
   .landing-grids .full img {
     transition: all 0.25s ease-in;
     -webkit-transition: all 0.25s ease-in;
@@ -23700,25 +23701,25 @@ header .header {
     -o-transition: all 0.25s ease-in;
   }
 
-  /* line 221, ../scss/_iw.scss */
+  /* line 222, ../scss/_iw.scss */
   .landing-grids .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
-  /* line 225, ../scss/_iw.scss */
+  /* line 226, ../scss/_iw.scss */
   .landing-grids .overlay:hover {
     opacity: 1;
   }
 
-  /* line 229, ../scss/_iw.scss */
+  /* line 230, ../scss/_iw.scss */
   .landing-grids .overlay:hover + img {
     transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
   }
 
-  /* line 233, ../scss/_iw.scss */
+  /* line 234, ../scss/_iw.scss */
   .landing-grids .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
     -webkit-transform: translateY(-50px);
@@ -23726,12 +23727,12 @@ header .header {
   }
 }
 @media only screen and (max-width: 40em), only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 239, ../scss/_iw.scss */
+  /* line 240, ../scss/_iw.scss */
   .typed {
     display: none;
   }
 
-  /* line 242, ../scss/_iw.scss */
+  /* line 243, ../scss/_iw.scss */
   .header h1 span {
     display: inline-block;
   }
