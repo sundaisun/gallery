@@ -227,11 +227,11 @@ header .header{
             }
         }
     .landing-grids .overlay:hover + img{
-        @include transform(scale,0.98);
+        @include scale(0.98);
     }
 
     .landing-grids .overlay:hover > .overlay-inner{
-        @include transform (translateY,-50px);
+        @include translateY(-50px);
     }
 }
 
