@@ -2,16 +2,49 @@
     box-sizing: border-box;
 }
 
-//CATEGORY TITLE
-.small-cap{
-    font-family:$header-sans;
+.row:before, .row:after{
+    display:table;
+    content: " ";
 }
 
+//HEADER
+header .header{
+    padding-top:16%;
+    padding-bottom:20%;
+    padding-left:5%;
+    padding-right:5%;
+    text-align: center;
+    color:$monsoon;
+}
+
+//NAV
+.top-bar-section ul{
+    padding-top:5px;
+}
+.top-bar-section ul li a{
+    @include ease-in-out();
+}
+
+//LOGO
+.top-bar .title-area {
+    padding-left:5%;
+    padding-top:5px;
+    padding-right:5%;
+    .name{
+        display:inline-block;
+        background-image:url(../images/logo.png);
+        background-size:cover;
+        width:55px;
+        height:55px;
+}}
+
 //LANDING PAGE GALLERY
+
 .landing-grids{
     display:block;
     width:100%;
     background-color:$white-smoke;
+    padding-bottom:15%;
     .article{
         width:100%;
     }
@@ -22,6 +55,21 @@
 
 //COLUMNS WITH PICTURES ON ONE SIDE
 .landing-grids{
+    //make text only block 100% height
+    .text-only{
+        width:100%;
+        height:100%;
+        position:relative;
+        div{
+            position:absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+        }
+    }
     .img-left{
          .first{
             float: left;
@@ -32,7 +80,7 @@
                 }
             }
         .last{
-        float:right;
+            float:right;
     }}
     .img-right{
          .first{
@@ -48,12 +96,34 @@
     }}
 }
 
+//GRID TEXT
+.desc{
+    width:100%;
+    height:100%;
+    .desc-inner{
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:10%;
+         h3{
+            color:darken($white-smoke, 30%);
+            font-family:$header-sans;
+            text-transform: uppercase;
+            font-size:0.8em;
+            font-weight:700;
+    }
+         h1{
+            color:darken($white-smoke, 70%);
+            font-size:30px;
+        }
+    }
+}
+
+
 //FOOTER
 .footer-btm{
     background-color:$oil;
     padding:38px 0 40px;
     text-align: center;
-    margin-top:100px;
     color:$smoke;
     p{
         font-weight:200;
@@ -81,4 +151,28 @@
            }
        }}
             }
+}
+
+
+//MEDIA QUERY
+@media #{$medium-only}{
+  .desc .desc-inner h1{
+            font-size:20px;
+            line-height:24px;
+        }
+    }
+
+@media #{$large-up}{
+    .header h1 span{
+        display:none;
+    }
+}
+
+@media #{$small-only}, #{$medium-only}{
+    .typed{
+        display:none;
+    }
+    .header h1 span{
+        display:inline-block;
+    }
 }
