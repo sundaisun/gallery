@@ -46,6 +46,12 @@
     box-shadow: inset 0px 0px 30px 0px $shadow;
 }
 
+@mixin transform($transform,$value){
+        transform: $transform($value);
+        -webkit-transform:$transform($value);
+        -moz-transform:$transform($value);
+}
+
 //gallery grid arrow
 @mixin arrow(){
      top: 50%;
