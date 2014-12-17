@@ -58,6 +58,16 @@
         -moz-transform:scale($value);
 }
 
+@mixin box-shadow($value){
+     box-shadow: inset 0 0 $value darken($white-smoke,50%);
+     -moz-box-shadow:   inset 0 0 $value darken($white-smoke,50%);
+     -webkit-box-shadow: inset 0 0 $value darken($white-smoke,50%)
+}
+
+@mixin box-shadow-lr($value){
+    box-shadow: inset $value 0 $value (-$value) darken($white-smoke,50%), inset (-$value) 0 $value (-$value) darken($white-smoke,50%);    
+}
+
 //gallery grid arrow
 @mixin arrow(){
      top: 50%;
@@ -71,6 +81,20 @@
      border-width: 1.2rem;
      margin-top: -10px;
      margin-top: -1.2rem;
+     z-index: 5;
+}
+
+@mixin no-arrow(){
+     border: solid transparent;
+     content: " ";
+     height: 0;
+     width: 0;
+     position: absolute;
+     border-color: transparent;
+     border-width: 0;
+     border-width:0;
+     margin-top: 0;
+     margin-top: 0;
      z-index: 5;
 }
 

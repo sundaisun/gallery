@@ -43,7 +43,7 @@ header .header{
 .landing-grids{
     display:block;
     width:100%;
-    background-color:$white-smoke;
+    background-color:$smoke;
     padding-bottom:15%;
     .article{
         width:100%;
@@ -58,6 +58,7 @@ header .header{
 .landing-grids{
     //make text only block 100% height
     .text-only{
+        background-color:$white;
         width:100%;
         height:100%;
         position:relative;
@@ -70,30 +71,37 @@ header .header{
             bottom:0;
             right:0;
         }
+        p{
+        font-weight:300;
+        font-size:1em;
+        font-size:18px;
+    }
     }
     .img-left{
+        background-color:$ghost;
          .first{
             float: left;
                 &:after{
                     @include arrow();
                      right:0;
-                     border-right-color: $white-smoke;
+                     border-right-color: $ghost;
                 }
             }
         .last{
             float:right;
     }}
     .img-right{
+        background-color:$vapor;
          .first{
-            float: left;
+            float: right;
+            &:after{
+                   @include arrow();
+                   left:0;
+                   border-left-color: $vapor;
+                }
             }
          .last{
-            float:right;
-              &:after{
-                   left:0;
-                   @include arrow();
-                   border-left-color: $white-smoke;
-                }
+            float:left;
     }}
 }
 
@@ -131,8 +139,13 @@ header .header{
             font-weight:700;
     }
          h1{
-            color:darken($white-smoke, 70%);
+            color:darken($white-smoke, 68%);
             font-size:30px;
+            @include ease-in-out(0.4s);
+             &:hover{
+                 color:darken($white-smoke,100%);
+//                 text-shadow: 0px 0px 1px darken($white-smoke,20%);
+             }
         }
     }
 }
@@ -198,21 +211,20 @@ header .header{
 
 
 //MEDIA QUERY
-@media #{$medium-only}{
-  .desc .desc-inner h1{
-            font-size:20px;
-            line-height:24px;
-        }
-    }
 
 @media #{$large-up}{
+    //HIDE STATIC TYPE ON LARGE
     .header h1 span{
         display:none;
+    }
+    //SOME SPACE ABOVE CONTENT
+    .landing-grids{
+        padding-top:5%;
     }
     }
 
 @media #{$medium-up}{
-    
+    //HOVER EFFECT ON MED AND LARGE SIZES
     .landing-grids .full .overlay, .landing-grids .full .overlay-inner{
         @include ease-in-out(0.35s);
     }
@@ -237,10 +249,74 @@ header .header{
 }
 
 @media #{$small-only}, #{$medium-only}{
+    //NO ANIMATED TYPE ON SMALL AND MEDIUM
     .typed{
         display:none;
     }
     .header h1 span{
         display:inline-block;
+    }
+}
+
+@media #{$medium-only}{
+    //SHRINK H1 SIZE FOR MED
+  .desc .desc-inner h1{
+            font-size:20px;
+            line-height:24px;
+        }
+  .landing-grids .text-only p{
+      font-size:14px;
+      font-weight:400;
+  }
+    }
+
+@media #{$small-only}{
+    //HIDE ARROWS ON MOBILE
+        .landing-grids .img-left .first:after{
+            @include no-arrow();
+    }
+        .landing-grids .img-right .first:after{
+            @include no-arrow();
+        }
+    //POST FORMAT ON SMALL
+     .desc-inner{
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:10%;
+        padding-bottom:10%;
+}
+
+    //FEATURED CONTENT GRIDS ON MOBILE TWEAK
+
+   .full .overlay{
+        width:100%;
+        height:100%;
+        position:inherit;
+        display:inline-block;
+        background:$snow;
+        .overlay-inner{
+            padding-left:15px;
+            padding-right:15px;
+            padding-top:10%;
+            padding-bottom:10%;
+            p{
+                display:none;
+            }
+            h3{
+                color:darken($white-smoke, 30%);
+                font-family:$header-sans;
+                text-transform: uppercase;
+                font-size:0.8em;
+                font-weight:700;
+            }
+            h1{
+                color:darken($white-smoke, 68%);
+                font-size:30px;
+                font-weight:400;
+                }
+            }
+}
+    .text-only, .text-only .desc, .text-only .desc .desc-inner{
+         height:300px !important;
     }
 }
