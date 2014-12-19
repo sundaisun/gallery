@@ -23723,25 +23723,25 @@ header .header {
   }
 
   /* line 234, ../scss/_iw.scss */
-  .landing-grids .overlay {
+  .landing-grids .full .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
   /* line 238, ../scss/_iw.scss */
-  .landing-grids .overlay:hover {
+  .landing-grids .full .overlay:hover {
     opacity: 1;
   }
 
   /* line 242, ../scss/_iw.scss */
-  .landing-grids .overlay:hover + img {
+  .landing-grids .full .overlay:hover + img {
     transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
   }
 
   /* line 246, ../scss/_iw.scss */
-  .landing-grids .overlay:hover > .overlay-inner {
+  .landing-grids .full .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
     -webkit-transform: translateY(-50px);
     -moz-transform: translateY(-50px);

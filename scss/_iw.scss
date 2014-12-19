@@ -231,7 +231,7 @@ header .header{
     .landing-grids .full img{
         @include ease-in(0.25s);
     }
-    .landing-grids .overlay{
+    .landing-grids .full .overlay{
         opacity:0;
         display:inline-block;
         cursor: pointer;
@@ -239,11 +239,11 @@ header .header{
                 opacity:1;
             }
         }
-    .landing-grids .overlay:hover + img{
+    .landing-grids .full .overlay:hover + img{
         @include scale(0.98);
     }
 
-    .landing-grids .overlay:hover > .overlay-inner{
+    .landing-grids .full .overlay:hover > .overlay-inner{
         @include translateY(-50px);
     }
 }
