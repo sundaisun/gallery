@@ -34,24 +34,11 @@
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-         <li class="active"><a href="#">Home</a></li>
-         <li><a href="#">Clients</a></li>
-         <li><a href="#">Work</a></li>
-         <li><a href="#">Contact</a></li>
+         <li <?php if($active == 'home') {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
+         <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="clients.php">Clients</a></li>
+         <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="#">Work</a></li>
+         <li <?php if($active == 'contact') {echo 'class="active"';} ?>><a href="#">Contact</a></li>
     </ul>
   </section>
         </nav>
-    <div class="row header">
-        <div class="large-12 columns">
-            <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
-            <h1 class="typed"></h1>
-        </div>
-    </div>
-<!--
-    <video autoplay loop muted id="vid-bg">
-            <source src="video/Slowmotiondrop.webm" type="video/webm"></source>
-            <source src="video/Slowmotiondrop.mp4" type="video/mp4"></source>
-    </video>
--->
-   </header>
-    <!--HEADER-->
+   

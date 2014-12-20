@@ -39,7 +39,6 @@ header .header{
 }}
 
 //LANDING PAGE GALLERY
-
 .landing-grids{
     display:block;
     width:100%;
@@ -209,6 +208,13 @@ header .header{
             }
 }
 
+//CLIENTS PAGE
+#clients-wrapper{
+    h1,h2,h3,h4,h5{
+        font-family:$header-sans;
+    }
+}
+
 
 //MEDIA QUERY
 
@@ -299,7 +305,7 @@ header .header{
         padding-bottom:10%;
 }
 
-    //FEATURED CONTENT GRIDS ON MOBILE TWEAK
+//FEATURED CONTENT GRIDS ON MOBILE TWEAK
 
    .full .overlay{
         width:100%;
