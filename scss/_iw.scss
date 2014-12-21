@@ -216,13 +216,21 @@ header .header{
 
 .clients-grids{
     padding-top:5%;
+    .intro{
+        padding-left:50px;
+        padding-right:30px;
+        p:first-of-type{
+            padding-top:30px;
+        }
+    }
 }
 
-.clients-grids div.row{
+.clients-grids div.clients{
     display:block;
     width:100%;
     background-color:$smoke;
     padding-bottom:10%;
+    margin-top:50px;
 }
 
     //SVG COLORS
