@@ -1,322 +1,397 @@
-*{
+* {
     box-sizing: border-box;
 }
-
-.row:before, .row:after{
-    display:table;
+.row:before,
+.row:after {
+    display: table;
     content: " ";
 }
-
 //HEADER
-header .header{
-    padding-top:16%;
-    padding-bottom:20%;
-    padding-left:5%;
-    padding-right:5%;
+header .header {
+    padding-top: 16%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
-    color:$monsoon;
+    color: $monsoon;
 }
-
 //NAV
-.top-bar-section ul{
-    padding-top:5px;
-}
-.top-bar-section ul li a{
+.top-bar-section ul li a {
     @include ease-in-out();
 }
-
 //LOGO
 .top-bar .title-area {
-    padding-left:5%;
-    padding-top:5px;
-    padding-right:5%;
-    .name{
-        display:inline-block;
-        background-image:url(../images/logo.png);
-        background-size:cover;
-        width:55px;
-        height:55px;
-}}
-
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-right: 5%;
+    .name {
+        display: inline-block;
+        background-image: url(../images/logo.png);
+        background-size: cover;
+        width: 55px;
+        height: 55px;
+    }
+}
 //LANDING PAGE GALLERY
-
-.landing-grids{
-    display:block;
-    width:100%;
-    background-color:$smoke;
-    padding-bottom:15%;
-    .article{
-        width:100%;
+.landing-grids {
+    display: block;
+    width: 100%;
+    background-color: $smoke;
+    padding-bottom: 15%;
+    .article {
+        width: 100%;
     }
-    .column, .columns{
-        padding:$grid-gutter;
+    .column,
+    .columns {
+        padding: $grid-gutter;
     }
 }
-
-
 //COLUMNS WITH PICTURES ON ONE SIDE
-.landing-grids{
+.landing-grids {
     //make text only block 100% height
-    .text-only{
-        background-color:$white;
-        width:100%;
-        height:100%;
-        position:relative;
-        div{
-            position:absolute;
-            width:100%;
-            height:100%;
-            left:0;
-            top:0;
-            bottom:0;
-            right:0;
+    .text-only {
+        background-color: $white;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
         }
-        p{
-        font-weight:300;
-        font-size:1em;
-        font-size:18px;
+        p {
+            font-weight: 300;
+            font-size: 1em;
+            font-size: 18px;
+        }
     }
-    }
-    .img-left{
-        background-color:$ghost;
-         .first{
+    .img-left {
+        background-color: $ghost;
+        .first {
             float: left;
-                &:after{
-                    @include arrow();
-                     right:0;
-                     border-right-color: $ghost;
-                }
+            &:after {
+                @include arrow();
+                right: 0;
+                border-right-color: $ghost;
             }
-        .last{
-            float:right;
-    }}
-    .img-right{
-        background-color:$vapor;
-         .first{
+        }
+        .last {
             float: right;
-            &:after{
-                   @include arrow();
-                   left:0;
-                   border-left-color: $vapor;
-                }
-            }
-         .last{
-            float:left;
-    }}
-}
-
-.full{
-    position:relative;
-    .overlay{
-        position:absolute;
-        left:0;
-        top:0;
-        right:0;
-        bottom:0;
-        z-index:10;
-        width:100%;
-        height:100%;
-        display:none;
-        @include gradient();
-}
-}
-
-
-
-//GRID TEXT
-.desc{
-    width:100%;
-    height:100%;
-    .desc-inner{
-        padding-left:15px;
-        padding-right:15px;
-        padding-top:10%;
-         h3{
-            color:darken($white-smoke, 30%);
-            font-family:$header-sans;
-            text-transform: uppercase;
-            font-size:0.8em;
-            font-weight:700;
+        }
     }
-         h1{
-            color:darken($white-smoke, 68%);
-            font-size:30px;
-            @include ease-in-out(0.4s);
-             &:hover{
-                 color:darken($white-smoke,100%);
-//                 text-shadow: 0px 0px 1px darken($white-smoke,20%);
-             }
+    .img-right {
+        background-color: $vapor;
+        .first {
+            float: right;
+            &:after {
+                @include arrow();
+                left: 0;
+                border-left-color: $vapor;
+            }
+        }
+        .last {
+            float: left;
         }
     }
 }
-
-.landing-grids .full .overlay-inner{
-    padding-left:50px;
-    padding-top:30%;
-    padding-right:40px;
-    p{
-        font-weight:300;
-        color:white;
-    }
-    h3{
-        color:white;
-        font-family:$header-sans;
-        text-transform: uppercase;
-        font-size:0.8em;
-        font-weight:700;
-    }
-    h1{
-        color:white;
-        font-size:42px;
-        font-weight:700;
-        line-height:46px;
+.full {
+    position: relative;
+    .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        display: none;
+        @include gradient();
     }
 }
+//GRID TEXT
+.desc {
+    width: 100%;
+    height: 100%;
+    .desc-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10%;
+        h3 {
+            color: darken($white-smoke, 30%);
+            font-family: $header-sans;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            font-weight: 700;
+        }
+        h1 {
+            color: darken($white-smoke, 68%);
+            font-size: 30px;
+            @include ease-in-out(0.4s);
+            &:hover {
+                color: darken($white-smoke, 100%);
+                //                 text-shadow: 0px 0px 1px darken($white-smoke,20%);
 
-
-
+            }
+        }
+    }
+}
+.landing-grids .full .overlay-inner,
+.work-grids .full .overlay-inner {
+    padding-left: 50px;
+    padding-top: 30%;
+    padding-right: 40px;
+    p {
+        font-weight: 300;
+        color: white;
+    }
+    h3 {
+        color: white;
+        font-family: $header-sans;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+    h1 {
+        color: white;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+}
 //FOOTER
-.footer-btm{
-    background-color:$oil;
-    padding:38px 0 40px;
+.footer-btm {
+    background-color: $oil;
+    padding: 38px 0 40px;
     text-align: center;
-    color:$smoke;
-    p{
-        font-weight:200;
-        font-size:0.8em;
+    color: $smoke;
+    p {
+        font-weight: 200;
+        font-size: 0.8em;
     }
     ul {
-        float:none;
+        float: none;
         margin: 0 0 20px 0;
-        text-align:center;
-        display:inline-block;
-    li{
-        list-style: none;
-        display:block;
-        float:left;
-        margin-left:30px;
-        &:first-child{
-            margin-left:0;
-        }
-       a{
-           color:lighten($oil,40%);
-           font-size:2.2em;
-           @include ease-in-out();
-           &:hover{
-               color:lighten($oil,30%);
-           }
-       }}
+        text-align: center;
+        display: inline-block;
+        li {
+            list-style: none;
+            display: block;
+            float: left;
+            margin-left: 30px;
+            &:first-child {
+                margin-left: 0;
             }
+            a {
+                color: lighten($oil, 40%);
+                font-size: 2.2em;
+                @include ease-in-out();
+                &:hover {
+                    color: lighten($oil, 30%);
+                }
+            }
+        }
+    }
 }
-
-
+//CLIENTS PAGE
+#clients-wrapper {
+    h1, h2, h3, h4, h5 {
+        font-family: $header-sans;
+        text-align: center;
+    }
+}
+.clients-grids {
+    padding-top: 5%;
+    .intro {
+        padding-left: 50px;
+        padding-right: 30px;
+        p:first-of-type {
+            padding-top: 30px;
+        }
+    }
+}
+.clients-grids div.clients-grids-wrapper {
+    display: block;
+    width: 100%;
+    background-color: $smoke;
+    padding-bottom: 10%;
+    margin-top: 50px;
+}
+//SVG COLORS
+.clients-grids div.row div svg path,
+.clients-grids div.row div svg circle,
+.clients-grids div.row div svg polygon {
+    @include ease-in(0.3s);
+}
+.clients-grids div.row div svg {
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+    &:hover > g path, &:hover > path, &:hover > circle, &:hover > polygon {
+        fill: $tuatara;
+    }
+}
+//WORK PAGE
+#work-wrapper h2 {
+    font-family: $header-sans;
+    text-align: center;
+}
+.work-grids {
+    padding-top: 5%;
+    .intro {
+        padding-left: 50px;
+        padding-right: 30px;
+        p: first-of-type {
+            padding-top: 30px;
+        }
+    }
+}
+.work-grids div.work-grids-wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 15%;
+    //padding top on large sizes is applied in media query
+    background-color: $smoke;
+    .column, .columns {
+        padding: $grid-gutter;
+    }
+}
+//grid hover styles are up in landing-grids and below in media query
 //MEDIA QUERY
-
-@media #{$large-up}{
+@media #{$large-up}
+{
     //HIDE STATIC TYPE ON LARGE
-    .header h1 span{
-        display:none;
+    .header h1 span {
+        display: none;
     }
     //SOME SPACE ABOVE CONTENT
-    .landing-grids{
-        padding-top:5%;
+    .landing-grids,
+    .work-grids div.work-grids-wrapper {
+        padding-top: 5%;
     }
-    }
-
-@media #{$medium-up}{
+}
+@media #{$medium-up}
+{
+    //    header video#vid-bg{
+    //        width:100%;
+    //        background-size:cover;
+    //        position:absolute;
+    //        left:0;
+    //        top:0;
+    //        z-index:-999;
+    //    }
     //HOVER EFFECT ON MED AND LARGE SIZES
-    .landing-grids .full .overlay, .landing-grids .full .overlay-inner{
+    .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
         @include ease-in-out(0.35s);
     }
-    .landing-grids .full img{
+    .landing-grids .full img,
+    .work-grids .full img {
         @include ease-in(0.25s);
     }
-    .landing-grids .full .overlay{
-        opacity:0;
-        display:inline-block;
+    .landing-grids .full .overlay,
+    .work-grids .full .overlay {
+        opacity: 0;
+        display: inline-block;
         cursor: pointer;
-            &:hover{
-                opacity:1;
-            }
+        &:hover {
+            opacity: 1;
         }
-    .landing-grids .full .overlay:hover + img{
+    }
+    .landing-grids .full .overlay:hover + img,
+    .work-grids .full .overlay:hover + img {
         @include scale(0.98);
     }
-
-    .landing-grids .full .overlay:hover > .overlay-inner{
+    .landing-grids .full .overlay:hover > .overlay-inner,
+    .work-grids .full .overlay:hover > .overlay-inner {
         @include translateY(-50px);
     }
 }
-
-@media #{$small-only}, #{$medium-only}{
+@media #{$small-only}, #{$medium-only}
+{
     //NO ANIMATED TYPE ON SMALL AND MEDIUM
-    .typed{
-        display:none;
+    .typed {
+        display: none;
     }
-    .header h1 span{
-        display:inline-block;
+    .header h1 span {
+        display: inline-block;
     }
 }
-
-@media #{$medium-only}{
+@media #{$medium-only}
+{
     //SHRINK H1 SIZE FOR MED
-  .desc .desc-inner h1{
-            font-size:20px;
-            line-height:24px;
-        }
-  .landing-grids .text-only p{
-      font-size:14px;
-      font-weight:400;
-  }
+    .desc .desc-inner h1 {
+        font-size: 20px;
+        line-height: 24px;
     }
-
-@media #{$small-only}{
+    .landing-grids .text-only p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .work .full .overlay h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+@media #{$small-only}
+{
+    //    header video#vid-bg{
+    //        display:none;
+    //    }
     //HIDE ARROWS ON MOBILE
-        .landing-grids .img-left .first:after{
-            @include no-arrow();
+    .landing-grids .img-left .first:after {
+        @include no-arrow();
     }
-        .landing-grids .img-right .first:after{
-            @include no-arrow();
-        }
+    .landing-grids .img-right .first:after {
+        @include no-arrow();
+    }
     //POST FORMAT ON SMALL
-     .desc-inner{
-        padding-left:15px;
-        padding-right:15px;
-        padding-top:10%;
-        padding-bottom:10%;
-}
-
+    .desc-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
     //FEATURED CONTENT GRIDS ON MOBILE TWEAK
-
-   .full .overlay{
-        width:100%;
-        height:100%;
-        position:inherit;
-        display:inline-block;
-        background:$snow;
-        .overlay-inner{
-            padding-left:15px;
-            padding-right:15px;
-            padding-top:10%;
-            padding-bottom:10%;
-            p{
-                display:none;
+    .full .overlay {
+        width: 100%;
+        height: 100%;
+        position: inherit;
+        display: inline-block;
+        background: $snow;
+        .overlay-inner {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10%;
+            padding-bottom: 10%;
+            p {
+                display: none;
             }
-            h3{
-                color:darken($white-smoke, 30%);
-                font-family:$header-sans;
+            h3 {
+                color: darken($white-smoke, 30%);
+                font-family: $header-sans;
                 text-transform: uppercase;
-                font-size:0.8em;
-                font-weight:700;
+                font-size: 0.8em;
+                font-weight: 700;
             }
-            h1{
-                color:darken($white-smoke, 68%);
-                font-size:30px;
-                font-weight:400;
-                }
+            h1 {
+                color: darken($white-smoke, 68%);
+                font-size: 30px;
+                font-weight: 400;
             }
-}
-    .text-only, .text-only .desc, .text-only .desc .desc-inner{
-         height:300px !important;
+        }
+    }
+    .work .full .overlay p {
+        display: inline-block;
+        color: $tuatara;
+    }
+    .text-only,
+    .text-only .desc,
+    .text-only .desc .desc-inner {
+        height: 300px !important;
     }
 }
