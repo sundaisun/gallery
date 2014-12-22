@@ -15,7 +15,7 @@
 
 
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/5c5a5723-82d0-4ca5-b695-f38dcb91eca3.css" />
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/5c5a5723-82d0-4ca5-b695-f38dcb91eca3.css"/>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/vendor/animate.css">
     <script src="bower_components/modernizr/modernizr.js"></script>
@@ -36,8 +36,8 @@
     <ul class="left">
          <li <?php if($active == 'home') {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
          <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="clients.php">Clients</a></li>
-         <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="#">Work</a></li>
-         <li <?php if($active == 'contact') {echo 'class="active"';} ?>><a href="#">Contact</a></li>
+         <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="work.php">Work</a></li>
+         <li <?php if($active == 'contact') {echo 'class="active"';} ?>><a href="contact.php">Contact</a></li>
     </ul>
   </section>
         </nav>

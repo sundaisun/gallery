@@ -20789,7 +20789,7 @@ p aside {
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Linotype Didot eText W01", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -21794,7 +21794,7 @@ p aside {
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Linotype Didot eText W01", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -23415,13 +23415,14 @@ th.hide-for-touch {
   box-sizing: border-box;
 }
 
-/* line 5, ../scss/_iw.scss */
-.row:before, .row:after {
+/* line 4, ../scss/_iw.scss */
+.row:before,
+.row:after {
   display: table;
   content: " ";
 }
 
-/* line 11, ../scss/_iw.scss */
+/* line 10, ../scss/_iw.scss */
 header .header {
   padding-top: 16%;
   padding-bottom: 20%;
@@ -23431,7 +23432,7 @@ header .header {
   color: #777777;
 }
 
-/* line 21, ../scss/_iw.scss */
+/* line 19, ../scss/_iw.scss */
 .top-bar-section ul li a {
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -23439,13 +23440,13 @@ header .header {
   -o-transition: all 0.2s ease-in-out;
 }
 
-/* line 27, ../scss/_iw.scss */
+/* line 23, ../scss/_iw.scss */
 .top-bar .title-area {
   padding-left: 5%;
   padding-top: 5px;
   padding-right: 5%;
 }
-/* line 31, ../scss/_iw.scss */
+/* line 27, ../scss/_iw.scss */
 .top-bar .title-area .name {
   display: inline-block;
   background-image: url(../images/logo.png);
@@ -23454,30 +23455,31 @@ header .header {
   height: 55px;
 }
 
-/* line 40, ../scss/_iw.scss */
+/* line 36, ../scss/_iw.scss */
 .landing-grids {
   display: block;
   width: 100%;
   background-color: #EEEEEE;
   padding-bottom: 15%;
 }
-/* line 45, ../scss/_iw.scss */
+/* line 41, ../scss/_iw.scss */
 .landing-grids .article {
   width: 100%;
 }
-/* line 48, ../scss/_iw.scss */
-.landing-grids .column, .landing-grids .columns {
+/* line 44, ../scss/_iw.scss */
+.landing-grids .column,
+.landing-grids .columns {
   padding: 0;
 }
 
-/* line 57, ../scss/_iw.scss */
+/* line 52, ../scss/_iw.scss */
 .landing-grids .text-only {
   background-color: #FFFFFF;
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 62, ../scss/_iw.scss */
+/* line 57, ../scss/_iw.scss */
 .landing-grids .text-only div {
   position: absolute;
   width: 100%;
@@ -23487,21 +23489,21 @@ header .header {
   bottom: 0;
   right: 0;
 }
-/* line 71, ../scss/_iw.scss */
+/* line 66, ../scss/_iw.scss */
 .landing-grids .text-only p {
   font-weight: 300;
   font-size: 1em;
   font-size: 18px;
 }
-/* line 77, ../scss/_iw.scss */
+/* line 72, ../scss/_iw.scss */
 .landing-grids .img-left {
   background-color: #FAFAFA;
 }
-/* line 79, ../scss/_iw.scss */
+/* line 74, ../scss/_iw.scss */
 .landing-grids .img-left .first {
   float: left;
 }
-/* line 81, ../scss/_iw.scss */
+/* line 76, ../scss/_iw.scss */
 .landing-grids .img-left .first:after {
   top: 50%;
   border: solid transparent;
@@ -23518,19 +23520,19 @@ header .header {
   right: 0;
   border-right-color: #FAFAFA;
 }
-/* line 87, ../scss/_iw.scss */
+/* line 82, ../scss/_iw.scss */
 .landing-grids .img-left .last {
   float: right;
 }
-/* line 90, ../scss/_iw.scss */
+/* line 86, ../scss/_iw.scss */
 .landing-grids .img-right {
   background-color: #F6F6F6;
 }
-/* line 92, ../scss/_iw.scss */
+/* line 88, ../scss/_iw.scss */
 .landing-grids .img-right .first {
   float: right;
 }
-/* line 94, ../scss/_iw.scss */
+/* line 90, ../scss/_iw.scss */
 .landing-grids .img-right .first:after {
   top: 50%;
   border: solid transparent;
@@ -23547,16 +23549,16 @@ header .header {
   left: 0;
   border-left-color: #F6F6F6;
 }
-/* line 100, ../scss/_iw.scss */
+/* line 96, ../scss/_iw.scss */
 .landing-grids .img-right .last {
   float: left;
 }
 
-/* line 105, ../scss/_iw.scss */
+/* line 101, ../scss/_iw.scss */
 .full {
   position: relative;
 }
-/* line 107, ../scss/_iw.scss */
+/* line 103, ../scss/_iw.scss */
 .full .overlay {
   position: absolute;
   left: 0;
@@ -23585,18 +23587,18 @@ header .header {
   /* IE6-9 */
 }
 
-/* line 124, ../scss/_iw.scss */
+/* line 117, ../scss/_iw.scss */
 .desc {
   width: 100%;
   height: 100%;
 }
-/* line 127, ../scss/_iw.scss */
+/* line 120, ../scss/_iw.scss */
 .desc .desc-inner {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10%;
 }
-/* line 131, ../scss/_iw.scss */
+/* line 124, ../scss/_iw.scss */
 .desc .desc-inner h3 {
   color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23604,7 +23606,7 @@ header .header {
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 138, ../scss/_iw.scss */
+/* line 131, ../scss/_iw.scss */
 .desc .desc-inner h1 {
   color: #484848;
   font-size: 30px;
@@ -23613,69 +23615,73 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 142, ../scss/_iw.scss */
+/* line 135, ../scss/_iw.scss */
 .desc .desc-inner h1:hover {
   color: black;
 }
 
-/* line 150, ../scss/_iw.scss */
-.landing-grids .full .overlay-inner {
+/* line 143, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner,
+.work-grids .full .overlay-inner {
   padding-left: 50px;
   padding-top: 30%;
   padding-right: 40px;
 }
-/* line 154, ../scss/_iw.scss */
-.landing-grids .full .overlay-inner p {
+/* line 148, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner p,
+.work-grids .full .overlay-inner p {
   font-weight: 300;
   color: white;
 }
-/* line 158, ../scss/_iw.scss */
-.landing-grids .full .overlay-inner h3 {
+/* line 152, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner h3,
+.work-grids .full .overlay-inner h3 {
   color: white;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 165, ../scss/_iw.scss */
-.landing-grids .full .overlay-inner h1 {
+/* line 159, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner h1,
+.work-grids .full .overlay-inner h1 {
   color: white;
   font-size: 42px;
   font-weight: 700;
   line-height: 46px;
 }
 
-/* line 176, ../scss/_iw.scss */
+/* line 167, ../scss/_iw.scss */
 .footer-btm {
   background-color: #333333;
   padding: 38px 0 40px;
   text-align: center;
   color: #EEEEEE;
 }
-/* line 181, ../scss/_iw.scss */
+/* line 172, ../scss/_iw.scss */
 .footer-btm p {
   font-weight: 200;
   font-size: 0.8em;
 }
-/* line 185, ../scss/_iw.scss */
+/* line 176, ../scss/_iw.scss */
 .footer-btm ul {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   display: inline-block;
 }
-/* line 190, ../scss/_iw.scss */
+/* line 181, ../scss/_iw.scss */
 .footer-btm ul li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 30px;
 }
-/* line 195, ../scss/_iw.scss */
+/* line 186, ../scss/_iw.scss */
 .footer-btm ul li:first-child {
   margin-left: 0;
 }
-/* line 198, ../scss/_iw.scss */
+/* line 189, ../scss/_iw.scss */
 .footer-btm ul li a {
   color: #999999;
   font-size: 2.2em;
@@ -23684,33 +23690,33 @@ header .header {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-/* line 202, ../scss/_iw.scss */
+/* line 193, ../scss/_iw.scss */
 .footer-btm ul li a:hover {
   color: gray;
 }
 
-/* line 211, ../scss/_iw.scss */
+/* line 202, ../scss/_iw.scss */
 #clients-wrapper h1, #clients-wrapper h2, #clients-wrapper h3, #clients-wrapper h4, #clients-wrapper h5 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
-/* line 217, ../scss/_iw.scss */
+/* line 207, ../scss/_iw.scss */
 .clients-grids {
   padding-top: 5%;
 }
-/* line 219, ../scss/_iw.scss */
+/* line 209, ../scss/_iw.scss */
 .clients-grids .intro {
   padding-left: 50px;
   padding-right: 30px;
 }
-/* line 222, ../scss/_iw.scss */
+/* line 212, ../scss/_iw.scss */
 .clients-grids .intro p:first-of-type {
   padding-top: 30px;
 }
 
-/* line 228, ../scss/_iw.scss */
-.clients-grids div.clients {
+/* line 217, ../scss/_iw.scss */
+.clients-grids div.clients-grids-wrapper {
   display: block;
   width: 100%;
   background-color: #EEEEEE;
@@ -23718,104 +23724,149 @@ header .header {
   margin-top: 50px;
 }
 
-/* line 237, ../scss/_iw.scss */
-.clients-grids div.row div svg path, .clients-grids div.row div svg circle, .clients-grids div.row div svg polygon {
+/* line 225, ../scss/_iw.scss */
+.clients-grids div.row div svg path,
+.clients-grids div.row div svg circle,
+.clients-grids div.row div svg polygon {
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
 }
 
-/* line 240, ../scss/_iw.scss */
+/* line 230, ../scss/_iw.scss */
 .clients-grids div.row div svg {
   width: 100%;
   height: 80%;
   cursor: pointer;
 }
-/* line 244, ../scss/_iw.scss */
+/* line 234, ../scss/_iw.scss */
 .clients-grids div.row div svg:hover > g path, .clients-grids div.row div svg:hover > path, .clients-grids div.row div svg:hover > circle, .clients-grids div.row div svg:hover > polygon {
   fill: #444444;
 }
 
+/* line 239, ../scss/_iw.scss */
+#work-wrapper h2 {
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* line 243, ../scss/_iw.scss */
+.work-grids {
+  padding-top: 5%;
+}
+/* line 245, ../scss/_iw.scss */
+.work-grids .intro {
+  padding-left: 50px;
+  padding-right: 30px;
+  p: first-of-type;
+  p-padding-top: 30px;
+}
+
+/* line 253, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 15%;
+  background-color: #EEEEEE;
+}
+/* line 260, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper .column, .work-grids div.work-grids-wrapper .columns {
+  padding: 0;
+}
+
 @media only screen and (min-width: 75em) {
-  /* line 254, ../scss/_iw.scss */
+  /* line 269, ../scss/_iw.scss */
   .header h1 span {
     display: none;
   }
 
-  /* line 258, ../scss/_iw.scss */
-  .landing-grids {
+  /* line 273, ../scss/_iw.scss */
+  .landing-grids,
+  .work-grids div.work-grids-wrapper {
     padding-top: 5%;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 274, ../scss/_iw.scss */
-  .landing-grids .full .overlay, .landing-grids .full .overlay-inner {
+  /* line 289, ../scss/_iw.scss */
+  .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
   }
 
-  /* line 277, ../scss/_iw.scss */
-  .landing-grids .full img {
+  /* line 292, ../scss/_iw.scss */
+  .landing-grids .full img,
+  .work-grids .full img {
     transition: all 0.25s ease-in;
     -webkit-transition: all 0.25s ease-in;
     -moz-transition: all 0.25s ease-in;
     -o-transition: all 0.25s ease-in;
   }
 
-  /* line 280, ../scss/_iw.scss */
-  .landing-grids .full .overlay {
+  /* line 296, ../scss/_iw.scss */
+  .landing-grids .full .overlay,
+  .work-grids .full .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
-  /* line 284, ../scss/_iw.scss */
-  .landing-grids .full .overlay:hover {
+  /* line 301, ../scss/_iw.scss */
+  .landing-grids .full .overlay:hover,
+  .work-grids .full .overlay:hover {
     opacity: 1;
   }
 
-  /* line 288, ../scss/_iw.scss */
-  .landing-grids .full .overlay:hover + img {
+  /* line 305, ../scss/_iw.scss */
+  .landing-grids .full .overlay:hover + img,
+  .work-grids .full .overlay:hover + img {
     transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
   }
 
-  /* line 292, ../scss/_iw.scss */
-  .landing-grids .full .overlay:hover > .overlay-inner {
+  /* line 309, ../scss/_iw.scss */
+  .landing-grids .full .overlay:hover > .overlay-inner,
+  .work-grids .full .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
     -webkit-transform: translateY(-50px);
     -moz-transform: translateY(-50px);
   }
 }
 @media only screen and (max-width: 40em), only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 299, ../scss/_iw.scss */
+  /* line 317, ../scss/_iw.scss */
   .typed {
     display: none;
   }
 
-  /* line 302, ../scss/_iw.scss */
+  /* line 320, ../scss/_iw.scss */
   .header h1 span {
     display: inline-block;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 309, ../scss/_iw.scss */
+  /* line 327, ../scss/_iw.scss */
   .desc .desc-inner h1 {
     font-size: 20px;
     line-height: 24px;
   }
 
-  /* line 313, ../scss/_iw.scss */
+  /* line 331, ../scss/_iw.scss */
   .landing-grids .text-only p {
     font-size: 14px;
     font-weight: 400;
   }
+
+  /* line 335, ../scss/_iw.scss */
+  .work .full .overlay h1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
 }
 @media only screen and (max-width: 40em) {
-  /* line 325, ../scss/_iw.scss */
+  /* line 346, ../scss/_iw.scss */
   .landing-grids .img-left .first:after {
     border: solid transparent;
     content: " ";
@@ -23830,7 +23881,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 328, ../scss/_iw.scss */
+  /* line 349, ../scss/_iw.scss */
   .landing-grids .img-right .first:after {
     border: solid transparent;
     content: " ";
@@ -23845,7 +23896,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 332, ../scss/_iw.scss */
+  /* line 353, ../scss/_iw.scss */
   .desc-inner {
     padding-left: 15px;
     padding-right: 15px;
@@ -23853,7 +23904,7 @@ header .header {
     padding-bottom: 10%;
   }
 
-  /* line 341, ../scss/_iw.scss */
+  /* line 360, ../scss/_iw.scss */
   .full .overlay {
     width: 100%;
     height: 100%;
@@ -23861,18 +23912,18 @@ header .header {
     display: inline-block;
     background: #F9F9F9;
   }
-  /* line 347, ../scss/_iw.scss */
+  /* line 366, ../scss/_iw.scss */
   .full .overlay .overlay-inner {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  /* line 352, ../scss/_iw.scss */
+  /* line 371, ../scss/_iw.scss */
   .full .overlay .overlay-inner p {
     display: none;
   }
-  /* line 355, ../scss/_iw.scss */
+  /* line 374, ../scss/_iw.scss */
   .full .overlay .overlay-inner h3 {
     color: darkgray;
     font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23880,15 +23931,23 @@ header .header {
     font-size: 0.8em;
     font-weight: 700;
   }
-  /* line 362, ../scss/_iw.scss */
+  /* line 381, ../scss/_iw.scss */
   .full .overlay .overlay-inner h1 {
     color: #484848;
     font-size: 30px;
     font-weight: 400;
   }
 
-  /* line 369, ../scss/_iw.scss */
-  .text-only, .text-only .desc, .text-only .desc .desc-inner {
+  /* line 388, ../scss/_iw.scss */
+  .work .full .overlay p {
+    display: inline-block;
+    color: #444444;
+  }
+
+  /* line 392, ../scss/_iw.scss */
+  .text-only,
+  .text-only .desc,
+  .text-only .desc .desc-inner {
     height: 300px !important;
   }
 }
