@@ -262,6 +262,158 @@ header .header {
     }
 }
 //grid hover styles are up in landing-grids and below in media query
+
+//WORK INNER PAGES
+.work-detail-wrapper{
+    margin-top:5%;
+    padding-left: 50px;
+    padding-right: 30px;
+    h3 {
+        color: darken($white-smoke, 30%);
+        font-family: $header-sans;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        font-weight: 700;}
+    h1 {
+        color: darken($white-smoke, 68%);
+        font-size: 56px;
+        font-weight:bold;
+        @include ease-in-out(0.4s);
+         &:hover {color: darken($white-smoke, 100%);}}
+    }
+
+#tristate div.work-hero-wrapper{
+     background:$fade-orange;
+     width:100%;
+     height:auto;
+}
+
+.work-detail .work-hero{
+    margin-top:40px;
+}
+
+.work-detail .white-bg-text{
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-left: 50px;
+    padding-right: 30px;
+    h4{
+        color: darken($white-smoke, 60%);
+        font-family: $header-sans;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom:2%;
+    }
+}
+
+.work-detail .work-category{
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:$tuatara;
+    .content{
+        background-color:$tuatara;
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align: center;
+        h4{
+            color:rgba($white-smoke, 0.85);
+            font-family: $header-sans;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        p{
+            color:$white-smoke;
+        }
+        ul{
+            list-style:none;
+            color:$white-smoke;
+            margin-left:0;
+            margin-top:20px;
+        }
+    }
+}
+
+.work-detail ul.approach{
+    list-style: none;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:1.2em;
+    color:darken($white-smoke,45%);
+    text-align: center;
+    margin-top:3%;
+    margin-bottom:5%;
+    i{
+        font-size:2.4em;
+    }
+}
+
+
+.work-detail div.images{
+    width:100%;
+    background-color:darken($white-smoke,5%);
+    padding-top:5%;
+    padding-bottom:10%;
+}
+
+.work-detail div.work-recommend{
+    margin-top:3%;
+    h5{
+        color: darken($white-smoke, 30%);
+        font-family: $header-sans;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+    h1{
+        color: darken($white-smoke, 48%);
+        font-size: 36px;
+        cursor: pointer;
+        @include ease-in-out(0.4s);
+        &:hover {color: darken($white-smoke, 100%);}
+    }
+    h3{
+        font-family: $header-sans;
+        color: darken($white-smoke, 68%);
+        font-size:1em;
+        margin-top:3%;
+        cursor: pointer;
+        @include ease-in-out(0.4s);
+        &:hover {color: orange;}
+    }
+}
+
+//CONTACT
+#contact-wrapper{
+    h1, h2, h3, h4, h5 {
+        font-family: $header-sans;
+        text-align: center;
+    }
+    @extend .clients-grids;
+    .intro {
+        padding-left: 50px;
+        padding-right: 30px;
+        p:first-of-type {
+            padding-top: 30px;
+        }
+    }
+}
+
+#contact-map {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        border: none;
+}
+}
+
+
 //MEDIA QUERY
 @media #{$large-up}
 {
