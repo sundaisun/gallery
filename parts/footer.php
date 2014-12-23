@@ -20,10 +20,10 @@
 
 
 
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script src="/js/wow.js"></script>
+    <script src="/2014/IW/redesign/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/2014/IW/redesign/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/2014/IW/redesign/js/app.js"></script>
+    <script src="/2014/IW/redesign/js/wow.js"></script>
     <script>
         var wow = new WOW(
             {
@@ -31,7 +31,7 @@
             });
         wow.init();
     </script>
-    <script src="/js/typed.js"></script>
+    <script src="/2014/IW/redesign/js/typed.js"></script>
     <script>
   $(function(){
       $(".typed").typed({

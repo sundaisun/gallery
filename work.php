@@ -16,7 +16,7 @@
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>digital</h3>
-                                <a href="inner-pages/nytristate.php"><h1>New York Tristate Website</h1></a>
+                                <a href="works/nytristate.php"><h1>New York Tristate Website</h1></a>
                                 <p>McDonald's Total Market. For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
                             </div>
                         </div>
