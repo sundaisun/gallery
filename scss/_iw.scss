@@ -207,7 +207,7 @@ header .header {
 .clients-grids {
     padding-top: 5%;
     .intro {
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 30px;
         p:first-of-type {
             padding-top: 30px;
@@ -243,7 +243,7 @@ header .header {
 .work-grids {
     padding-top: 5%;
     .intro {
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 30px;
         p: first-of-type {
             padding-top: 30px;
@@ -266,7 +266,7 @@ header .header {
 //WORK INNER PAGES
 .work-detail-wrapper{
     margin-top:5%;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
     h3 {
         color: darken($white-smoke, 30%);
@@ -288,6 +288,12 @@ header .header {
      height:auto;
 }
 
+#cdc div.work-hero-wrapper{
+     background:$black;
+     width:100%;
+     height:auto;
+}
+
 .work-detail .work-hero{
     margin-top:40px;
 }
@@ -295,7 +301,7 @@ header .header {
 .work-detail .white-bg-text{
     margin-top:5%;
     margin-bottom:5%;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
     h4{
         color: darken($white-smoke, 60%);
@@ -391,7 +397,7 @@ header .header {
     }
     @extend .clients-grids;
     .intro {
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 30px;
         p:first-of-type {
             padding-top: 30px;
@@ -399,17 +405,32 @@ header .header {
     }
 }
 
+#contact-wrapper .offices{
+    margin-bottom:5%;
+    padding-top:3%;
+    p{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    h4{
+        color:darken($white-smoke,50%);
+        text-transform: uppercase;
+    }
+}
+
 #contact-map {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+//    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom:40%;
     height: 0;
+    overflow-x: hidden;
     iframe {
     position: absolute;
-    top: 0;
+    top: -40px;
     left: 0;
     width: 100%;
     height: 100%;
-        border: none;
+    border: none;
 }
 }
 
@@ -545,5 +566,21 @@ header .header {
     .text-only .desc,
     .text-only .desc .desc-inner {
         height: 300px !important;
+    }
+    
+    
+    //CONTACT MAP HEIGHT
+   #contact-map {
+    padding-bottom:70%;
+}
+    
+    //WORK DETAIL HEADER
+    .work-detail-wrapper{
+    h3 {
+        font-size:1em;}
+    h1 {
+        font-size: 36px;
+        line-height:36px;
+}
     }
 }

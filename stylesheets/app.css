@@ -23707,7 +23707,7 @@ header .header {
 }
 /* line 209, ../scss/_iw.scss */
 .clients-grids .intro, #contact-wrapper .intro {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
 }
 /* line 212, ../scss/_iw.scss */
@@ -23759,7 +23759,7 @@ header .header {
 }
 /* line 245, ../scss/_iw.scss */
 .work-grids .intro {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
   p: first-of-type;
   p-padding-top: 30px;
@@ -23781,7 +23781,7 @@ header .header {
 /* line 267, ../scss/_iw.scss */
 .work-detail-wrapper {
   margin-top: 5%;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
 }
 /* line 271, ../scss/_iw.scss */
@@ -23815,18 +23815,25 @@ header .header {
 }
 
 /* line 291, ../scss/_iw.scss */
+#cdc div.work-hero-wrapper {
+  background: #000000;
+  width: 100%;
+  height: auto;
+}
+
+/* line 297, ../scss/_iw.scss */
 .work-detail .work-hero {
   margin-top: 40px;
 }
 
-/* line 295, ../scss/_iw.scss */
+/* line 301, ../scss/_iw.scss */
 .work-detail .white-bg-text {
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
 }
-/* line 300, ../scss/_iw.scss */
+/* line 306, ../scss/_iw.scss */
 .work-detail .white-bg-text h4 {
   color: #5c5c5c;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23836,31 +23843,31 @@ header .header {
   margin-bottom: 2%;
 }
 
-/* line 310, ../scss/_iw.scss */
+/* line 316, ../scss/_iw.scss */
 .work-detail .work-category {
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #444444;
 }
-/* line 314, ../scss/_iw.scss */
+/* line 320, ../scss/_iw.scss */
 .work-detail .work-category .content {
   background-color: #444444;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
-/* line 319, ../scss/_iw.scss */
+/* line 325, ../scss/_iw.scss */
 .work-detail .work-category .content h4 {
   color: rgba(245, 245, 245, 0.85);
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 325, ../scss/_iw.scss */
+/* line 331, ../scss/_iw.scss */
 .work-detail .work-category .content p {
   color: #F5F5F5;
 }
-/* line 328, ../scss/_iw.scss */
+/* line 334, ../scss/_iw.scss */
 .work-detail .work-category .content ul {
   list-style: none;
   color: #F5F5F5;
@@ -23868,7 +23875,7 @@ header .header {
   margin-top: 20px;
 }
 
-/* line 337, ../scss/_iw.scss */
+/* line 343, ../scss/_iw.scss */
 .work-detail ul.approach {
   list-style: none;
   text-transform: uppercase;
@@ -23879,12 +23886,12 @@ header .header {
   margin-top: 3%;
   margin-bottom: 5%;
 }
-/* line 346, ../scss/_iw.scss */
+/* line 352, ../scss/_iw.scss */
 .work-detail ul.approach i {
   font-size: 2.4em;
 }
 
-/* line 352, ../scss/_iw.scss */
+/* line 358, ../scss/_iw.scss */
 .work-detail div.images {
   width: 100%;
   background-color: #e8e8e8;
@@ -23892,11 +23899,11 @@ header .header {
   padding-bottom: 10%;
 }
 
-/* line 359, ../scss/_iw.scss */
+/* line 365, ../scss/_iw.scss */
 .work-detail div.work-recommend {
   margin-top: 3%;
 }
-/* line 361, ../scss/_iw.scss */
+/* line 367, ../scss/_iw.scss */
 .work-detail div.work-recommend h5 {
   color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23904,7 +23911,7 @@ header .header {
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 368, ../scss/_iw.scss */
+/* line 374, ../scss/_iw.scss */
 .work-detail div.work-recommend h1 {
   color: #7b7b7b;
   font-size: 36px;
@@ -23914,11 +23921,11 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 373, ../scss/_iw.scss */
+/* line 379, ../scss/_iw.scss */
 .work-detail div.work-recommend h1:hover {
   color: black;
 }
-/* line 375, ../scss/_iw.scss */
+/* line 381, ../scss/_iw.scss */
 .work-detail div.work-recommend h3 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   color: #484848;
@@ -23930,37 +23937,53 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 382, ../scss/_iw.scss */
+/* line 388, ../scss/_iw.scss */
 .work-detail div.work-recommend h3:hover {
   color: orange;
 }
 
-/* line 388, ../scss/_iw.scss */
+/* line 394, ../scss/_iw.scss */
 #contact-wrapper h1, #contact-wrapper h2, #contact-wrapper h3, #contact-wrapper h4, #contact-wrapper h5 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
-/* line 393, ../scss/_iw.scss */
+/* line 399, ../scss/_iw.scss */
 #contact-wrapper .intro {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
 }
-/* line 396, ../scss/_iw.scss */
+/* line 402, ../scss/_iw.scss */
 #contact-wrapper .intro p:first-of-type {
   padding-top: 30px;
 }
 
-/* line 402, ../scss/_iw.scss */
+/* line 408, ../scss/_iw.scss */
+#contact-wrapper .offices {
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+/* line 411, ../scss/_iw.scss */
+#contact-wrapper .offices p {
+  text-align: center;
+  text-transform: capitalize;
+}
+/* line 415, ../scss/_iw.scss */
+#contact-wrapper .offices h4 {
+  color: #767676;
+  text-transform: uppercase;
+}
+
+/* line 421, ../scss/_iw.scss */
 #contact-map {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
+  padding-bottom: 40%;
   height: 0;
+  overflow-x: hidden;
 }
-/* line 406, ../scss/_iw.scss */
+/* line 427, ../scss/_iw.scss */
 #contact-map iframe {
   position: absolute;
-  top: 0;
+  top: -40px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -23968,19 +23991,19 @@ header .header {
 }
 
 @media only screen and (min-width: 75em) {
-  /* line 421, ../scss/_iw.scss */
+  /* line 442, ../scss/_iw.scss */
   .header h1 span {
     display: none;
   }
 
-  /* line 425, ../scss/_iw.scss */
+  /* line 446, ../scss/_iw.scss */
   .landing-grids,
   .work-grids div.work-grids-wrapper {
     padding-top: 5%;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 441, ../scss/_iw.scss */
+  /* line 462, ../scss/_iw.scss */
   .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -23988,7 +24011,7 @@ header .header {
     -o-transition: all 0.35s ease-in-out;
   }
 
-  /* line 444, ../scss/_iw.scss */
+  /* line 465, ../scss/_iw.scss */
   .landing-grids .full img,
   .work-grids .full img {
     transition: all 0.25s ease-in;
@@ -23997,20 +24020,20 @@ header .header {
     -o-transition: all 0.25s ease-in;
   }
 
-  /* line 448, ../scss/_iw.scss */
+  /* line 469, ../scss/_iw.scss */
   .landing-grids .full .overlay,
   .work-grids .full .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
-  /* line 453, ../scss/_iw.scss */
+  /* line 474, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover,
   .work-grids .full .overlay:hover {
     opacity: 1;
   }
 
-  /* line 457, ../scss/_iw.scss */
+  /* line 478, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover + img,
   .work-grids .full .overlay:hover + img {
     transform: scale(0.98);
@@ -24018,7 +24041,7 @@ header .header {
     -moz-transform: scale(0.98);
   }
 
-  /* line 461, ../scss/_iw.scss */
+  /* line 482, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover > .overlay-inner,
   .work-grids .full .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
@@ -24027,37 +24050,37 @@ header .header {
   }
 }
 @media only screen and (max-width: 40em), only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 469, ../scss/_iw.scss */
+  /* line 490, ../scss/_iw.scss */
   .typed {
     display: none;
   }
 
-  /* line 472, ../scss/_iw.scss */
+  /* line 493, ../scss/_iw.scss */
   .header h1 span {
     display: inline-block;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 479, ../scss/_iw.scss */
+  /* line 500, ../scss/_iw.scss */
   .desc .desc-inner h1 {
     font-size: 20px;
     line-height: 24px;
   }
 
-  /* line 483, ../scss/_iw.scss */
+  /* line 504, ../scss/_iw.scss */
   .landing-grids .text-only p {
     font-size: 14px;
     font-weight: 400;
   }
 
-  /* line 487, ../scss/_iw.scss */
+  /* line 508, ../scss/_iw.scss */
   .work .full .overlay h1 {
     font-size: 22px;
     line-height: 24px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 498, ../scss/_iw.scss */
+  /* line 519, ../scss/_iw.scss */
   .landing-grids .img-left .first:after {
     border: solid transparent;
     content: " ";
@@ -24072,7 +24095,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 501, ../scss/_iw.scss */
+  /* line 522, ../scss/_iw.scss */
   .landing-grids .img-right .first:after {
     border: solid transparent;
     content: " ";
@@ -24087,7 +24110,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 505, ../scss/_iw.scss */
+  /* line 526, ../scss/_iw.scss */
   .desc-inner {
     padding-left: 15px;
     padding-right: 15px;
@@ -24095,7 +24118,7 @@ header .header {
     padding-bottom: 10%;
   }
 
-  /* line 512, ../scss/_iw.scss */
+  /* line 533, ../scss/_iw.scss */
   .full .overlay {
     width: 100%;
     height: 100%;
@@ -24103,18 +24126,18 @@ header .header {
     display: inline-block;
     background: #F9F9F9;
   }
-  /* line 518, ../scss/_iw.scss */
+  /* line 539, ../scss/_iw.scss */
   .full .overlay .overlay-inner {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  /* line 523, ../scss/_iw.scss */
+  /* line 544, ../scss/_iw.scss */
   .full .overlay .overlay-inner p {
     display: none;
   }
-  /* line 526, ../scss/_iw.scss */
+  /* line 547, ../scss/_iw.scss */
   .full .overlay .overlay-inner h3 {
     color: darkgray;
     font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -24122,23 +24145,38 @@ header .header {
     font-size: 0.8em;
     font-weight: 700;
   }
-  /* line 533, ../scss/_iw.scss */
+  /* line 554, ../scss/_iw.scss */
   .full .overlay .overlay-inner h1 {
     color: #484848;
     font-size: 30px;
     font-weight: 400;
   }
 
-  /* line 540, ../scss/_iw.scss */
+  /* line 561, ../scss/_iw.scss */
   .work .full .overlay p {
     display: inline-block;
     color: #444444;
   }
 
-  /* line 544, ../scss/_iw.scss */
+  /* line 565, ../scss/_iw.scss */
   .text-only,
   .text-only .desc,
   .text-only .desc .desc-inner {
     height: 300px !important;
+  }
+
+  /* line 573, ../scss/_iw.scss */
+  #contact-map {
+    padding-bottom: 70%;
+  }
+
+  /* line 579, ../scss/_iw.scss */
+  .work-detail-wrapper h3 {
+    font-size: 1em;
+  }
+  /* line 581, ../scss/_iw.scss */
+  .work-detail-wrapper h1 {
+    font-size: 36px;
+    line-height: 36px;
   }
 }

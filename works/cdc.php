@@ -2,16 +2,25 @@
 </header>
 <!--HEADER-->
 
-<div class="work-detail" id="tristate">
+<div class="work-detail" id="cdc">
     <section>
        <div class="row work-detail-wrapper">
         <h3>case study</h3>
-        <h1>New York Tristate Website</h1>
+        <h1>CDC Protect Family</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eos eius aliquid dolorum, ipsam, ullam hic consectetur ea unde voluptatum animi deserunt sint ut ducimus accusantium. Molestiae provident, expedita corporis.</p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
-           <img class="work-hero-img wow zoomIn" src="../images/work-inner/tristate.jpg" alt="hero">
+           <div id='playermNGfcZLlvsQJ'></div>
+                <script type='text/javascript'>
+                    jwplayer('playermNGfcZLlvsQJ').setup({
+                        file:           'http://staging.iwgroupinc.com/2014/IW/redesign/videos/CDC_Protect%20Family_MAND_30.mp4',
+        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/cdc.jpg',
+        title: 'CDC Protect Family',
+        width: '100%',
+        aspectratio: '16:9'
+    });
+                </script>
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
@@ -24,23 +33,20 @@
              <div class="small-12 medium-4 columns">
               <h4>Client</h4>
               <ul>
-              <li>McDonald's</li>
+              <li>CDC</li>
               </ul>
              </div>
              <div class="small-12 medium-4 columns">
               <h4>Roles</h4>
               <ul>
                   <li>Branding</li>
-                  <li>Web Design</li>
-                  <li>Web Development</li>
-                  <li>Social Media</li>
+                  <li>Broadcast</li>
               </ul>
              </div>
             <div class="small-12 medium-4 columns">
-              <h4>Product</h4>
+              <h4>Awards</h4>
               <ul>
-                  <li>Website</li>
-                  <li>Social Media Integration</li>
+                  <li>Award Name</li>
               </ul>
              </div>              
           </div><!--content-->
@@ -55,7 +61,7 @@
            </ul>
        </div>
        <div class="images">
-       <div class="row"><img class="wow fadeIn" src="../images/work-inner/tristate-2.jpg" alt="our approach"></div>
+       <div class="row"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc-1.png" alt="our approach"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc-2.png" alt="our approach"></div>
        </div>
        <div class="white-bg-text">
            <div class="row">
@@ -69,7 +75,7 @@
         <div class="work-recommend white-bg-text">
            <div class="row">
                 <h5>Next Project</h5>
-                <a href="cdc.php"><h1>CDC Protect Family</h1></a>
+                <h1>White Chocolate Mocha</h1>
             </div>
             <div class="row">
                 <a href="../work.php"><h3>Back to All Work</h3></a>

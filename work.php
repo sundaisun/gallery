@@ -20,18 +20,18 @@
                                 <p>McDonald's Total Market. For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
                             </div>
                         </div>
-                        <img src="images/tristate.jpg">
+                        <a href="works/nytristate.php"><img src="images/tristate.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>tv</h3>
-                                <h1>CDC Protect Family</h1>
+                                <a href="works/cdc.php"><h1>CDC Protect Family</h1></a>
                                 <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
                             </div>
                         </div>
-                        <img src="images/cdc.jpg">
+                        <a href="works/cdc.php"><img src="images/cdc.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
