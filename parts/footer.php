@@ -13,7 +13,7 @@
                         </li>
                     </ul>
                 </div>
-                <p>2015 IW Group, Inc. All rightes reserved.</p>
+                <p>2015 IW Group, Inc. All rights reserved.</p>
             </div>
         </div>
     </footer>
