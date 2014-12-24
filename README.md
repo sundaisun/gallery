@@ -68,7 +68,7 @@ development sass files.
 
 ### Link paths change
 
-Development files are using document relative paths. However, when going live, please use root-relative paths. This issue will be resolved when I return from vacations.
+Development files are using document relative paths. However, when going live, please use root-relative paths. This issue will be resolved when I return from vacations. But before that, just use root-relative paths for header.php and footer.php
 
 ### Get Rid of .php Extension
 
