@@ -475,8 +475,8 @@ header .header {
             opacity: 1;
         }
     }
-    .landing-grids .full .overlay:hover + img,
-    .work-grids .full .overlay:hover + img {
+    .landing-grids .full .overlay:hover + a>img,
+    .work-grids .full .overlay:hover + a>img {
         @include scale(0.98);
     }
     .landing-grids .full .overlay:hover > .overlay-inner,

@@ -24034,8 +24034,8 @@ header .header {
   }
 
   /* line 478, ../scss/_iw.scss */
-  .landing-grids .full .overlay:hover + img,
-  .work-grids .full .overlay:hover + img {
+  .landing-grids .full .overlay:hover + a > img,
+  .work-grids .full .overlay:hover + a > img {
     transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
