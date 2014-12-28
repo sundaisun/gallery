@@ -1,7 +1,7 @@
 <?php $active="home" ; include( "parts/header.php"); ?>
 <div class="row header">
     <div class="large-12 columns">
-        <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
+        <h1>Hi, thanks for stopping by.<span> I am a <strong>web</strong> and <strong>interactive designer</strong>.</span></h1>
         <h1 class="typed"></h1>
     </div>
 </div>

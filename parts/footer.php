@@ -38,7 +38,7 @@
     <script>
   $(function(){
       $(".typed").typed({
-        strings: ["does <strong>this</strong> and <strong>that</strong> and total market stuff"],
+        strings: ["I am a <strong>web</strong> and <strong>interactive designer</strong>."],
         typeSpeed: 60,
         showCursor:false
       });
