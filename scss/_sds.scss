@@ -14,11 +14,67 @@ header .header {
     padding-right: 5%;
     text-align: center;
     color: $monsoon;
+    h1{
+        font-family:'Consuelo',cursive;
+    }
 }
 //NAV
-.top-bar-section ul li a {
+.top-bar-section ul li a, .top-bar{
     @include ease-in-out();
 }
+
+//TOGGLE MANU STYLE
+.top-bar .toggle-topbar{
+    margin-right:6%;
+}
+
+#toggle {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  padding-top:28px;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 28px;
+  height: 3px;
+  background-color: $jumbo;
+  @include ease-in-out();
+  backface-visibility: hidden;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+  -webkit-transform:rotate(-45deg) translate(7px, -8px);
+}
+
 //LOGO
 .top-bar .title-area {
     padding-left: 5%;
@@ -63,11 +119,6 @@ header .header {
             bottom: 0;
             right: 0;
         }
-        p {
-            font-weight: 300;
-            font-size: 1em;
-            font-size: 18px;
-        }
     }
     .img-left {
         background-color: $ghost;
@@ -98,6 +149,7 @@ header .header {
         }
     }
 }
+
 .full {
     position: relative;
     .overlay {
@@ -129,71 +181,13 @@ header .header {
             font-weight: 700;
         }
         h1 {
-            color: darken($white-smoke, 68%);
-            font-size: 30px;
-            @include ease-in-out(0.4s);
-            &:hover {
-                color: darken($white-smoke, 100%);
-                //                 text-shadow: 0px 0px 1px darken($white-smoke,20%);
-
-            }
-        }
-    }
-}
-.landing-grids .full .overlay-inner,
-.work-grids .full .overlay-inner {
-    padding-left: 50px;
-    padding-top: 30%;
-    padding-right: 40px;
-    p {
-        font-weight: 300;
-        color: white;
-    }
-    h3 {
-        color: white;
-            }
-    .last {
-            float: left;
-        }
-}
-.full {
-    position: relative;
-    .overlay {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 10;
-        width: 100%;
-        height: 100%;
-        display: none;
-        @include gradient();
-    }
-}
-//GRID TEXT
-.desc {
-    width: 100%;
-    height: 100%;
-    .desc-inner {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 10%;
-        h3 {
-            color: darken($white-smoke, 30%);
-            font-family: $header-sans;
-            text-transform: uppercase;
-            font-size: 0.8em;
             font-weight: 700;
-        }
-        h1 {
             color: darken($white-smoke, 68%);
             font-size: 30px;
+            line-height:35px;
             @include ease-in-out(0.4s);
             &:hover {
                 color: darken($white-smoke, 100%);
-                //                 text-shadow: 0px 0px 1px darken($white-smoke,20%);
-
             }
         }
     }
@@ -204,8 +198,8 @@ header .header {
     padding-top: 30%;
     padding-right: 40px;
     p {
-        font-weight: 300;
         color: white;
+        padding-top:1rem;
     }
     h3 {
         color: white;
@@ -219,6 +213,7 @@ header .header {
         font-size: 42px;
         font-weight: 700;
         line-height: 46px;
+        font-family:$font-family-script;
     }
 }
 //FOOTER
@@ -470,72 +465,7 @@ header .header {
         }
     }
 }
-//CLIENTS PAGE
-#clients-wrapper {
-    h1, h2, h3, h4, h5 {
-        font-family: $header-sans;
-        text-align: center;
-    }
-}
-.clients-grids {
-    padding-top: 5%;
-    .intro {
-        padding-left: 50px;
-        padding-right: 30px;
-        p:first-of-type {
-            padding-top: 30px;
-        }
-    }
-}
-.clients-grids div.clients-grids-wrapper {
-    display: block;
-    width: 100%;
-    background-color: $smoke;
-    padding-bottom: 10%;
-    margin-top: 50px;
-}
-//SVG COLORS
-.clients-grids div.row div svg path,
-.clients-grids div.row div svg circle,
-.clients-grids div.row div svg polygon {
-    @include ease-in(0.3s);
-}
-.clients-grids div.row div svg {
-    width: 100%;
-    height: 80%;
-    cursor: pointer;
-    &:hover > g path, &:hover > path, &:hover > circle, &:hover > polygon {
-        fill: $tuatara;
-    }
-}
-//WORK PAGE
-#work-wrapper h2 {
-    font-family: $header-sans;
-    text-align: center;
-}
-.work-grids {
-    padding-top: 5%;
-    .intro {
-        padding-left: 50px;
-        padding-right: 30px;
-        p: first-of-type {
-            padding-top: 30px;
-        }
-    }
-}
-.work-grids div.work-grids-wrapper {
-    display: block;
-    width: 100%;
-    margin-top: 50px;
-    padding-bottom: 15%;
-    //padding top on large sizes is applied in media query
-    background-color: $smoke;
-    .column, .columns {
-        padding: $grid-gutter;
-    }
 
-//grid hover styles are up in landing-grids and below in media query
-}
 
 //CONTACT
 #contact-wrapper{
@@ -583,8 +513,7 @@ header .header {
 }
 
 //MEDIA QUERY
-@media #{$large-up}
-{
+@media #{$large-up}{
     //HIDE STATIC TYPE ON LARGE
     .header h1 span {
         display: none;
@@ -595,16 +524,7 @@ header .header {
         padding-top: 5%;
     }
 }
-@media #{$medium-up}
-{
-    //    header video#vid-bg{
-    //        width:100%;
-    //        background-size:cover;
-    //        position:absolute;
-    //        left:0;
-    //        top:0;
-    //        z-index:-999;
-    //    }
+@media #{$medium-up}{
     //HOVER EFFECT ON MED AND LARGE SIZES
     .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
         @include ease-in-out(0.35s);
@@ -642,8 +562,7 @@ header .header {
         display: inline-block;
     }
 }
-@media #{$medium-only}
-{
+@media #{$medium-only}{
     //SHRINK H1 SIZE FOR MED
     .desc .desc-inner h1 {
         font-size: 20px;
@@ -651,18 +570,14 @@ header .header {
     }
     .landing-grids .text-only p {
         font-size: 14px;
-        font-weight: 400;
+        line-height:16px;
     }
     .work .full .overlay h1 {
         font-size: 22px;
         line-height: 24px;
     }
 }
-@media #{$small-only}
-{
-    //    header video#vid-bg{
-    //        display:none;
-    //    }
+@media #{$small-only}{
     //HIDE ARROWS ON MOBILE
     .landing-grids .img-left .first:after {
         @include no-arrow();
@@ -702,7 +617,8 @@ header .header {
             h1 {
                 color: darken($white-smoke, 68%);
                 font-size: 30px;
-                font-weight: 400;
+                font-weight: 700;
+                font-family:$font-family-serif;
             }
         }
     }
@@ -716,11 +632,6 @@ header .header {
         height: 300px !important;
     }
     
-    
-    //CONTACT MAP HEIGHT
-   #contact-map {
-    padding-bottom:70%;
-}
     
     //WORK DETAIL HEADER
     .work-detail-wrapper{

@@ -1,3 +1,14 @@
+//fontface
+@font-face {
+    font-family: 'Consuelo';
+  src: url('../fonts/consuelo_regular/Consuelo-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/consuelo_regular/Consuelo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/consuelo_regular/Consuelo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/consuelo_regular/Consuelo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/consuelo_regular/Consuelo-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/consuelo_regular/Consuelo-webfont.svg#svgConsuelo') format('svg'); /* Legacy iOS */
+}
+
 //utilities - functions, mixins
 //gradient overlay mixins
 @mixin gradient(){

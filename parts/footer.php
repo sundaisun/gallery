@@ -25,6 +25,7 @@
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/wow.js"></script>
+    <script src="/js/menu.js"></script>
 
     <script>
         var wow = new WOW(

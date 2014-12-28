@@ -1,4 +1,4 @@
-<?php $active="work" ; include( "parts/header.php"); ?>
+<?php $active="portfolio" ; include( "parts/header.php"); ?>
 </header>
 <!--HEADER-->
 
