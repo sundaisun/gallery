@@ -13,17 +13,19 @@
                         </li>
                     </ul>
                 </div>
-                <p>2015 IW Group, Inc. All rightes reserved.</p>
+
+                <p>2015 IW Group, Inc. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
 
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/wow.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/wow.js"></script>
+
     <script>
         var wow = new WOW(
             {
@@ -31,7 +33,7 @@
             });
         wow.init();
     </script>
-    <script src="js/typed.js"></script>
+    <script src="/js/typed.js"></script>
     <script>
   $(function(){
       $(".typed").typed({

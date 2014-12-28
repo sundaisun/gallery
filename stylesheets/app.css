@@ -23637,12 +23637,102 @@ header .header {
 .landing-grids .full .overlay-inner h3,
 .work-grids .full .overlay-inner h3 {
   color: white;
+}
+/* line 155, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner .last,
+.work-grids .full .overlay-inner .last {
+  float: left;
+}
+
+/* line 159, ../scss/_iw.scss */
+.full {
+  position: relative;
+}
+/* line 161, ../scss/_iw.scss */
+.full .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: #0e0e0e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(14, 14, 14, 0.8) 0%, rgba(81, 81, 81, 0.75) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(14, 14, 14, 0.8)), color-stop(100%, rgba(81, 81, 81, 0.75)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(14, 14, 14, 0.8) 0%, rgba(81, 81, 81, 0.75) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(14, 14, 14, 0.8) 0%, rgba(81, 81, 81, 0.75) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(14, 14, 14, 0.8) 0%, rgba(81, 81, 81, 0.75) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(14, 14, 14, 0.8) 0%, rgba(81, 81, 81, 0.75) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#515151',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 175, ../scss/_iw.scss */
+.desc {
+  width: 100%;
+  height: 100%;
+}
+/* line 178, ../scss/_iw.scss */
+.desc .desc-inner {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10%;
+}
+/* line 182, ../scss/_iw.scss */
+.desc .desc-inner h3 {
+  color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 159, ../scss/_iw.scss */
+/* line 189, ../scss/_iw.scss */
+.desc .desc-inner h1 {
+  color: #484848;
+  font-size: 30px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+/* line 193, ../scss/_iw.scss */
+.desc .desc-inner h1:hover {
+  color: black;
+}
+
+/* line 201, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner,
+.work-grids .full .overlay-inner {
+  padding-left: 50px;
+  padding-top: 30%;
+  padding-right: 40px;
+}
+/* line 206, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner p,
+.work-grids .full .overlay-inner p {
+  font-weight: 300;
+  color: white;
+}
+/* line 210, ../scss/_iw.scss */
+.landing-grids .full .overlay-inner h3,
+.work-grids .full .overlay-inner h3 {
+  color: white;
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+/* line 217, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner h1,
 .work-grids .full .overlay-inner h1 {
   color: white;
@@ -23651,37 +23741,37 @@ header .header {
   line-height: 46px;
 }
 
-/* line 167, ../scss/_iw.scss */
+/* line 225, ../scss/_iw.scss */
 .footer-btm {
   background-color: #333333;
   padding: 38px 0 40px;
   text-align: center;
   color: #EEEEEE;
 }
-/* line 172, ../scss/_iw.scss */
+/* line 230, ../scss/_iw.scss */
 .footer-btm p {
   font-weight: 200;
   font-size: 0.8em;
 }
-/* line 176, ../scss/_iw.scss */
+/* line 234, ../scss/_iw.scss */
 .footer-btm ul {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   display: inline-block;
 }
-/* line 181, ../scss/_iw.scss */
+/* line 239, ../scss/_iw.scss */
 .footer-btm ul li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 30px;
 }
-/* line 186, ../scss/_iw.scss */
+/* line 244, ../scss/_iw.scss */
 .footer-btm ul li:first-child {
   margin-left: 0;
 }
-/* line 189, ../scss/_iw.scss */
+/* line 247, ../scss/_iw.scss */
 .footer-btm ul li a {
   color: #999999;
   font-size: 2.2em;
@@ -23690,33 +23780,33 @@ header .header {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-/* line 193, ../scss/_iw.scss */
+/* line 251, ../scss/_iw.scss */
 .footer-btm ul li a:hover {
   color: gray;
 }
 
-/* line 202, ../scss/_iw.scss */
+/* line 260, ../scss/_iw.scss */
 #clients-wrapper h1, #clients-wrapper h2, #clients-wrapper h3, #clients-wrapper h4, #clients-wrapper h5 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
-/* line 207, ../scss/_iw.scss */
-.clients-grids {
+/* line 265, ../scss/_iw.scss */
+.clients-grids, #contact-wrapper {
   padding-top: 5%;
 }
-/* line 209, ../scss/_iw.scss */
-.clients-grids .intro {
-  padding-left: 50px;
+/* line 267, ../scss/_iw.scss */
+.clients-grids .intro, #contact-wrapper .intro {
+  padding-left: 30px;
   padding-right: 30px;
 }
-/* line 212, ../scss/_iw.scss */
-.clients-grids .intro p:first-of-type {
+/* line 270, ../scss/_iw.scss */
+.clients-grids .intro p:first-of-type, #contact-wrapper .intro p:first-of-type {
   padding-top: 30px;
 }
 
-/* line 217, ../scss/_iw.scss */
-.clients-grids div.clients-grids-wrapper {
+/* line 275, ../scss/_iw.scss */
+.clients-grids div.clients-grids-wrapper, #contact-wrapper div.clients-grids-wrapper {
   display: block;
   width: 100%;
   background-color: #EEEEEE;
@@ -23724,46 +23814,48 @@ header .header {
   margin-top: 50px;
 }
 
-/* line 225, ../scss/_iw.scss */
-.clients-grids div.row div svg path,
+/* line 283, ../scss/_iw.scss */
+.clients-grids div.row div svg path, #contact-wrapper div.row div svg path,
 .clients-grids div.row div svg circle,
-.clients-grids div.row div svg polygon {
+#contact-wrapper div.row div svg circle,
+.clients-grids div.row div svg polygon,
+#contact-wrapper div.row div svg polygon {
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
 }
 
-/* line 230, ../scss/_iw.scss */
-.clients-grids div.row div svg {
+/* line 288, ../scss/_iw.scss */
+.clients-grids div.row div svg, #contact-wrapper div.row div svg {
   width: 100%;
   height: 80%;
   cursor: pointer;
 }
-/* line 234, ../scss/_iw.scss */
-.clients-grids div.row div svg:hover > g path, .clients-grids div.row div svg:hover > path, .clients-grids div.row div svg:hover > circle, .clients-grids div.row div svg:hover > polygon {
+/* line 292, ../scss/_iw.scss */
+.clients-grids div.row div svg:hover > g path, #contact-wrapper div.row div svg:hover > g path, .clients-grids div.row div svg:hover > path, #contact-wrapper div.row div svg:hover > path, .clients-grids div.row div svg:hover > circle, #contact-wrapper div.row div svg:hover > circle, .clients-grids div.row div svg:hover > polygon, #contact-wrapper div.row div svg:hover > polygon {
   fill: #444444;
 }
 
-/* line 239, ../scss/_iw.scss */
+/* line 297, ../scss/_iw.scss */
 #work-wrapper h2 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
-/* line 243, ../scss/_iw.scss */
+/* line 301, ../scss/_iw.scss */
 .work-grids {
   padding-top: 5%;
 }
-/* line 245, ../scss/_iw.scss */
+/* line 303, ../scss/_iw.scss */
 .work-grids .intro {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 30px;
   p: first-of-type;
   p-padding-top: 30px;
 }
 
-/* line 253, ../scss/_iw.scss */
+/* line 311, ../scss/_iw.scss */
 .work-grids div.work-grids-wrapper {
   display: block;
   width: 100%;
@@ -23771,25 +23863,371 @@ header .header {
   padding-bottom: 15%;
   background-color: #EEEEEE;
 }
-/* line 260, ../scss/_iw.scss */
+/* line 318, ../scss/_iw.scss */
 .work-grids div.work-grids-wrapper .column, .work-grids div.work-grids-wrapper .columns {
   padding: 0;
 }
 
+/* line 325, ../scss/_iw.scss */
+.work-detail-wrapper {
+  margin-top: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* line 329, ../scss/_iw.scss */
+.work-detail-wrapper h3 {
+  color: darkgray;
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+/* line 335, ../scss/_iw.scss */
+.work-detail-wrapper h1 {
+  color: #484848;
+  font-size: 56px;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+/* line 340, ../scss/_iw.scss */
+.work-detail-wrapper h1:hover {
+  color: black;
+}
+
+/* line 343, ../scss/_iw.scss */
+#tristate div.work-hero-wrapper {
+  background: #f1a15b;
+  width: 100%;
+  height: auto;
+}
+
+/* line 349, ../scss/_iw.scss */
+#cdc div.work-hero-wrapper {
+  background: #000000;
+  width: 100%;
+  height: auto;
+}
+
+/* line 355, ../scss/_iw.scss */
+.work-detail .work-hero {
+  margin-top: 40px;
+}
+
+/* line 359, ../scss/_iw.scss */
+.work-detail .white-bg-text {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* line 364, ../scss/_iw.scss */
+.work-detail .white-bg-text h4 {
+  color: #5c5c5c;
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* line 374, ../scss/_iw.scss */
+.work-detail .work-category {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #444444;
+}
+/* line 378, ../scss/_iw.scss */
+.work-detail .work-category .content {
+  background-color: #444444;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/* line 383, ../scss/_iw.scss */
+.work-detail .work-category .content h4 {
+  color: rgba(245, 245, 245, 0.85);
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 389, ../scss/_iw.scss */
+.work-detail .work-category .content p {
+  color: #F5F5F5;
+}
+/* line 392, ../scss/_iw.scss */
+.work-detail .work-category .content ul {
+  list-style: none;
+  color: #F5F5F5;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+/* line 401, ../scss/_iw.scss */
+.work-detail ul.approach {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #828282;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+/* line 410, ../scss/_iw.scss */
+.work-detail ul.approach i {
+  font-size: 2.4em;
+}
+
+/* line 416, ../scss/_iw.scss */
+.work-detail div.images {
+  width: 100%;
+  background-color: #e8e8e8;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+/* line 423, ../scss/_iw.scss */
+.work-detail div.work-recommend {
+  margin-top: 3%;
+}
+/* line 425, ../scss/_iw.scss */
+.work-detail div.work-recommend h5 {
+  color: darkgray;
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+/* line 432, ../scss/_iw.scss */
+.work-detail div.work-recommend h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+/* line 440, ../scss/_iw.scss */
+.footer-btm {
+  background-color: #333333;
+  padding: 38px 0 40px;
+  text-align: center;
+  color: #EEEEEE;
+}
+/* line 445, ../scss/_iw.scss */
+.footer-btm p {
+  font-weight: 200;
+  font-size: 0.8em;
+}
+/* line 449, ../scss/_iw.scss */
+.footer-btm ul {
+  float: none;
+  margin: 0 0 20px 0;
+  text-align: center;
+  display: inline-block;
+}
+/* line 454, ../scss/_iw.scss */
+.footer-btm ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+/* line 459, ../scss/_iw.scss */
+.footer-btm ul li:first-child {
+  margin-left: 0;
+}
+/* line 462, ../scss/_iw.scss */
+.footer-btm ul li a {
+  color: #999999;
+  font-size: 2.2em;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+/* line 466, ../scss/_iw.scss */
+.footer-btm ul li a:hover {
+  color: gray;
+}
+
+/* line 475, ../scss/_iw.scss */
+#clients-wrapper h1, #clients-wrapper h2, #clients-wrapper h3, #clients-wrapper h4, #clients-wrapper h5 {
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* line 480, ../scss/_iw.scss */
+.clients-grids, #contact-wrapper {
+  padding-top: 5%;
+}
+/* line 482, ../scss/_iw.scss */
+.clients-grids .intro, #contact-wrapper .intro {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+/* line 485, ../scss/_iw.scss */
+.clients-grids .intro p:first-of-type, #contact-wrapper .intro p:first-of-type {
+  padding-top: 30px;
+}
+
+/* line 490, ../scss/_iw.scss */
+.clients-grids div.clients-grids-wrapper, #contact-wrapper div.clients-grids-wrapper {
+  display: block;
+  width: 100%;
+  background-color: #EEEEEE;
+  padding-bottom: 10%;
+  margin-top: 50px;
+}
+
+/* line 498, ../scss/_iw.scss */
+.clients-grids div.row div svg path, #contact-wrapper div.row div svg path,
+.clients-grids div.row div svg circle,
+#contact-wrapper div.row div svg circle,
+.clients-grids div.row div svg polygon,
+#contact-wrapper div.row div svg polygon {
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+/* line 503, ../scss/_iw.scss */
+.clients-grids div.row div svg, #contact-wrapper div.row div svg {
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+/* line 507, ../scss/_iw.scss */
+.clients-grids div.row div svg:hover > g path, #contact-wrapper div.row div svg:hover > g path, .clients-grids div.row div svg:hover > path, #contact-wrapper div.row div svg:hover > path, .clients-grids div.row div svg:hover > circle, #contact-wrapper div.row div svg:hover > circle, .clients-grids div.row div svg:hover > polygon, #contact-wrapper div.row div svg:hover > polygon {
+  fill: #444444;
+}
+
+/* line 512, ../scss/_iw.scss */
+#work-wrapper h2 {
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* line 516, ../scss/_iw.scss */
+.work-grids {
+  padding-top: 5%;
+}
+/* line 518, ../scss/_iw.scss */
+.work-grids .intro {
+  padding-left: 50px;
+  padding-right: 30px;
+  p: first-of-type;
+  p-padding-top: 30px;
+}
+
+/* line 526, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 15%;
+  background-color: #EEEEEE;
+}
+/* line 533, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper .column, .work-grids div.work-grids-wrapper .columns {
+  padding: 0;
+}
+/* line 538, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper h1 {
+  color: #7b7b7b;
+  font-size: 36px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+/* line 543, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper h1:hover {
+  color: black;
+}
+/* line 545, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper h3 {
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  color: #484848;
+  font-size: 1em;
+  margin-top: 3%;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+/* line 552, ../scss/_iw.scss */
+.work-grids div.work-grids-wrapper h3:hover {
+  color: orange;
+}
+
+/* line 558, ../scss/_iw.scss */
+#contact-wrapper h1, #contact-wrapper h2, #contact-wrapper h3, #contact-wrapper h4, #contact-wrapper h5 {
+  font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+/* line 563, ../scss/_iw.scss */
+#contact-wrapper .intro {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* line 566, ../scss/_iw.scss */
+#contact-wrapper .intro p:first-of-type {
+  padding-top: 30px;
+}
+
+/* line 572, ../scss/_iw.scss */
+#contact-wrapper .offices {
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+/* line 575, ../scss/_iw.scss */
+#contact-wrapper .offices p {
+  text-align: center;
+  text-transform: capitalize;
+}
+/* line 579, ../scss/_iw.scss */
+#contact-wrapper .offices h4 {
+  color: #767676;
+  text-transform: uppercase;
+}
+
+/* line 585, ../scss/_iw.scss */
+#contact-map {
+  position: relative;
+  padding-bottom: 40%;
+  height: 0;
+  overflow-x: hidden;
+}
+/* line 591, ../scss/_iw.scss */
+#contact-map iframe {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 @media only screen and (min-width: 75em) {
-  /* line 269, ../scss/_iw.scss */
+  /* line 605, ../scss/_iw.scss */
   .header h1 span {
     display: none;
   }
 
-  /* line 273, ../scss/_iw.scss */
+  /* line 609, ../scss/_iw.scss */
   .landing-grids,
   .work-grids div.work-grids-wrapper {
     padding-top: 5%;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 289, ../scss/_iw.scss */
+  /* line 625, ../scss/_iw.scss */
   .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -23797,7 +24235,7 @@ header .header {
     -o-transition: all 0.35s ease-in-out;
   }
 
-  /* line 292, ../scss/_iw.scss */
+  /* line 628, ../scss/_iw.scss */
   .landing-grids .full img,
   .work-grids .full img {
     transition: all 0.25s ease-in;
@@ -23806,28 +24244,28 @@ header .header {
     -o-transition: all 0.25s ease-in;
   }
 
-  /* line 296, ../scss/_iw.scss */
+  /* line 632, ../scss/_iw.scss */
   .landing-grids .full .overlay,
   .work-grids .full .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
-  /* line 301, ../scss/_iw.scss */
+  /* line 637, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover,
   .work-grids .full .overlay:hover {
     opacity: 1;
   }
 
-  /* line 305, ../scss/_iw.scss */
-  .landing-grids .full .overlay:hover + img,
-  .work-grids .full .overlay:hover + img {
+  /* line 642, ../scss/_iw.scss */
+  .landing-grids .full .overlay:hover + a > img,
+  .work-grids .full .overlay:hover + a > img {
     transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
   }
 
-  /* line 309, ../scss/_iw.scss */
+  /* line 646, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover > .overlay-inner,
   .work-grids .full .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
@@ -23836,37 +24274,37 @@ header .header {
   }
 }
 @media only screen and (max-width: 40em), only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 317, ../scss/_iw.scss */
+  /* line 654, ../scss/_iw.scss */
   .typed {
     display: none;
   }
 
-  /* line 320, ../scss/_iw.scss */
+  /* line 657, ../scss/_iw.scss */
   .header h1 span {
     display: inline-block;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 327, ../scss/_iw.scss */
+  /* line 664, ../scss/_iw.scss */
   .desc .desc-inner h1 {
     font-size: 20px;
     line-height: 24px;
   }
 
-  /* line 331, ../scss/_iw.scss */
+  /* line 668, ../scss/_iw.scss */
   .landing-grids .text-only p {
     font-size: 14px;
     font-weight: 400;
   }
 
-  /* line 335, ../scss/_iw.scss */
+  /* line 672, ../scss/_iw.scss */
   .work .full .overlay h1 {
     font-size: 22px;
     line-height: 24px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 346, ../scss/_iw.scss */
+  /* line 683, ../scss/_iw.scss */
   .landing-grids .img-left .first:after {
     border: solid transparent;
     content: " ";
@@ -23881,7 +24319,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 349, ../scss/_iw.scss */
+  /* line 686, ../scss/_iw.scss */
   .landing-grids .img-right .first:after {
     border: solid transparent;
     content: " ";
@@ -23896,7 +24334,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 353, ../scss/_iw.scss */
+  /* line 690, ../scss/_iw.scss */
   .desc-inner {
     padding-left: 15px;
     padding-right: 15px;
@@ -23904,7 +24342,7 @@ header .header {
     padding-bottom: 10%;
   }
 
-  /* line 360, ../scss/_iw.scss */
+  /* line 697, ../scss/_iw.scss */
   .full .overlay {
     width: 100%;
     height: 100%;
@@ -23912,18 +24350,18 @@ header .header {
     display: inline-block;
     background: #F9F9F9;
   }
-  /* line 366, ../scss/_iw.scss */
+  /* line 703, ../scss/_iw.scss */
   .full .overlay .overlay-inner {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  /* line 371, ../scss/_iw.scss */
+  /* line 708, ../scss/_iw.scss */
   .full .overlay .overlay-inner p {
     display: none;
   }
-  /* line 374, ../scss/_iw.scss */
+  /* line 711, ../scss/_iw.scss */
   .full .overlay .overlay-inner h3 {
     color: darkgray;
     font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23931,23 +24369,38 @@ header .header {
     font-size: 0.8em;
     font-weight: 700;
   }
-  /* line 381, ../scss/_iw.scss */
+  /* line 718, ../scss/_iw.scss */
   .full .overlay .overlay-inner h1 {
     color: #484848;
     font-size: 30px;
     font-weight: 400;
   }
 
-  /* line 388, ../scss/_iw.scss */
+  /* line 725, ../scss/_iw.scss */
   .work .full .overlay p {
     display: inline-block;
     color: #444444;
   }
 
-  /* line 392, ../scss/_iw.scss */
+  /* line 729, ../scss/_iw.scss */
   .text-only,
   .text-only .desc,
   .text-only .desc .desc-inner {
     height: 300px !important;
+  }
+
+  /* line 737, ../scss/_iw.scss */
+  #contact-map {
+    padding-bottom: 70%;
+  }
+
+  /* line 743, ../scss/_iw.scss */
+  .work-detail-wrapper h3 {
+    font-size: 1em;
+  }
+  /* line 745, ../scss/_iw.scss */
+  .work-detail-wrapper h1 {
+    font-size: 36px;
+    line-height: 36px;
   }
 }
