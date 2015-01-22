@@ -185,11 +185,11 @@
                     <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
-                            <h1>Los Angeles County Fair</h1>
+                            <a href="works/lacf.php"><h1>Los Angeles County Fair</h1></a>
                             <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
                         </div>
                     </div>
-                    <img src="images/lacf.jpg">
+                    <a href="works/lacf.php"><img src="images/lacf.jpg"></a>
                 </div>
                 <!--full-->
             </article>
