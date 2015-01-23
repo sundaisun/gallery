@@ -27,9 +27,7 @@
    <header>
       <nav class="top-bar" data-topbar role="navigation">
           <ul class="title-area">
-            <li class="name">
-              <h1><a href="#"></a></h1>
-            </li>
+            <a href="/../index.php"><li class="name"></li></a>
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
 
