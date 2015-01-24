@@ -85,11 +85,12 @@
                     <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
-                            <a href="works/cdc.php"><h1>CDC Protect Family</h1></a>
-                            <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                            <a href="works/covered-california.php"><h1>Covered California</h1></a>
+                            <p>The success of the ACA was dependent, to a large extent, on the success of Covered California.</p>
+                            <a href="works/covered-california.php"><button>More</button></a>
                         </div>
                     </div>
-                    <a href="works/cdc.php"><img src="images/cdc.jpg"></a>
+                    <a href="works/covered-california.php"><img src="images/cc.jpg"></a>
                 </div>
                 <!--full-->
             </article>
@@ -114,14 +115,14 @@
                             <div class="desc">
                                 <div class="desc-inner">
                                     <h3>work</h3>
-                                    <a href="#"><h1>Coca-Cola Wakiki</h1></a>
+                                    <a href="works/lacf.php"><h1>Los Angeles County Fair</h1></a>
                                 </div>
                             </div>
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first">
                             <a href="#">
-                                <img src="images/coke.png">
+                                <img src="images/lacf.jpg">
                             </a>
                         </div>
 
@@ -185,11 +186,12 @@
                     <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
-                            <a href="works/lacf.php"><h1>Los Angeles County Fair</h1></a>
-                            <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                            <a href="works/godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                            <p>We came up with a well-integrated plan with a message that would resonate strongly with client's primary audience.</p>
+                            <a href="works/godiva.php"><button>More</button></a>
                         </div>
                     </div>
-                    <a href="works/lacf.php"><img src="images/lacf.jpg"></a>
+                    <a href="works/godiva.php"><img src="images/godiva.jpg"></a>
                 </div>
                 <!--full-->
             </article>

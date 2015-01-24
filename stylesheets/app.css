@@ -3250,7 +3250,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -4269,7 +4269,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -6133,7 +6133,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -12533,7 +12533,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -18127,7 +18127,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -18725,7 +18725,7 @@ select {
 /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
   font-family: "Aspira W01", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -23586,19 +23586,30 @@ header .header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#515151',GradientType=0 );
   /* IE6-9 */
 }
+/* line 115, ../scss/_iw.scss */
+.full button {
+  background-color: transparent;
+  border-color: #ef9444;
+  padding: 10px 30px;
+  outline: none;
+}
+/* line 120, ../scss/_iw.scss */
+.full button:hover {
+  background-color: #ed862c;
+}
 
-/* line 117, ../scss/_iw.scss */
+/* line 126, ../scss/_iw.scss */
 .desc {
   width: 100%;
   height: 100%;
 }
-/* line 120, ../scss/_iw.scss */
+/* line 129, ../scss/_iw.scss */
 .desc .desc-inner {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10%;
 }
-/* line 124, ../scss/_iw.scss */
+/* line 133, ../scss/_iw.scss */
 .desc .desc-inner h3 {
   color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23606,7 +23617,7 @@ header .header {
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 131, ../scss/_iw.scss */
+/* line 140, ../scss/_iw.scss */
 .desc .desc-inner h1 {
   color: #484848;
   font-size: 30px;
@@ -23615,25 +23626,25 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 135, ../scss/_iw.scss */
+/* line 144, ../scss/_iw.scss */
 .desc .desc-inner h1:hover {
   color: black;
 }
 
-/* line 143, ../scss/_iw.scss */
+/* line 152, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner,
 .work-grids .full .overlay-inner {
   padding-left: 50px;
   padding-top: 30%;
   padding-right: 40px;
 }
-/* line 148, ../scss/_iw.scss */
+/* line 157, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner p,
 .work-grids .full .overlay-inner p {
   font-weight: 300;
   color: white;
 }
-/* line 152, ../scss/_iw.scss */
+/* line 161, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner h3,
 .work-grids .full .overlay-inner h3 {
   color: white;
@@ -23642,7 +23653,7 @@ header .header {
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 159, ../scss/_iw.scss */
+/* line 168, ../scss/_iw.scss */
 .landing-grids .full .overlay-inner h1,
 .work-grids .full .overlay-inner h1 {
   color: white;
@@ -23651,37 +23662,37 @@ header .header {
   line-height: 46px;
 }
 
-/* line 167, ../scss/_iw.scss */
+/* line 176, ../scss/_iw.scss */
 .footer-btm {
   background-color: #333333;
   padding: 38px 0 40px;
   text-align: center;
   color: #EEEEEE;
 }
-/* line 172, ../scss/_iw.scss */
+/* line 181, ../scss/_iw.scss */
 .footer-btm p {
   font-weight: 200;
   font-size: 0.8em;
 }
-/* line 176, ../scss/_iw.scss */
+/* line 185, ../scss/_iw.scss */
 .footer-btm ul {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   display: inline-block;
 }
-/* line 181, ../scss/_iw.scss */
+/* line 190, ../scss/_iw.scss */
 .footer-btm ul li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 30px;
 }
-/* line 186, ../scss/_iw.scss */
+/* line 195, ../scss/_iw.scss */
 .footer-btm ul li:first-child {
   margin-left: 0;
 }
-/* line 189, ../scss/_iw.scss */
+/* line 198, ../scss/_iw.scss */
 .footer-btm ul li a {
   color: #999999;
   font-size: 2.2em;
@@ -23690,32 +23701,32 @@ header .header {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-/* line 193, ../scss/_iw.scss */
+/* line 202, ../scss/_iw.scss */
 .footer-btm ul li a:hover {
   color: gray;
 }
 
-/* line 202, ../scss/_iw.scss */
+/* line 211, ../scss/_iw.scss */
 #clients-wrapper h1, #clients-wrapper h2, #clients-wrapper h3, #clients-wrapper h4, #clients-wrapper h5 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
-/* line 207, ../scss/_iw.scss */
+/* line 216, ../scss/_iw.scss */
 .clients-grids, #contact-wrapper {
   padding-top: 5%;
 }
-/* line 209, ../scss/_iw.scss */
+/* line 218, ../scss/_iw.scss */
 .clients-grids .intro, #contact-wrapper .intro {
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 212, ../scss/_iw.scss */
+/* line 221, ../scss/_iw.scss */
 .clients-grids .intro p:first-of-type, #contact-wrapper .intro p:first-of-type {
   padding-top: 30px;
 }
 
-/* line 217, ../scss/_iw.scss */
+/* line 226, ../scss/_iw.scss */
 .clients-grids div.clients-grids-wrapper, #contact-wrapper div.clients-grids-wrapper {
   display: block;
   width: 100%;
@@ -23724,7 +23735,7 @@ header .header {
   margin-top: 50px;
 }
 
-/* line 225, ../scss/_iw.scss */
+/* line 234, ../scss/_iw.scss */
 .clients-grids div.row div svg path, #contact-wrapper div.row div svg path,
 .clients-grids div.row div svg circle,
 #contact-wrapper div.row div svg circle,
@@ -23736,28 +23747,28 @@ header .header {
   -o-transition: all 0.3s ease-in;
 }
 
-/* line 230, ../scss/_iw.scss */
+/* line 239, ../scss/_iw.scss */
 .clients-grids div.row div svg, #contact-wrapper div.row div svg {
   width: 100%;
   height: 80%;
   cursor: pointer;
 }
-/* line 234, ../scss/_iw.scss */
+/* line 243, ../scss/_iw.scss */
 .clients-grids div.row div svg:hover > g path, #contact-wrapper div.row div svg:hover > g path, .clients-grids div.row div svg:hover > path, #contact-wrapper div.row div svg:hover > path, .clients-grids div.row div svg:hover > circle, #contact-wrapper div.row div svg:hover > circle, .clients-grids div.row div svg:hover > polygon, #contact-wrapper div.row div svg:hover > polygon {
   fill: #444444;
 }
 
-/* line 239, ../scss/_iw.scss */
+/* line 248, ../scss/_iw.scss */
 #work-wrapper h2 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
-/* line 243, ../scss/_iw.scss */
+/* line 252, ../scss/_iw.scss */
 .work-grids {
   padding-top: 5%;
 }
-/* line 245, ../scss/_iw.scss */
+/* line 254, ../scss/_iw.scss */
 .work-grids .intro {
   padding-left: 30px;
   padding-right: 30px;
@@ -23765,7 +23776,7 @@ header .header {
   p-padding-top: 30px;
 }
 
-/* line 253, ../scss/_iw.scss */
+/* line 262, ../scss/_iw.scss */
 .work-grids div.work-grids-wrapper {
   display: block;
   width: 100%;
@@ -23773,18 +23784,18 @@ header .header {
   padding-bottom: 15%;
   background-color: #EEEEEE;
 }
-/* line 260, ../scss/_iw.scss */
+/* line 269, ../scss/_iw.scss */
 .work-grids div.work-grids-wrapper .column, .work-grids div.work-grids-wrapper .columns {
   padding: 0;
 }
 
-/* line 267, ../scss/_iw.scss */
+/* line 277, ../scss/_iw.scss */
 .work-detail-wrapper {
   margin-top: 5%;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 271, ../scss/_iw.scss */
+/* line 281, ../scss/_iw.scss */
 .work-detail-wrapper h3 {
   color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23792,48 +23803,49 @@ header .header {
   font-size: 1.1em;
   font-weight: 700;
 }
-/* line 277, ../scss/_iw.scss */
+/* line 287, ../scss/_iw.scss */
 .work-detail-wrapper h1 {
   color: #484848;
   font-size: 56px;
   font-weight: bold;
+  padding-bottom: 20px;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 282, ../scss/_iw.scss */
+/* line 293, ../scss/_iw.scss */
 .work-detail-wrapper h1:hover {
   color: black;
 }
 
-/* line 285, ../scss/_iw.scss */
+/* line 296, ../scss/_iw.scss */
 #tristate div.work-hero-wrapper {
   background: #f1a15b;
   width: 100%;
   height: auto;
 }
 
-/* line 291, ../scss/_iw.scss */
+/* line 302, ../scss/_iw.scss */
 #cdc div.work-hero-wrapper {
   background: #000000;
   width: 100%;
   height: auto;
 }
 
-/* line 297, ../scss/_iw.scss */
+/* line 308, ../scss/_iw.scss */
 .work-detail .work-hero {
   margin-top: 40px;
 }
 
-/* line 301, ../scss/_iw.scss */
+/* line 312, ../scss/_iw.scss */
 .work-detail .white-bg-text {
   margin-top: 5%;
   margin-bottom: 5%;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 306, ../scss/_iw.scss */
+/* line 317, ../scss/_iw.scss */
 .work-detail .white-bg-text h4 {
   color: #5c5c5c;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23843,31 +23855,31 @@ header .header {
   margin-bottom: 2%;
 }
 
-/* line 316, ../scss/_iw.scss */
+/* line 327, ../scss/_iw.scss */
 .work-detail .work-category {
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #444444;
 }
-/* line 320, ../scss/_iw.scss */
+/* line 331, ../scss/_iw.scss */
 .work-detail .work-category .content {
   background-color: #444444;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
-/* line 325, ../scss/_iw.scss */
+/* line 336, ../scss/_iw.scss */
 .work-detail .work-category .content h4 {
   color: rgba(245, 245, 245, 0.85);
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 331, ../scss/_iw.scss */
+/* line 342, ../scss/_iw.scss */
 .work-detail .work-category .content p {
   color: #F5F5F5;
 }
-/* line 334, ../scss/_iw.scss */
+/* line 345, ../scss/_iw.scss */
 .work-detail .work-category .content ul {
   list-style: none;
   color: #F5F5F5;
@@ -23875,7 +23887,7 @@ header .header {
   margin-top: 20px;
 }
 
-/* line 343, ../scss/_iw.scss */
+/* line 354, ../scss/_iw.scss */
 .work-detail ul.approach {
   list-style: none;
   text-transform: uppercase;
@@ -23883,15 +23895,16 @@ header .header {
   font-size: 1.2em;
   color: #828282;
   text-align: center;
-  margin-top: 3%;
-  margin-bottom: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
-/* line 352, ../scss/_iw.scss */
+/* line 363, ../scss/_iw.scss */
 .work-detail ul.approach i {
   font-size: 2.4em;
+  padding-bottom: 10px;
 }
 
-/* line 358, ../scss/_iw.scss */
+/* line 370, ../scss/_iw.scss */
 .work-detail div.images {
   width: 100%;
   background-color: #e8e8e8;
@@ -23899,11 +23912,11 @@ header .header {
   padding-bottom: 10%;
 }
 
-/* line 365, ../scss/_iw.scss */
+/* line 377, ../scss/_iw.scss */
 .work-detail div.work-recommend {
   margin-top: 3%;
 }
-/* line 367, ../scss/_iw.scss */
+/* line 379, ../scss/_iw.scss */
 .work-detail div.work-recommend h5 {
   color: darkgray;
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -23911,7 +23924,7 @@ header .header {
   font-size: 0.8em;
   font-weight: 700;
 }
-/* line 374, ../scss/_iw.scss */
+/* line 386, ../scss/_iw.scss */
 .work-detail div.work-recommend h1 {
   color: #7b7b7b;
   font-size: 36px;
@@ -23921,11 +23934,11 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 379, ../scss/_iw.scss */
+/* line 391, ../scss/_iw.scss */
 .work-detail div.work-recommend h1:hover {
   color: black;
 }
-/* line 381, ../scss/_iw.scss */
+/* line 393, ../scss/_iw.scss */
 .work-detail div.work-recommend h3 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   color: #484848;
@@ -23937,50 +23950,50 @@ header .header {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-/* line 388, ../scss/_iw.scss */
+/* line 400, ../scss/_iw.scss */
 .work-detail div.work-recommend h3:hover {
   color: orange;
 }
 
-/* line 394, ../scss/_iw.scss */
+/* line 406, ../scss/_iw.scss */
 #contact-wrapper h1, #contact-wrapper h2, #contact-wrapper h3, #contact-wrapper h4, #contact-wrapper h5 {
   font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
   text-align: center;
 }
-/* line 399, ../scss/_iw.scss */
+/* line 411, ../scss/_iw.scss */
 #contact-wrapper .intro {
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 402, ../scss/_iw.scss */
+/* line 414, ../scss/_iw.scss */
 #contact-wrapper .intro p:first-of-type {
   padding-top: 30px;
 }
 
-/* line 408, ../scss/_iw.scss */
+/* line 420, ../scss/_iw.scss */
 #contact-wrapper .offices {
   margin-bottom: 5%;
   padding-top: 3%;
 }
-/* line 411, ../scss/_iw.scss */
+/* line 423, ../scss/_iw.scss */
 #contact-wrapper .offices p {
   text-align: center;
   text-transform: capitalize;
 }
-/* line 415, ../scss/_iw.scss */
+/* line 427, ../scss/_iw.scss */
 #contact-wrapper .offices h4 {
   color: #767676;
   text-transform: uppercase;
 }
 
-/* line 421, ../scss/_iw.scss */
+/* line 433, ../scss/_iw.scss */
 #contact-map {
   position: relative;
   padding-bottom: 40%;
   height: 0;
   overflow-x: hidden;
 }
-/* line 427, ../scss/_iw.scss */
+/* line 439, ../scss/_iw.scss */
 #contact-map iframe {
   position: absolute;
   top: -40px;
@@ -23991,19 +24004,19 @@ header .header {
 }
 
 @media only screen and (min-width: 75em) {
-  /* line 442, ../scss/_iw.scss */
+  /* line 454, ../scss/_iw.scss */
   .header h1 span {
     display: none;
   }
 
-  /* line 446, ../scss/_iw.scss */
+  /* line 458, ../scss/_iw.scss */
   .landing-grids,
   .work-grids div.work-grids-wrapper {
     padding-top: 5%;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 462, ../scss/_iw.scss */
+  /* line 474, ../scss/_iw.scss */
   .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -24011,7 +24024,7 @@ header .header {
     -o-transition: all 0.35s ease-in-out;
   }
 
-  /* line 465, ../scss/_iw.scss */
+  /* line 477, ../scss/_iw.scss */
   .landing-grids .full img,
   .work-grids .full img {
     transition: all 0.25s ease-in;
@@ -24020,20 +24033,20 @@ header .header {
     -o-transition: all 0.25s ease-in;
   }
 
-  /* line 469, ../scss/_iw.scss */
+  /* line 481, ../scss/_iw.scss */
   .landing-grids .full .overlay,
   .work-grids .full .overlay {
     opacity: 0;
     display: inline-block;
     cursor: pointer;
   }
-  /* line 474, ../scss/_iw.scss */
+  /* line 486, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover,
   .work-grids .full .overlay:hover {
     opacity: 1;
   }
 
-  /* line 478, ../scss/_iw.scss */
+  /* line 490, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover + a > img,
   .work-grids .full .overlay:hover + a > img {
     transform: scale(0.98);
@@ -24041,7 +24054,7 @@ header .header {
     -moz-transform: scale(0.98);
   }
 
-  /* line 482, ../scss/_iw.scss */
+  /* line 494, ../scss/_iw.scss */
   .landing-grids .full .overlay:hover > .overlay-inner,
   .work-grids .full .overlay:hover > .overlay-inner {
     transform: translateY(-50px);
@@ -24050,37 +24063,54 @@ header .header {
   }
 }
 @media only screen and (max-width: 40em), only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 490, ../scss/_iw.scss */
+  /* line 502, ../scss/_iw.scss */
   .typed {
     display: none;
   }
 
-  /* line 493, ../scss/_iw.scss */
+  /* line 505, ../scss/_iw.scss */
   .header h1 span {
     display: inline-block;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 74.938em) {
-  /* line 500, ../scss/_iw.scss */
+  /* line 512, ../scss/_iw.scss */
   .desc .desc-inner h1 {
     font-size: 20px;
     line-height: 24px;
   }
 
-  /* line 504, ../scss/_iw.scss */
+  /* line 516, ../scss/_iw.scss */
   .landing-grids .text-only p {
     font-size: 14px;
     font-weight: 400;
   }
 
-  /* line 508, ../scss/_iw.scss */
+  /* line 521, ../scss/_iw.scss */
+  .work-grids .full .overlay-inner {
+    padding-left: 40px;
+  }
+
+  /* line 524, ../scss/_iw.scss */
   .work .full .overlay h1 {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+
+  /* line 529, ../scss/_iw.scss */
+  .work .full .overlay p {
+    display: none;
+  }
+
+  /* line 532, ../scss/_iw.scss */
+  .landing-grids .full .overlay h1 {
+    font-size: 30px;
+    line-height: 34px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 519, ../scss/_iw.scss */
+  /* line 543, ../scss/_iw.scss */
   .landing-grids .img-left .first:after {
     border: solid transparent;
     content: " ";
@@ -24095,7 +24125,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 522, ../scss/_iw.scss */
+  /* line 546, ../scss/_iw.scss */
   .landing-grids .img-right .first:after {
     border: solid transparent;
     content: " ";
@@ -24110,7 +24140,7 @@ header .header {
     z-index: 5;
   }
 
-  /* line 526, ../scss/_iw.scss */
+  /* line 550, ../scss/_iw.scss */
   .desc-inner {
     padding-left: 15px;
     padding-right: 15px;
@@ -24118,7 +24148,7 @@ header .header {
     padding-bottom: 10%;
   }
 
-  /* line 533, ../scss/_iw.scss */
+  /* line 557, ../scss/_iw.scss */
   .full .overlay {
     width: 100%;
     height: 100%;
@@ -24126,18 +24156,18 @@ header .header {
     display: inline-block;
     background: #F9F9F9;
   }
-  /* line 539, ../scss/_iw.scss */
+  /* line 563, ../scss/_iw.scss */
   .full .overlay .overlay-inner {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  /* line 544, ../scss/_iw.scss */
+  /* line 568, ../scss/_iw.scss */
   .full .overlay .overlay-inner p {
     display: none;
   }
-  /* line 547, ../scss/_iw.scss */
+  /* line 571, ../scss/_iw.scss */
   .full .overlay .overlay-inner h3 {
     color: darkgray;
     font-family: "Zona Pro W01", Helvetica, Arial, sans-serif;
@@ -24145,36 +24175,40 @@ header .header {
     font-size: 0.8em;
     font-weight: 700;
   }
-  /* line 554, ../scss/_iw.scss */
+  /* line 578, ../scss/_iw.scss */
   .full .overlay .overlay-inner h1 {
     color: #484848;
     font-size: 30px;
     font-weight: 400;
   }
+  /* line 583, ../scss/_iw.scss */
+  .full .overlay .overlay-inner button {
+    display: none;
+  }
 
-  /* line 561, ../scss/_iw.scss */
+  /* line 588, ../scss/_iw.scss */
   .work .full .overlay p {
     display: inline-block;
     color: #444444;
   }
 
-  /* line 565, ../scss/_iw.scss */
+  /* line 592, ../scss/_iw.scss */
   .text-only,
   .text-only .desc,
   .text-only .desc .desc-inner {
     height: 300px !important;
   }
 
-  /* line 573, ../scss/_iw.scss */
+  /* line 600, ../scss/_iw.scss */
   #contact-map {
     padding-bottom: 70%;
   }
 
-  /* line 579, ../scss/_iw.scss */
+  /* line 606, ../scss/_iw.scss */
   .work-detail-wrapper h3 {
     font-size: 1em;
   }
-  /* line 581, ../scss/_iw.scss */
+  /* line 608, ../scss/_iw.scss */
   .work-detail-wrapper h1 {
     font-size: 36px;
     line-height: 36px;

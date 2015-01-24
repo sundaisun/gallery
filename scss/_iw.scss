@@ -112,6 +112,15 @@ header .header {
         display: none;
         @include gradient();
     }
+    button{
+        background-color:transparent;
+        border-color:darken($fade-orange,5%);
+        padding:10px 30px;
+        outline:none;
+        &:hover{
+            background-color:darken($fade-orange,10%);
+        }
+    }
 }
 //GRID TEXT
 .desc {
@@ -263,6 +272,7 @@ header .header {
 }
 //grid hover styles are up in landing-grids and below in media query
 
+
 //WORK INNER PAGES
 .work-detail-wrapper{
     margin-top:5%;
@@ -278,6 +288,7 @@ header .header {
         color: darken($white-smoke, 68%);
         font-size: 56px;
         font-weight:bold;
+        padding-bottom:20px;
         @include ease-in-out(0.4s);
          &:hover {color: darken($white-smoke, 100%);}}
     }
@@ -347,10 +358,11 @@ header .header {
     font-size:1.2em;
     color:darken($white-smoke,45%);
     text-align: center;
-    margin-top:3%;
-    margin-bottom:5%;
+    margin-top:4%;
+    margin-bottom:4%;
     i{
         font-size:2.4em;
+        padding-bottom:10px;
     }
 }
 
@@ -505,9 +517,21 @@ header .header {
         font-size: 14px;
         font-weight: 400;
     }
+    
+    .work-grids .full .overlay-inner{
+        padding-left:40px;
+    }
     .work .full .overlay h1 {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom:10px;
+    }
+    .work .full .overlay p {
+        display:none;
+    }
+    .landing-grids .full .overlay h1{
+        font-size:30px;
+        line-height: 34px;
     }
 }
 @media #{$small-only}
@@ -555,6 +579,9 @@ header .header {
                 color: darken($white-smoke, 68%);
                 font-size: 30px;
                 font-weight: 400;
+            }
+            button{
+                display:none;
             }
         }
     }

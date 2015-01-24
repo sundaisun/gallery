@@ -2,7 +2,7 @@
 </header>
 <!--HEADER-->
 
-<div class="work-detail" id="cdc">
+<div class="work-detail" id="lacf">
     <section>
        <div class="row work-detail-wrapper">
         <h3>case study</h3>
@@ -16,7 +16,6 @@
                     jwplayer('playermNGfcZLlvsQJ').setup({
                         file:           'http://staging.iwgroupinc.com/2014/IW/redesign/video/lacf.mp4',
         image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/lacf-bg.png',
-        title: 'Los Angeles County Fair',
         width: '100%',
         aspectratio: '16:9'
     });

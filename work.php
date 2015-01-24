@@ -16,8 +16,9 @@
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>digital</h3>
-                                <a href="works/nytristate.php"><h1>New York Tristate Website</h1></a>
-                                <p>McDonald's Total Market. For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <a href="works/nytristate.php"><h1>NY Tristate Website</h1></a>
+                                <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <a href="works/nytristate.php"><button>More</button></a>
                             </div>
                         </div>
                         <a href="works/nytristate.php"><img src="images/tristate.jpg"></a>
@@ -29,6 +30,7 @@
                                 <h3>tv</h3>
                                 <a href="works/cdc.php"><h1>CDC Protect Family</h1></a>
                                 <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <a href="works/cdc.php"><button>More</button></a>
                             </div>
                         </div>
                         <a href="works/cdc.php"><img src="images/cdc.jpg"></a>
@@ -37,12 +39,13 @@
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>print</h3>
-                                <h1>Coca-Cola Wakiki</h1>
-                                <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <h3>case study</h3>
+                                <a href="works/covered-california.php"><h1>Covered California</h1></a>
+                                <p>The success of the ACA was dependent, to a large extent, on the success of Covered California.</p>
+                                <a href="works/covered-california.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/coke.png">
+                        <a href="works/covered-california.php"><img src="images/cc.jpg"></a>
                     </div>
                     <!--full-->
                 </div>
@@ -73,12 +76,13 @@
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>social media</h3>
-                                <h1>Godiva Mid-Autumn</h1>
-                                <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <h3>case study</h3>
+                                <a href="works/godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                                <p>We came up with a well-integrated plan with a message that would resonate strongly with client's primary audience.</p>
+                                <a href="works/godiva.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/godiva.jpg">
+                        <a href="works/godiva.php"><img src="images/godiva.jpg"></a>
                     </div>
                     <!--full-->
                 </div>
@@ -90,20 +94,22 @@
                                 <h3>digital</h3>
                                 <h1>Los Angeles County Fair</h1>
                                 <p>We can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <a href="works/lacf.php"><button>More</button></a>
                             </div>
                         </div>
                         <img src="images/lacf.jpg">
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="overlay">
+                       <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>digital</h3>
-                                <h1>White Chocolate Mocha</h1>
-                                <p>We can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <h3>case study</h3>
+                                <a href="works/census-2010.php"><h1>Census 2010</h1></a>
+                                <p>IW Group conducted one of the industry’s most historic and largest multicultural paid media campaigns in the country.</p>
+                                <a href="works/census-2010.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/mccafe.png">
+                        <a href="works/census-2010.php"><img src="images/work-inner/census/census.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
