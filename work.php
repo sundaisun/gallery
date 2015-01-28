@@ -11,8 +11,8 @@
             </div>
             <!--intro-->
             <div class="work-grids-wrapper">
-                <div class="row work">
-                    <div class="small-12 medium-4 columns full wow fadeInUp">
+                <div class="row work first-row">
+                    <div class="small-12 medium-4 columns full animated fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>digital</h3>
@@ -24,7 +24,7 @@
                         <a href="works/nytristate.php"><img src="images/tristate.jpg"></a>
                     </div>
                     <!--full-->
-                    <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="small-12 medium-4 columns full animated fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>tv</h3>
@@ -36,7 +36,7 @@
                         <a href="works/cdc.php"><img src="images/cdc.jpg"></a>
                     </div>
                     <!--full-->
-                    <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="small-12 medium-4 columns full animated fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>case study</h3>
@@ -92,12 +92,12 @@
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>digital</h3>
-                                <h1>Los Angeles County Fair</h1>
+                                <a href="works/lacf.php"><h1>Los Angeles County Fair</h1></a>
                                 <p>We can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
                                 <a href="works/lacf.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/lacf.jpg">
+                        <a href="works/lacf.php"><img src="images/lacf.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">

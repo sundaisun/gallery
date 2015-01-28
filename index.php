@@ -14,7 +14,6 @@
 </header>
 <!--HEADER-->
 
-
 <section>
     <div class="landing-grids" data-equalizer>
         <div class="row">
@@ -68,6 +67,7 @@
                             <h3>case study</h3>
                             <a href="works/nytristate.php"><h1>New York Tristate Website</h1></a>
                             <p>McDonald's Total Market. For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                            <a href="works/nytristate.php"><button>More</button></a>
                         </div>
                     </div>
                     <a href="works/nytristate.php"><img src="images/tristate.jpg"></a>

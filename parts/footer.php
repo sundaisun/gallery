@@ -17,17 +17,21 @@
             </div>
         </div>
     </footer>
-
+    </div><!--loader-main-->
+</div><!--loader-wrapper-->
 
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/pathLoader.js"></script>
+    <script src="/js/loader.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/wow.js"></script>
     <script>
         var wow = new WOW(
             {
-                offset:200
+                offset:150
             });
         wow.init();
     </script>
