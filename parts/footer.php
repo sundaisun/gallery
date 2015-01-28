@@ -30,16 +30,7 @@
             });
         wow.init();
     </script>
-    <script src="/js/typed.js"></script>
-    <script>
-  $(function(){
-      $(".typed").typed({
-        strings: ["does <strong>this</strong> and <strong>that</strong> and total market stuff"],
-        typeSpeed: 60,
-        showCursor:false
-      });
-  });
-</script>
+   
 <script>
     //sticky footer
          $(window).bind("load", function () {
