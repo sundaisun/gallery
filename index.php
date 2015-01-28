@@ -1,4 +1,5 @@
-<?php $active="home" ; include( "parts/header.php"); ?>
+<?php $active="home" ; include( "parts/header-loader.php"); ?>
+
 <div class="row header">
     <div class="large-12 columns">
         <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
@@ -201,4 +202,4 @@
     </div>
     <!--landing grids-->
 </section>
-<?php include( "parts/footer.php"); ?>
+<?php include( "parts/footer-loader.php"); ?>

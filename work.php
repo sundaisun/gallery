@@ -12,7 +12,7 @@
             <!--intro-->
             <div class="work-grids-wrapper">
                 <div class="row work first-row">
-                    <div class="small-12 medium-4 columns full animated fadeInUp">
+                    <div class="small-12 medium-4 columns full wow fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>digital</h3>
@@ -24,7 +24,7 @@
                         <a href="works/nytristate.php"><img src="images/tristate.jpg"></a>
                     </div>
                     <!--full-->
-                    <div class="small-12 medium-4 columns full animated fadeInUp">
+                    <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>tv</h3>
@@ -36,7 +36,7 @@
                         <a href="works/cdc.php"><img src="images/cdc.jpg"></a>
                     </div>
                     <!--full-->
-                    <div class="small-12 medium-4 columns full animated fadeInUp">
+                    <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>case study</h3>

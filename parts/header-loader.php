@@ -24,9 +24,21 @@
 </head>
 
 <body>
-  
+  <div id="loader" class="loader-wrapper">
    <header>
+    <div class="loader-header">
+     <h1 class="loader-logo">
+         <?php include("images/iw-loader.svg"); ?>
+     </h1><!--loader-logo-->
+     <div class="loader-circle">
+         <svg class="loader-inner" width="60px" height="60px" viewBox="0 0 80 80">
+                <path class="loader-circle-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                <path id="loader-circle-circle" class="loader-circle-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+         </svg>
+     </div><!--loader-circle-->
+    </div><!--loader-header-->
 <!--      main content     -->
+    <div class="loader-main">
       <nav class="top-bar" data-topbar role="navigation">
           <ul class="title-area">
             <a href="/../index.php"><li class="name"></li></a>
