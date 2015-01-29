@@ -11,7 +11,7 @@
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
-           <img class="work-hero-img wow zoomIn" src="../images/work-inner/tristate.jpg" alt="hero">
+           <img class="work-hero-img wow zoomIn" data-wow-delay="0.2s" src="../images/work-inner/tristate.jpg" alt="hero">
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
