@@ -4,6 +4,7 @@
     <div class="large-12 columns">
         <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
         <h1 class="typed"></h1>
+        <div id="scroll-down"><i class="fa fa-chevron-down"></i></div>
     </div>
 </div>
 <!--

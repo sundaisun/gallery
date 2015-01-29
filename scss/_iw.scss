@@ -33,6 +33,19 @@ header .header {
         height: 55px;
     }
 }
+
+//SCROLL DOWN BTN
+#scroll-down{
+    @include centered();
+    margin-top:13%;
+    @include flight();
+    i{
+        color:$fade-orange;
+        font-size:2em;
+    }
+}
+
+
 //LANDING PAGE GALLERY
 .landing-grids {
     display: block;
