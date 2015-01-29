@@ -24452,4 +24452,13 @@ header .header {
     font-size: 36px;
     line-height: 36px;
   }
+
+  /* line 615, ../scss/_iw.scss */
+  ul.approach li {
+    margin-bottom: 45px;
+  }
+  /* line 617, ../scss/_iw.scss */
+  ul.approach li:last-child {
+    margin-bottom: 10px;
+  }
 }
