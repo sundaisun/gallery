@@ -153,14 +153,14 @@
 
 /* Content animations */
 .loaded .loader-main{
-	-webkit-animation: animLoadedContent 0.7s cubic-bezier(0.7,0,0.3,1) both;
-	animation: animLoadedContent 0.7s cubic-bezier(0.7,0,0.3,1) both;
+	-webkit-animation: animLoadedContent 0.8s cubic-bezier(0.7,0,0.3,1) both;
+	animation: animLoadedContent 0.8s cubic-bezier(0.7,0,0.3,1) both;
 }
 
-.loaded .work-grids .first-row{
-	-webkit-animation: animLoadedContent 1.1s cubic-bezier(0.7,0,0.3,1) both;
-	animation: animLoadedContent 1.1s cubic-bezier(0.7,0,0.3,1) both;
-}
+//.loaded .work-grids .first-row{
+//	-webkit-animation: animLoadedContent 1.1s cubic-bezier(0.7,0,0.3,1) both;
+//	animation: animLoadedContent 1.1s cubic-bezier(0.7,0,0.3,1) both;
+//}
 
 
 @-webkit-keyframes animLoadedContent {

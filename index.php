@@ -4,15 +4,15 @@
     <div class="large-12 columns">
         <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
         <h1 class="typed"></h1>
-        <div id="scroll-down"><i class="fa fa-chevron-down"></i></div>
+        <div id="scroll-down">Scroll Down<br><i class="fa fa-chevron-down"></i></div>
     </div>
-</div>
 <!--
     <video autoplay loop muted id="vid-bg">
-            <source src="video/Slowmotiondrop.webm" type="video/webm"></source>
-            <source src="video/Slowmotiondrop.mp4" type="video/mp4"></source>
+            <source src="video/fluidLightcore_6.webm" type="video/webm"></source>
+            <source src="video/fluidLightcore_6.mp4" type="video/mp4"></source>
     </video>
 -->
+</div>
 </header>
 <!--HEADER-->
 
@@ -25,15 +25,29 @@
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
-                                    <h3>work</h3>
-                                    <a href="#"><h1>Black Friday</h1></a>
+                                    <h3>insight</h3>
+                                    <a href="#" data-reveal-id="videoModal">
+<h1>Things to know about Asian American market</h1></a>
                                 </div>
+                                <div id="videoModal" class="reveal-modal large" data-reveal="">
+                                      <div class="flex-video" style="display: block;">
+                                                   <div id='insight01'></div>
+                                                    <script type='text/javascript'>
+jwplayer('insight01').setup({
+    file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/3AF_Lexus_cutdown.mp4',                                                   image:'http://staging.iwgroupinc.com/2014/IW/redesign/images/asianamerican-bg.jpg',
+    width: '100%',
+    aspectratio: '16:9'
+                                        });
+                                                    </script>
+                                      </div>
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                                </div><!--reveal modal-->
                             </div>
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first">
-                            <a href="#">
-                                <img src="images/walmart.jpg">
+                             <a href="#" data-reveal-id="videoModal">
+                                <img src="images/asianamerican.jpg">
                             </a>
                         </div>
                     </div>

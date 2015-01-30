@@ -23,6 +23,13 @@
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script>
+    $(document).foundation('reveal',{
+        animation:'fade',
+        animation_speed:300,
+        close_on_background_click: true
+    });
+    </script>
     <script src="/js/classie.js"></script>
     <script src="/js/pathLoader.js"></script>
     <script src="/js/loader.js"></script>

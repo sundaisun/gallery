@@ -39,8 +39,9 @@ header .header {
     @include centered();
     margin-top:13%;
     @include flight();
+    color:$fade-orange;
+    font-size:0.8em;
     i{
-        color:$fade-orange;
         font-size:2em;
     }
 }
@@ -186,6 +187,11 @@ header .header {
         line-height: 46px;
     }
 }
+
+.flex-video{
+    padding-top:5rem;
+}
+
 //FOOTER
 .footer-btm {
     background-color: $oil;
@@ -476,14 +482,14 @@ header .header {
 }
 @media #{$medium-up}
 {
-    //    header video#vid-bg{
-    //        width:100%;
-    //        background-size:cover;
-    //        position:absolute;
-    //        left:0;
-    //        top:0;
-    //        z-index:-999;
-    //    }
+//        video#vid-bg{
+//            width:100%;
+//            background-size:cover;
+//            position:absolute;
+//            left:0;
+//            top:0;
+//            z-index:-999;
+//        }
     //HOVER EFFECT ON MED AND LARGE SIZES
     .landing-grids .full .overlay, .landing-grids .full .overlay-inner, .work-grids .full .overlay, .work-grids .full .overlay-inner {
         @include ease-in-out(0.35s);
@@ -550,9 +556,9 @@ header .header {
 }
 @media #{$small-only}
 {
-    //    header video#vid-bg{
-    //        display:none;
-    //    }
+//        header video#vid-bg{
+//            display:none;
+//        }
     //HIDE ARROWS ON MOBILE
     .landing-grids .img-left .first:after {
         @include no-arrow();
