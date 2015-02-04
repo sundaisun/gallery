@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery</title>
+     <title>IW Group: Multicultural Agency</title>
+     <meta name="title" content="IW Group: Multicultural Agency" />
     <meta name="description" content="Total market advertising agency.">
     <meta name="keywords" content="IW,advertising,Asian,PR">
     <meta name="mobile-web-app-capable" content="yes">
@@ -13,12 +14,13 @@
     <meta property="og:title" content="IW Group">
     <meta property="og:description" content="Total market advertising agency">
 
-
+    
     <link rel="stylesheet" href="/stylesheets/app.css" />
     <!--with backslash in the begining, you are making files relative to root folder-->
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/5c5a5723-82d0-4ca5-b695-f38dcb91eca3.css"/>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/vendor/animate.css">
+    <link rel="icon" type="image/png" href="/images/fav.png">
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="http://jwpsrv.com/library/Wjf78IryEeS9JQoORWfmyA.js"></script>
 </head>

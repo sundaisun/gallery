@@ -14,7 +14,7 @@
            <div id='playermNGfcZLlvsQJ'></div>
                 <script type='text/javascript'>
                     jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:           'http://staging.iwgroupinc.com/2014/IW/redesign/videos/CDC_Protect%20Family_MAND_30.mp4',
+                        file:           'http://staging.iwgroupinc.com/2014/IW/redesign/video/CDC_Protect%20Family_MAND_30.mp4',
         image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/cdc.jpg',
         title: 'CDC Protect Family',
         width: '100%',

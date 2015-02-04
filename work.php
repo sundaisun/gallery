@@ -54,23 +54,25 @@
                     <div class="small-12 medium-4 columns full wow fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>tv</h3>
-                                <h1>FIFA World Cup</h1>
+                                <h3>Integrated Campaign</h3>
+                                <a href="works/world-cup.php"><h1>FIFA World Cup</h1></a>
                                 <p>We can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <a href="works/world-cup.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/fifa.gif">
+                        <a href="works/world-cup.php"><img src="images/fifa.gif"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>digital</h3>
-                                <h1>Free Coffee Event</h1>
-                                <p>For featured content, we can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <h3>case study</h3>
+                                <a href="works/dragon-boat.php"><h1>Dragon Boat Game</h1></a>
+                                <p>With strong cultural insights and Snoopy – the campaign captured the attention of online customers and broadened MetLife’s brand exposure to a nationwide audience.</p>
+                                <a href="works/dragon-boat.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/freecoffee.jpg">
+                        <a href="works/dragon-boat.php"><img src="images/metlife.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.4s">

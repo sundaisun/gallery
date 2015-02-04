@@ -2,9 +2,9 @@
 
 <div class="row header">
     <div class="large-12 columns">
-        <h1>IW Group is a company that<span> does <strong>this</strong> and <strong>that</strong> and total market stuff</span></h1>
+        <h1><span>Get Shit Done Now.</span></h1>
         <h1 class="typed"></h1>
-        <div id="scroll-down">Scroll Down<br><i class="fa fa-chevron-down"></i></div>
+        <a href="#landing-grids"><div id="scroll-down"><i class="fa fa-chevron-down"></i></div></a>
     </div>
 <!--
     <video autoplay loop muted id="vid-bg">
@@ -17,7 +17,7 @@
 <!--HEADER-->
 
 <section>
-    <div class="landing-grids" data-equalizer>
+    <div class="landing-grids" id="landing-grids" data-equalizer>
         <div class="row">
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
@@ -213,7 +213,9 @@ jwplayer('insight01').setup({
             </article>
         </div>
         <!-- ===========ROW THREE================ -->
-
+            <div class="row">
+             <a class="smw small-3 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>
+            </div>
     </div>
     <!--landing grids-->
 </section>

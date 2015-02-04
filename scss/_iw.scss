@@ -15,7 +15,13 @@ header .header {
     padding-right: 5%;
     text-align: center;
     color: $monsoon;
+    h1{
+        font-family:$font-family-sans-serif;
+    }
 }
+
+
+
 //NAV
 .top-bar-section ul li a {
     @include ease-in-out();
@@ -40,14 +46,18 @@ header .header {
     margin-top:13%;
     @include flight();
     color:$fade-orange;
-    font-size:0.8em;
+    cursor: pointer;
     i{
-        font-size:2em;
+        font-size:2.2em;
     }
 }
 
 
 //LANDING PAGE GALLERY
+#landing-grids{
+    @include ease-in-out();
+}
+
 .landing-grids {
     display: block;
     width: 100%;
@@ -191,6 +201,23 @@ header .header {
 .flex-video{
     padding-top:5rem;
 }
+
+a.smw{    
+     display: block;
+     text-align: center;
+     background-color:transparent;
+     border: 1px solid;
+     border-color:darken($fade-orange,5%);
+     color:$fade-orange;
+     padding:10px 30px !important;
+     margin-top:5%;
+     outline:none;
+     @include ease-in-out();
+                &:hover{
+                    background-color:darken($fade-orange,10%);
+                    color:$snow;
+                }}
+
 
 //FOOTER
 .footer-btm {

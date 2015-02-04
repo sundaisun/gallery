@@ -6,8 +6,8 @@
     <div class="clients-grids">
        <div class="row intro">
         <h2>Clients</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nostrum quo, dolorem hic porro.</p>
-        <p>Iure perspiciatis repellendus dignissimos saepe voluptates modi, corporis eum omnis voluptatibus dolore distinctio facilis, neque fuga rem nemo dolores facere eius! Magnam. Distinctio obcaecati, excepturi similique quibusdam, quas facere quasi rem quisquam expedita ex, ab neque quis blanditiis labore assumenda sit quos voluptatibus totam.</p>
+        <p>IW Group has consistently been ranked among the top Asian-American marketing firms in the U.S., for its creativity and ability to generate success for its clients.</p>
+        <p>In 2010, the Association of National Advertisers named IW as the "Agency of the Decade" for the most Asian-American advertising campaigns won. Other awards include Creative Agency of the Year by the Asian American Advertising Federation and the Grand Prize Award in the Asian Creative category by the Association of National Advertisers.</p>
         </div>
         <div class="clients-grids-wrapper">
         <div class="row clients">

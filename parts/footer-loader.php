@@ -46,13 +46,20 @@
     <script>
   $(function(){
       $(".typed").typed({
-        strings: ["does <strong>this</strong> and <strong>that</strong> and total market stuff"],
+        strings: ["^1500 Get Shit Done Now."],
         typeSpeed: 60,
         showCursor:false
       });
   });
 </script>
 <script>
+    //smooth scrolling
+    $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
     //sticky footer
          $(window).bind("load", function () {
         var footer = $("#footer");

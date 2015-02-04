@@ -26,10 +26,10 @@
 -->
                <script type='text/javascript'>
                     jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/GODIVA-LunarNewYear-SocialMedia-SoSweet.mp4',
+                        file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/Godiva_show_0819.mp4',
                         width: '100%',
                         aspectratio: '16:9',
-                        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/godiva-bg.png'
+                        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/godiva-bg.jpg'
     });
                 </script>
            </div><!--row hero-->
