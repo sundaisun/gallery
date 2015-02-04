@@ -214,7 +214,7 @@ jwplayer('insight01').setup({
         </div>
         <!-- ===========ROW THREE================ -->
             <div class="row">
-             <a class="smw small-3 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>
+             <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>
             </div>
     </div>
     <!--landing grids-->

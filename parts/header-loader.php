@@ -40,7 +40,7 @@
      </div><!--loader-circle-->
     </div><!--loader-header-->
 <!--      main content     -->
-    <div class="loader-main">  <!--======Wrap all content below loading screen under .loader-main ======-->
+    
       <nav class="top-bar" data-topbar role="navigation">
           <ul class="title-area">
             <a href="/../index.php"><li class="name"></li></a>
@@ -57,3 +57,4 @@
     </ul>
   </section>
         </nav>
+        <div class="loader-main">  <!--======Wrap all content below loading screen under .loader-main ======-->

@@ -34,7 +34,17 @@
     <script src="/js/pathLoader.js"></script>
     <script src="/js/loader.js"></script>
     <script src="/js/app.js"></script>
-    <script src="/js/wow.js"></script>
+    <script src="/js/typed.js"></script>
+    <script>
+  $(function(){
+      $(".typed").typed({
+        strings: ["^1500 Get Work Done Now."],
+        typeSpeed: 60,
+        showCursor:false
+      });
+  });
+</script>
+<script src="/js/wow.js"></script>
     <script>
         var wow = new WOW(
             {
@@ -42,22 +52,12 @@
             });
         wow.init();
     </script>
-    <script src="/js/typed.js"></script>
-    <script>
-  $(function(){
-      $(".typed").typed({
-        strings: ["^1500 Get Shit Done Now."],
-        typeSpeed: 60,
-        showCursor:false
-      });
-  });
-</script>
 <script>
     //smooth scrolling
     $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    }, 800);
     return false;
 });
     //sticky footer
@@ -74,6 +74,7 @@
         }
     });
 </script>
+
 </body>
 
 </html>

@@ -9,6 +9,7 @@
 
 //HEADER
 header .header {
+    margin-top:65px;
     padding-top: 16%;
     padding-bottom: 20%;
     padding-left: 5%;
@@ -20,12 +21,20 @@ header .header {
     }
 }
 
-
-
 //NAV
 .top-bar-section ul li a {
     @include ease-in-out();
 }
+
+nav.top-bar{
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    z-index: 99;
+}
+
+
 //LOGO
 .top-bar .title-area {
     padding-left: 5%;
@@ -255,6 +264,7 @@ a.smw{
 }
 //CLIENTS PAGE
 #clients-wrapper {
+    margin-top:65px;
     h1, h2, h3, h4, h5 {
         font-family: $header-sans;
         text-align: center;
@@ -292,6 +302,9 @@ a.smw{
     }
 }
 //WORK PAGE
+#work-wrapper{
+    margin-top:65px;
+}
 #work-wrapper h2 {
     font-family: $header-sans;
     text-align: center;
@@ -321,6 +334,9 @@ a.smw{
 
 
 //WORK INNER PAGES
+.work-detail{
+    margin-top:105px;
+}
 .work-detail-wrapper{
     margin-top:5%;
     padding-left: 30px;
@@ -450,6 +466,7 @@ a.smw{
 
 //CONTACT
 #contact-wrapper{
+    margin-top:65px;
     h1, h2, h3, h4, h5 {
         font-family: $header-sans;
         text-align: center;
@@ -664,5 +681,15 @@ a.smw{
             margin-bottom:10px;
         }
     }
+    
+    //DISABLE WOW ANIMATION ON MOBILE
+    .wow {
+          visibility: visible !important;
+          -webkit-animation: none !important;
+             -moz-animation: none !important;
+               -o-animation: none !important;
+              -ms-animation: none !important;
+                  animation: none !important;
+}
     
 }
