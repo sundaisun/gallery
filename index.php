@@ -56,15 +56,16 @@ jwplayer('insight01').setup({
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
-                                    <h3>work</h3>
-                                    <a href="#"><h1>White Chocolate Mocha</h1></a>
+                                    <h3>case study</h3>
+                                    <a href="works/godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                                    <p>We came up with a well-integrated plan with a message that would resonate strongly with client's primary audience.</p>
                                 </div>
                             </div>
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first">
-                            <a href="">
-                                <img src="images/mccafe.png">
+                            <a href="works/godiva.php">
+                                <img src="images/godiva.jpg">
                             </a>
                         </div>
                     </div>
@@ -151,6 +152,7 @@ jwplayer('insight01').setup({
         </div>
         <!-- ===========ROW TWO================ -->
 
+<!--
         <div class="row">
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
@@ -162,7 +164,9 @@ jwplayer('insight01').setup({
                                     <a href="#"><h1>FIFA World Cup</h1></a>
                                 </div>
                             </div>
+-->
                             <!--desc-->
+<!--
                         </div>
                         <div class="small-12 medium-6 columns first ">
                             <a href="#">
@@ -172,7 +176,9 @@ jwplayer('insight01').setup({
 
 
                     </div>
+-->
                     <!--image right-->
+<!--
                     <div class="small-12 columns img-left wow fadeInUp" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last ">
                             <div class="desc">
@@ -181,7 +187,9 @@ jwplayer('insight01').setup({
                                     <a href="#"><h1>Free Coffee Event</h1></a>
                                 </div>
                             </div>
+-->
                             <!--desc-->
+<!--
                         </div>
                         <div class="small-12 medium-6 columns first">
                             <a href="#">
@@ -191,9 +199,11 @@ jwplayer('insight01').setup({
 
 
                     </div>
+-->
                     <!--image left-->
-                </div>
+<!--                </div>-->
                 <!--half-->
+<!--
             </article>
 
             <article data-equalizer-watch>
@@ -209,9 +219,12 @@ jwplayer('insight01').setup({
                     </div>
                     <a href="works/godiva.php"><img src="images/godiva.jpg"></a>
                 </div>
+-->
                 <!--full-->
+<!--
             </article>
         </div>
+-->
         <!-- ===========ROW THREE================ -->
             <div class="row">
              <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>
