@@ -2,7 +2,7 @@
 
 <div class="row header">
     <div class="large-12 columns">
-        <h1><span>Get Shit Done Now.</span></h1>
+        <h1><span>Get Work Done Now.</span></h1>
         <h1 class="typed"></h1>
         <a href="#landing-grids"><div id="scroll-down"><i class="fa fa-chevron-down"></i></div></a>
     </div>
@@ -58,7 +58,6 @@ jwplayer('insight01').setup({
                                 <div class="desc-inner">
                                     <h3>case study</h3>
                                     <a href="works/godiva.php"><h1>Godiva Year of the Horse</h1></a>
-                                    <p>We came up with a well-integrated plan with a message that would resonate strongly with client's primary audience.</p>
                                 </div>
                             </div>
                             <!--desc-->
