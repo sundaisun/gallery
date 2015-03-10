@@ -363,7 +363,6 @@ a.smw{
 }
 
 #cdc div.work-hero-wrapper{
-     background:$black;
      width:100%;
      height:auto;
 }
@@ -371,6 +370,19 @@ a.smw{
 .work-detail .work-hero{
     margin-top:40px;
 }
+
+.work-hero-vid{
+    position:relative;
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+    iframe{
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+    }
+}
+
+
 
 .work-detail .white-bg-text{
     margin-top:5%;

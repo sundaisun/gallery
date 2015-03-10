@@ -137,7 +137,7 @@ jwplayer('insight01').setup({
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first">
-                            <a href="#">
+                            <a href="works/lacf.php">
                                 <img src="images/lacf.jpg">
                             </a>
                         </div>

@@ -7,7 +7,8 @@
         <div class="work-grids">
             <div class="row intro">
                 <h2>Work</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nostrum quo, dolorem hic porro.Iure perspiciatis repellendus dignissimos saepe voluptates modi, corporis eum omnis voluptatibus dolore distinctio facilis, neque fuga rem nemo dolores facere eius! Magnam.</p>
+                <br>
+                <p>We pride ourselves in offering a 360-degree approach to marketing communications. The agency's capabilities include advertising, marketing, public relations, media relations, corporate and community relations, events/experiential marketing, partnership marketing programs, market research, in-language collateral development, web-based marketing and trans-cultural sensitivity training.</p>
             </div>
             <!--intro-->
             <div class="work-grids-wrapper">
@@ -131,12 +132,13 @@
                     <div class="small-12 medium-4 columns full wow fadeInUp">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>public relations</h3>
-                                <h1>Sample Project</h1>
-                                <p>We can add a short blug with a CTA button. We can also mention awards won, who the client was etc.</p>
+                                <h3>case study</h3>
+                                <a href="works/bboy-royale.php"><h1>B-Boy Royale</h1></a>
+                                <p>McDonald's multicultural competition featuring award-winning breakdancers from diverse ethnic backgrounds.</p>
+                                <a href="works/bboy-royale.php"><button>More</button></a>
                             </div>
                         </div>
-                        <img src="images/img1.jpg">
+                        <a href="works/bboy-royale.php"><img src="/images/bboy.jpg"></a>
                     </div>
                     <!--full-->
                     <div class="small-12 medium-4 columns full wow fadeInUp" data-wow-delay="0.2s">

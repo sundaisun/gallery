@@ -11,16 +11,20 @@
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
+           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://player.vimeo.com/video/121811425" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<!--
            <div id='playermNGfcZLlvsQJ'></div>
                 <script type='text/javascript'>
                     jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:           'http://staging.iwgroupinc.com/2014/IW/redesign/video/CDC_Protect%20Family_MAND_30.mp4',
-        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/cdc.jpg',
+                        file:           'http://staging.iwgroupinc.com/2014/IW/redesign/video/CDC_ProtectFamily_Man-30_sub.mov',
+        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/cdc/cdc-bg.jpg',
         title: 'CDC Protect Family',
         width: '100%',
         aspectratio: '16:9'
     });
                 </script>
+-->
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
@@ -61,7 +65,7 @@
            </ul>
        </div>
        <div class="images">
-       <div class="row"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc-1.png" alt="our approach"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc-2.png" alt="our approach"></div>
+       <div class="row"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc/cdc-1.png" alt="our approach"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/cdc/cdc-2.png" alt="our approach"></div>
        </div>
        <div class="white-bg-text">
            <div class="row">

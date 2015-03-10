@@ -12,26 +12,8 @@
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
-               <div id='playermNGfcZLlvsQJ'></div>
-<!--
-                <script type='text/javascript'>
-                    jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:'https://www.youtube.com/watch?v=qaZA53eAIgA?rel=0&amp;showinfo=0&amp;iv_load_policy=3" frameborder="0"',
-                        primary:'flash',
-                        width: '100%',
-                        aspectratio: '16:9',
-                        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/godiva-bg.png'
-    });
-                </script>
--->
-               <script type='text/javascript'>
-                    jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/Godiva_show_0819.mp4',
-                        width: '100%',
-                        aspectratio: '16:9',
-                        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/godiva-bg.jpg'
-    });
-                </script>
+                <div class="work-hero-vid"><iframe src="https://player.vimeo.com/video/121815452" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">

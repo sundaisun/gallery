@@ -2,25 +2,19 @@
 </header>
 <!--HEADER-->
 
-<div class="work-detail" id="coveredcalifornia">
+<div class="work-detail" id="world-cup">
     <section>
        <div class="row work-detail-wrapper">
-        <h3>case study</h3>
-        <h1>Covered California Affordable Care Act</h1>
+        <h3>Integrated Campaign</h3>
+        <h1>FIFA World Cup</h1>
         <p>Since California had embraced the Affordable Care Act and was the biggest state with a minority-majority demographic population, it would be looked to as a model for reaching and enrolling millions of uninsured Americans in affordable, quality health insurance.</p>
         <p>The success of the ACA was dependent, to a large extent, on the success of Covered California.</p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
-               <div id='playermNGfcZLlvsQJ'></div>
-               <script type='text/javascript'>
-                    jwplayer('playermNGfcZLlvsQJ').setup({
-                        file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/cc.mp4',
-                        width: '100%',
-                        aspectratio: '16:9',
-                        image: 'http://staging.iwgroupinc.com/2014/IW/redesign/images/work-inner/cc/cc-bg.png'
-    });
-                </script>
+                <div class="work-hero-vid">
+                    <iframe src="https://player.vimeo.com/video/121815455" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
@@ -35,7 +29,7 @@
              <div class="small-12 medium-4 columns">
               <h4>Client</h4>
               <ul>
-              <li>Covered California</li>
+              <li>McDonald's</li>
               </ul>
              </div>
              <div class="small-12 medium-4 columns">
@@ -64,8 +58,8 @@
        </div>
 
        <div class="row">
-         <img class="small-12 columns wow fadeIn" src="../images/work-inner/cc/cc-print.jpg" alt="Print Ad">
-         <img class="small-12 columns wow fadeIn" src="../images/work-inner/cc/cc-print-2.jpg" alt="Print Ad Filipino">
+         <img class="small-12 columns wow fadeIn" src="../images/work-inner/world-cup/world-cup-1.jpg" alt="Print Ad">
+         <img class="small-12 columns wow fadeIn" src="../images/work-inner/world-cup/world-cup-2.jpg" alt="Web Game">
            </div>
        <div class="white-bg-text">
            <div class="row">
