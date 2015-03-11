@@ -16,16 +16,9 @@
                                     <a href="#" data-reveal-id="videoModal">
 <h1>Things to know about Asian American market</h1></a>
                                 </div>
-                                <div id="videoModal" class="reveal-modal large" data-reveal="">
+                                <div id="videoModal" class="reveal-modal large" data-reveal>
                                       <div class="flex-video" style="display: block;">
-                                                   <div id='insight01'></div>
-                                                    <script type='text/javascript'>
-jwplayer('insight01').setup({
-    file:'http://staging.iwgroupinc.com/2014/IW/redesign/video/3AF_Lexus_cutdown.mp4',                                                   image:'http://staging.iwgroupinc.com/2014/IW/redesign/images/asianamerican-bg.jpg',
-    width: '100%',
-    aspectratio: '16:9'
-                                        });
-                                                    </script>
+                                                  <iframe src="https://player.vimeo.com/video/121915187" width="900" height="695" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                       </div>
                                         <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
                                 </div><!--reveal modal-->
@@ -75,7 +68,7 @@ jwplayer('insight01').setup({
         <!-- ===========ROW ONE END================ -->
         <div class="row">
             <article data-equalizer-watch>
-                <div class="small-12 medium-6 columns full wow fadeInUp">
+                <div class="small-12 medium-6 columns full">
                      <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
@@ -91,8 +84,8 @@ jwplayer('insight01').setup({
 
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
-                    <!-- IMAGE ON RIGHT, DESCRIPTION ON LEFT-->
-                    <div class="small-12 columns img-right wow fadeInUp" data-equalizer-watch>
+<!-- IMAGE ON RIGHT, DESCRIPTION ON LEFT-->
+                    <div class="small-12 columns img-right" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
@@ -114,7 +107,7 @@ jwplayer('insight01').setup({
                     </div>
                     <!--image right-->
 <!--IMAGE ON LEFT, DESCRIPTION ON RIGHT-->
-                    <div class="small-12 columns img-left wow fadeInUp" data-equalizer-watch>
+                    <div class="small-12 columns img-left" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
@@ -140,7 +133,22 @@ jwplayer('insight01').setup({
         <!-- ===========ROW TWO END================ -->
         <div class="row">
             <article data-equalizer-watch>
+<!--IMAGES ON LEFT AND RIGHT-->  
                 <div class="half small-12 medium-6 columns" data-equalizer>
+                     <div class="small-12 columns" data-equalizer-watch>
+                       <!--image left-->
+                        <div class="small-12 medium-6 columns wow fadeInUp">
+                                    <img src="/images/social/05.jpg" alt="IWLife">
+                            <!--desc-->
+                        </div>
+                        <!--image right-->
+                        <div class="small-12 medium-6 columns wow fadeInUp" data-wow-delay="0.2s">
+                             <img src="/images/social/06.jpg">
+                        </div>
+                    </div>
+<!--IMAGES ON LEFT AND RIGHT-->  
+<!--TEXT ONLY-->
+<!--
                 <div class="small-12 columns text-only wow fadeInUp" data-equalizer-watch>
                        <div class="desc">
                             <div class="desc-inner">
@@ -150,6 +158,7 @@ jwplayer('insight01').setup({
                             </div>
                         </div>
                     </div>
+-->
                     <!--text only-->
 <!-- IMAGE ON RIGHT, DESCRIPTION ON LEFT-->
                     <div class="small-12 columns img-right wow fadeInUp" data-equalizer-watch>
@@ -198,9 +207,9 @@ jwplayer('insight01').setup({
             </article>
         </div>
 
-        <!-- ===========ROW THREE================ -->
+        <!-- ===========END OF ROW THREE================ -->
             <div class="row">
-             <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>
+             <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-wow-delay="0.4s" href="work.php">See More Work</a>
             </div>
     </div>
     <!--landing grids-->
