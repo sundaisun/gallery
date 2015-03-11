@@ -1,18 +1,4 @@
 <?php $active="home" ; include( "parts/header-loader.php"); ?>
-
-<div class="row header">
-    <div class="large-12 columns">
-        <h1><span>Get Work Done Now.</span></h1>
-        <h1 class="typed"></h1>
-        <a href="#landing-grids"><div id="scroll-down"><i class="fa fa-chevron-down"></i></div></a>
-    </div>
-<!--
-    <video autoplay loop muted id="vid-bg">
-            <source src="video/fluidLightcore_6.webm" type="video/webm"></source>
-            <source src="video/fluidLightcore_6.mp4" type="video/mp4"></source>
-    </video>
--->
-</div>
 </header>
 <!--HEADER-->
 
@@ -21,10 +7,11 @@
         <div class="row">
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
-                    <div class="small-12 columns img-left wow fadeInUp" data-equalizer-watch>
+                    <div class="small-12 columns img-left" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
+<!--VIDEO MODAL-->
                                     <h3>insight</h3>
                                     <a href="#" data-reveal-id="videoModal">
 <h1>Things to know about Asian American market</h1></a>
@@ -51,33 +38,26 @@ jwplayer('insight01').setup({
                             </a>
                         </div>
                     </div>
-                    <!--image left-->
-                    <div class="small-12 columns img-right wow fadeInUp" data-equalizer-watch>
-                        <div class="small-12 medium-6 columns last">
-                            <div class="desc">
-                                <div class="desc-inner">
-                                    <h3>case study</h3>
-                                    <a href="works/godiva.php"><h1>Godiva Year of the Horse</h1></a>
-                                </div>
-                            </div>
+<!--VIDEO MODAL END-->
+<!--IMAGES ON LEFT AND RIGHT-->                    
+                    <div class="small-12 columns" data-equalizer-watch>
+                       <!--image left-->
+                        <div class="small-12 medium-6 columns">
+                                    <img src="/images/social/01.jpg" alt="IWLife">
                             <!--desc-->
                         </div>
-                        <div class="small-12 medium-6 columns first">
-                            <a href="works/godiva.php">
-                                <img src="images/godiva.jpg">
-                            </a>
+                        <!--image right-->
+                        <div class="small-12 medium-6 columns">
+                             <img src="/images/social/02.jpg">
                         </div>
                     </div>
-                    <!--image right-->
+ <!--IMAGES ON LEFT AND RIGHT END-->                     
                 </div>
                 <!--half-->
             </article>
 
             <article data-equalizer-watch>
-                <div class="small-12 medium-6 columns full wow fadeInUp">
-
-
-
+                <div class="small-12 medium-6 columns full">
                     <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
@@ -92,46 +72,55 @@ jwplayer('insight01').setup({
                 <!--full-->
             </article>
         </div>
-        <!-- ===========ROW ONE================ -->
+        <!-- ===========ROW ONE END================ -->
         <div class="row">
             <article data-equalizer-watch>
                 <div class="small-12 medium-6 columns full wow fadeInUp">
-
-
-                    <div class="overlay">
+                     <div class="overlay">
                         <div class="overlay-inner">
                             <h3>case study</h3>
-                            <a href="works/covered-california.php"><h1>Covered California</h1></a>
-                            <p>The success of the ACA was dependent, to a large extent, on the success of Covered California.</p>
-                            <a href="works/covered-california.php"><button>More</button></a>
+                            <a href="works/bboy-royale.php"><h1>B-Boy Royale</h1></a>
+                            <p>McDonald's multicultural competition featuring award-winning breakdancers from diverse ethnic backgrounds.</p>
+                            <a href="works/bboy-royale.php"><button>More</button></a>
                         </div>
                     </div>
-                    <a href="works/covered-california.php"><img src="images/cc.jpg"></a>
+                    <a href="works/bboy-royale.php"><img src="images/bboy.jpg"></a>
                 </div>
                 <!--full-->
             </article>
 
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
-                    <div class="small-12 columns text-only wow fadeInUp" data-equalizer-watch>
+                    <!-- IMAGE ON RIGHT, DESCRIPTION ON LEFT-->
+                    <div class="small-12 columns img-right wow fadeInUp" data-equalizer-watch>
+                        <div class="small-12 medium-6 columns last">
+                            <div class="desc">
+                                <div class="desc-inner">
+                                <i class="fa fa-twitter-square"></i>
+                                  <a href="https://twitter.com/iwgroup"><h3>@IWGroup</h3></a>
+                                   <div class="via-social">
+                                    <p>Leaning Forward: what You Need To Do Now with #SonyaLocket, Vice President of Public Affairs, #BETNetworks, #DrJaneSmith, #LEADS #IWGroup #nitaSong #lisaFrison VP. #wellsFargo</p>
+                                    </div><!--via social-->
+                                </div>
 
-                        <div class="desc">
-                            <div class="desc-inner">
-                                <h3>Insight</h3>
-                                <a href="#"><h1>Most likely to be a blog post</h1></a>
-                                <p>Here we can include an excerpt of some blog post our people did to show that we understand the market, the approach etc.</p>
                             </div>
+                            <!--desc-->
                         </div>
-                        <!--desc-->
-
+                        <div class="small-12 medium-6 columns first ">
+                            <a href="#">
+                                <img src="images/social/04.jpg">
+                            </a>
+                        </div>
                     </div>
-                    <!--text only-->
+                    <!--image right-->
+<!--IMAGE ON LEFT, DESCRIPTION ON RIGHT-->
                     <div class="small-12 columns img-left wow fadeInUp" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
                                     <h3>work</h3>
                                     <a href="works/lacf.php"><h1>Los Angeles County Fair</h1></a>
+                                    <p>An intergrated campaign for one of the largest fairs in the United States.</p>
                                 </div>
                             </div>
                             <!--desc-->
@@ -141,68 +130,53 @@ jwplayer('insight01').setup({
                                 <img src="images/lacf.jpg">
                             </a>
                         </div>
-
-
                     </div>
                     <!--img left-->
+<!--IMAGE ON LEFT, DESCRIPTION ON RIGHT END-->
                 </div>
                 <!--half-->
             </article>
         </div>
-        <!-- ===========ROW TWO================ -->
-
-<!--
+        <!-- ===========ROW TWO END================ -->
         <div class="row">
             <article data-equalizer-watch>
                 <div class="half small-12 medium-6 columns" data-equalizer>
+                <div class="small-12 columns text-only wow fadeInUp" data-equalizer-watch>
+                       <div class="desc">
+                            <div class="desc-inner">
+                                <h3>Insight</h3>
+                                <a href="#"><h1>This is a text only post</h1></a>
+                                <p>Here we can include an excerpt of some blog post our people did to show that we understand the market, the approach etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--text only-->
+<!-- IMAGE ON RIGHT, DESCRIPTION ON LEFT-->
                     <div class="small-12 columns img-right wow fadeInUp" data-equalizer-watch>
                         <div class="small-12 medium-6 columns last">
                             <div class="desc">
                                 <div class="desc-inner">
-                                    <h3>work</h3>
-                                    <a href="#"><h1>FIFA World Cup</h1></a>
+                                <i class="fa fa-facebook-square"></i>
+                                  <a href="https://www.facebook.com/IWGroup"><h3>@IWGroup</h3></a>
+                                   <div class="via-social">
+                                    <p>We want spam, ramen, and BRAINS!!! #AAJATriviaBowl</p>
+                                    </div><!--via social-->
                                 </div>
+
                             </div>
--->
                             <!--desc-->
-<!--
                         </div>
                         <div class="small-12 medium-6 columns first ">
                             <a href="#">
-                                <img src="images/fifa.gif">
+                                <img src="images/social/03.jpg">
                             </a>
                         </div>
-
-
                     </div>
--->
+
                     <!--image right-->
-<!--
-                    <div class="small-12 columns img-left wow fadeInUp" data-equalizer-watch>
-                        <div class="small-12 medium-6 columns last ">
-                            <div class="desc">
-                                <div class="desc-inner">
-                                    <h3>IW culture</h3>
-                                    <a href="#"><h1>Free Coffee Event</h1></a>
-                                </div>
-                            </div>
--->
-                            <!--desc-->
-<!--
-                        </div>
-                        <div class="small-12 medium-6 columns first">
-                            <a href="#">
-                                <img src="images/freecoffee.jpg">
-                            </a>
-                        </div>
-
-
-                    </div>
--->
-                    <!--image left-->
-<!--                </div>-->
+               </div>
                 <!--half-->
-<!--
+
             </article>
 
             <article data-equalizer-watch>
@@ -218,12 +192,12 @@ jwplayer('insight01').setup({
                     </div>
                     <a href="works/godiva.php"><img src="images/godiva.jpg"></a>
                 </div>
--->
+
                 <!--full-->
-<!--
+
             </article>
         </div>
--->
+
         <!-- ===========ROW THREE================ -->
             <div class="row">
              <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-delay="0.4s" href="work.php">See More Work</a>

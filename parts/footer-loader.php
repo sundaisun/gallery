@@ -34,7 +34,8 @@
     <script src="/js/pathLoader.js"></script>
     <script src="/js/loader.js"></script>
     <script src="/js/app.js"></script>
-    <script src="/js/typed.js"></script>
+<!--    <script src="/js/typed.js"></script>-->
+<!--
     <script>
   $(function(){
       $(".typed").typed({
@@ -44,6 +45,7 @@
       });
   });
 </script>
+-->
 <script src="/js/wow.js"></script>
     <script>
         var wow = new WOW(

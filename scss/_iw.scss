@@ -70,8 +70,9 @@ nav.top-bar{
 .landing-grids {
     display: block;
     width: 100%;
-    background-color: $smoke;
+    background-color: $white;
     padding-bottom: 15%;
+    padding-top:10%;
     .article {
         width: 100%;
     }
@@ -84,7 +85,7 @@ nav.top-bar{
 .landing-grids {
     //make text only block 100% height
     .text-only {
-        background-color: $white;
+        background-color: $smoke;
         width: 100%;
         height: 100%;
         position: relative;
@@ -226,7 +227,23 @@ a.smw{
                     background-color:darken($fade-orange,10%);
                     color:$snow;
                 }}
+//LANDING GRID SOCIAL
+.via-social{
+    padding-top:20px;
+}
 
+.desc-inner{
+    i.fa-facebook-square{
+        color:$fb-color;
+        font-size:2em;
+        display:inline-block;
+    }
+    i.fa-twitter-square{
+        color:$tw-color;
+        font-size:2em;
+        display:inline-block;
+    }
+}
 
 //FOOTER
 .footer-btm {
