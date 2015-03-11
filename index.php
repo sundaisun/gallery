@@ -30,19 +30,33 @@
                                 <img src="images/asianamerican.jpg">
                             </a>
                         </div>
+                        <div id="videoModal" class="reveal-modal large" data-reveal>
+                                      <div class="flex-video" style="display: block;">
+                                                  <iframe src="https://player.vimeo.com/video/121915187" width="900" height="695" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                      </div>
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                                </div><!--reveal modal-->
                     </div>
 <!--VIDEO MODAL END-->
 <!--IMAGES ON LEFT AND RIGHT-->                    
                     <div class="small-12 columns" data-equalizer-watch>
                        <!--image left-->
                         <div class="small-12 medium-6 columns">
-                                    <img src="/images/social/01.jpg" alt="IWLife">
+                                    <a href="#" data-reveal-id="social01"><img src="/images/social/01.jpg" alt="IWLife"></a>
                             <!--desc-->
                         </div>
+                        <div id="social01" class="reveal-modal large" data-reveal>
+                                      <img src="/images/social/01.jpg" alt="IWLife">
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                                </div><!--reveal modal-->
                         <!--image right-->
                         <div class="small-12 medium-6 columns">
-                             <img src="/images/social/02.jpg">
+                            <a href="#" data-reveal-id="social02"><img src="/images/social/02.jpg" alt="IWLife"></a>
                         </div>
+                         <div id="social02" class="reveal-modal large" data-reveal>
+                                      <img src="/images/social/02.jpg" alt="IWLife">
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                         </div><!--reveal modal-->
                     </div>
  <!--IMAGES ON LEFT AND RIGHT END-->                     
                 </div>
@@ -100,7 +114,7 @@
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first ">
-                            <a href="#">
+                            <a href="https://twitter.com/iwgroup">
                                 <img src="images/social/04.jpg">
                             </a>
                         </div>
@@ -137,14 +151,21 @@
                 <div class="half small-12 medium-6 columns" data-equalizer>
                      <div class="small-12 columns" data-equalizer-watch>
                        <!--image left-->
-                        <div class="small-12 medium-6 columns wow fadeInUp">
-                                    <img src="/images/social/05.jpg" alt="IWLife">
-                            <!--desc-->
-                        </div>
+                         <div class="small-12 medium-6 columns wow fadeInUp">
+                            <a href="#" data-reveal-id="social05"><img src="/images/social/05.jpg" alt="IWLife"></a>
+                         </div>
+                         <div id="social05" class="reveal-modal large" data-reveal>
+                                      <img src="/images/social/05.jpg" alt="IWLife">
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                         </div><!--reveal modal-->
                         <!--image right-->
-                        <div class="small-12 medium-6 columns wow fadeInUp" data-wow-delay="0.2s">
-                             <img src="/images/social/06.jpg">
+                         <div class="small-12 medium-6 columns wow fadeInUp" data-wow-delay='0.2s'>
+                            <a href="#" data-reveal-id="social06"><img src="/images/social/06.jpg" alt="IWLife"></a>
                         </div>
+                         <div id="social06" class="reveal-modal large" data-reveal>
+                                      <img src="/images/social/06.jpg" alt="IWLife">
+                                        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+                         </div><!--reveal modal-->
                     </div>
 <!--IMAGES ON LEFT AND RIGHT-->  
 <!--TEXT ONLY-->
@@ -176,7 +197,7 @@
                             <!--desc-->
                         </div>
                         <div class="small-12 medium-6 columns first ">
-                            <a href="#">
+                            <a href="https://www.facebook.com/IWGroup">
                                 <img src="images/social/03.jpg">
                             </a>
                         </div>
@@ -209,7 +230,7 @@
 
         <!-- ===========END OF ROW THREE================ -->
             <div class="row">
-             <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-wow-delay="0.4s" href="work.php">See More Work</a>
+             <a class="smw medium-3 small-6 small-centered columns wow fadeIn" data-wow-delay="0.2s" href="work.php">See More Work</a>
             </div>
     </div>
     <!--landing grids-->
