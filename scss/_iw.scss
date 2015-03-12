@@ -7,6 +7,14 @@
     content: " ";
 }
 
+::-moz-selection { 
+background-color: rgba($fade-orange,0.55);
+}
+
+::selection {
+background-color: rgba($fade-orange,0.55);
+}
+
 //HEADER
 header .header {
     margin-top:65px;
