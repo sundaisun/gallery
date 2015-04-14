@@ -66,14 +66,26 @@
     </section>
     <section>
        <hr>
-        <div class="work-recommend white-bg-text">
-           <div class="row">
-                <h5>Next Project</h5>
+        <div class="work-recommend row-f">
+               <div class="recommend-left small-6 columns">
+                <div class="reco-bg" id="reco-cdc"></div>
+                <div class="reco-content">
+                <h5>Previous Project</h5>
                 <a href="cdc.php"><h1>CDC Protect Family</h1></a>
-            </div>
+                </div>
+               </div>
+               <div class="recommend-right small-6 columns">
+                <div class="reco-bg" id="reco-godiva"></div>
+                <div class="reco-content">
+                <h5>Next Project</h5>
+                <a href="godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                </div>
+               </div>               
+<!--
             <div class="row">
                 <a href="../work.php"><h3>Back to All Work</h3></a>
             </div>
+-->
         </div>
     </section>
 </div>

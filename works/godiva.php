@@ -61,25 +61,28 @@
            <div class="row">
               <h4>Result</h4>
                <ul>
-                   <li>98 million impressions in paid media</li>
-                   <li>Over 31 million impressions in earned media</li>
-                   <li>11% open rate in emails</li>
-                   <li>Over 100,000 views of the YouTube song "So Sweet" in just over a month - a partnership with a YouTube celebrity</li>
-                   <li>An overwhelming sell through rate of 90%, GODIVA's chocolate collection ($50 box)</li>
+                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quos exercitationem optio voluptate beatae repellat, reiciendis minima consectetur fugit cupiditate tenetur ullam numquam, tempore soluta, deserunt ex expedita voluptates accusamus.</li>
                </ul>
            </div>
        </div>
     </section>
     <section>
        <hr>
-        <div class="work-recommend white-bg-text">
-           <div class="row">
+        <div class="work-recommend row-f">
+               <div class="recommend-left small-6 columns">
+                <div class="reco-bg" id="reco-cdc"></div>
+                <div class="reco-content">
+                <h5>Previous Project</h5>
+                <a href="cdc.php"><h1>CDC Protect Family</h1></a>
+                </div>
+               </div>
+               <div class="recommend-right small-6 columns">
+                <div class="reco-bg" id="reco-godiva"></div>
+                <div class="reco-content">
                 <h5>Next Project</h5>
-                <a href="lacf.php"><h1>Los Angeles County Fair</h1></a>
-            </div>
-            <div class="row">
-                <a href="../work.php"><h3>Back to All Work</h3></a>
-            </div>
+                <a href="godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                </div>
+               </div>               
         </div>
     </section>
 </div>

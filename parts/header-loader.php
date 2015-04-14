@@ -5,14 +5,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <title>IW Group: Multicultural Agency</title>
-     <meta name="title" content="IW Group: Multicultural Agency" />
-    <meta name="description" content="Total market advertising agency.">
+     <meta name="title" content="IW Group | Total Market Thought Leaders" />
+    <meta name="description" content="IW Group is a multicultural marketing agency with a total market approach. IW is a leader in strategy, advertising, PR, digital and events.">
     <meta name="keywords" content="IW,advertising,Asian,PR">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="author" content="Sun Dai">
     <meta property="og:site_name" content="IW Group">
-    <meta property="og:title" content="IW Group">
-    <meta property="og:description" content="Total market advertising agency">
+    <meta property="og:title" content="IW Group | Total Market Thought Leaders">
+    <meta property="og:description" content="IW Group is a multicultural marketing agency with a total market approach. IW is a leader in strategy, advertising, PR, digital and events.">
 
     <link rel="stylesheet" href="/stylesheets/app.css" />
     <!--with backslash in the begining, you are making files relative to root folder-->
@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="/stylesheets/vendor/animate.css">
      <link rel="icon" type="image/png" href="/images/fav.png">
     <script src="/bower_components/modernizr/modernizr.js"></script>
-    <script src="http://jwpsrv.com/library/Wjf78IryEeS9JQoORWfmyA.js"></script>
 </head>
 
 <body>
@@ -40,7 +39,6 @@
      </div><!--loader-circle-->
     </div><!--loader-header-->
 <!--      main content     -->
-    
       <nav class="top-bar" data-topbar role="navigation">
           <ul class="title-area">
             <a href="/../index.php"><li class="name"></li></a>
@@ -50,10 +48,12 @@
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-         <li <?php if($active == 'home') {echo 'class="active"';} ?>><a href="/../index.php">Home</a></li>
-         <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="/../clients.php">Clients</a></li>
          <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="/../work.php">Work</a></li>
+         <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="/../clients.php">Clients</a></li>
          <li <?php if($active == 'contact') {echo 'class="active"';} ?>><a href="/../contact.php">Contact</a></li>
+    </ul>
+    <ul class="right">
+              <li class="ask"><a href="#"><span>Ask us a question</span></a></li>
     </ul>
   </section>
         </nav>

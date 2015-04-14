@@ -76,14 +76,21 @@
     </section>
     <section>
        <hr>
-        <div class="work-recommend white-bg-text">
-           <div class="row">
+        <div class="work-recommend row-f">
+               <div class="recommend-left small-6 columns">
+                <div class="reco-bg" id="reco-nytristate"></div>
+                <div class="reco-content">
+                <h5>Previous Project</h5>
+                <a href="nytristate.php"><h1>McDonald's New York Tristate</h1></a>
+                </div>
+               </div>
+               <div class="recommend-right small-6 columns">
+                <div class="reco-bg" id="reco-godiva"></div>
+                <div class="reco-content">
                 <h5>Next Project</h5>
-                <h1>White Chocolate Mocha</h1>
-            </div>
-            <div class="row">
-                <a href="../work.php"><h3>Back to All Work</h3></a>
-            </div>
+                <a href="godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                </div>
+               </div>               
         </div>
     </section>
 </div>

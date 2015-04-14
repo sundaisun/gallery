@@ -15,6 +15,10 @@ background-color: rgba($fade-orange,0.55);
 background-color: rgba($fade-orange,0.55);
 }
 
+h1{
+    letter-spacing:0.05rem;
+}
+
 //HEADER
 header .header {
     margin-top:65px;
@@ -30,8 +34,23 @@ header .header {
 }
 
 //NAV
-.top-bar-section ul li a {
+section.top-bar-section ul li a {
     @include ease-in-out();
+}
+
+section.top-bar-section ul.right{
+    li.ask a {
+        padding-left:0;
+    span{
+        font-size:0.8rem;
+        border:1px solid $fade-orange;
+        padding:10px;
+        color:$fade-orange;
+        &:hover{
+            color:darken($fade-orange, 10%);
+        }
+    }
+        }
 }
 
 nav.top-bar{
@@ -211,7 +230,7 @@ nav.top-bar{
     h1 {
         color: white;
         font-size: 42px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 46px;
     }
 }
@@ -241,6 +260,10 @@ a.smw{
 //LANDING GRID SOCIAL
 .via-social{
     padding-top:20px;
+}
+
+figure figcaption{
+    padding-top:10px;
 }
 
 .desc-inner{
@@ -477,21 +500,22 @@ a.smw{
     padding-bottom:10%;
 }
 
+section hr{
+    margin:1.25rem 0 0;
+}
+
 .work-detail div.work-recommend{
-    margin-top:3%;
+    height:300px;
     h5{
-        color: darken($white-smoke, 30%);
+        color: darken($fade-orange,20%);
         font-family: $header-sans;
         text-transform: uppercase;
         font-size: 0.8em;
         font-weight: 700;
     }
     h1{
-        color: darken($white-smoke, 48%);
+        color: $white-smoke;
         font-size: 36px;
-        cursor: pointer;
-        @include ease-in-out(0.4s);
-        &:hover {color: darken($white-smoke, 100%);}
     }
     h3{
         font-family: $header-sans;
@@ -502,6 +526,46 @@ a.smw{
         @include ease-in-out(0.4s);
         &:hover {color: orange;}
     }
+}
+
+
+//FOR recommendation area, i have created a new class "row-f" for full width row. its configuration can be found in setting.scss and grid.scss in the foundation folder
+div.work-recommend div{
+    @include ease-in-out;
+    height:300px;
+    cursor:pointer;
+    background-color:rgba($oil,0.85);
+    .reco-bg{
+        position:absolute;
+        left:0;
+        right:0;
+        z-index:1;
+        background-size:cover;
+        background-position:top;
+        filter:saturate(5%);
+        -webkit-filter:saturate(5%);
+    }
+    .reco-content{
+        position:absolute;
+        left:0;
+        right:0;
+        z-index:10;
+        padding-left:9%;
+        padding-top:3%;
+    }
+    &:hover{
+        background-color:rgba($oil,0.45);
+        &>.reco-bg{
+             filter:saturate(80%);
+             -webkit-filter:saturate(80%);
+        }
+    }
+}
+
+.recommend-right{
+    .reco-content{
+        padding-left:6% !important;
+}
 }
 
 //CONTACT
@@ -548,6 +612,17 @@ a.smw{
     height: 100%;
     border: none;
 }
+}
+
+//ALL RECOMMENED BG IMAGES
+#reco-nytristate{
+    background-image:url(../images/work-inner/tristate.jpg);
+}
+#reco-cdc{
+    background-image: url(../images/cdc.jpg);
+}
+#reco-godiva{
+    background-image:url(../images/work-inner/godiva-bg.jpg);
 }
 
 
@@ -631,6 +706,16 @@ a.smw{
 }
 @media #{$small-only}
 {
+    //nav ask question style
+    section.top-bar-section ul.right{
+    li.ask a span{
+        font-size:0.875rem;
+        border:0;
+        padding-left:21.66667px;
+        color:#444;
+        padding-bottom:12px;
+    }
+}
     //HIDE ARROWS ON MOBILE
     .landing-grids .img-left .first:after {
         @include no-arrow();
@@ -707,6 +792,17 @@ a.smw{
         margin-bottom:45px;
         &:last-child{
             margin-bottom:10px;
+        }
+    }
+    
+    //SHRINK HEADING ON RECOMMENDED TITLE
+    .work-detail div.work-recommend{
+        height:180px;
+        h5{
+            padding-top:20px;
+        }
+        h1{
+            font-size: 28px;
         }
     }
     

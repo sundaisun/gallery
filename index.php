@@ -14,7 +14,7 @@
 <!--VIDEO MODAL-->
                                     <h3>insight</h3>
                                     <a href="#" data-reveal-id="videoModal">
-<h1>Things to know about Asian American market</h1></a>
+<h1>How well do you know the Asian American market?</h1></a>
                                 </div>
                                 <div id="videoModal" class="reveal-modal large" data-reveal>
                                       <div class="flex-video" style="display: block;">
@@ -46,7 +46,10 @@
                             <!--desc-->
                         </div>
                         <div id="social01" class="reveal-modal large" data-reveal>
-                                      <img src="/images/social/01.jpg" alt="IWLife">
+                                     <figure>
+                                       <img src="/images/social/01.jpg" alt="IWLife">
+                                        <figcaption>Rocking BOOMBOXES at work. #mcdbboyroyale</figcaption>   
+                                     </figure>
                                         <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
                                 </div><!--reveal modal-->
                         <!--image right-->
@@ -54,7 +57,10 @@
                             <a href="#" data-reveal-id="social02"><img src="/images/social/02.jpg" alt="IWLife"></a>
                         </div>
                          <div id="social02" class="reveal-modal large" data-reveal>
-                                      <img src="/images/social/02.jpg" alt="IWLife">
+                                      <figure>
+                                       <img src="/images/social/02.jpg" alt="IWLife">
+                                        <figcaption>#awards #IWLife</figcaption>   
+                                     </figure>
                                         <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
                          </div><!--reveal modal-->
                     </div>
@@ -155,7 +161,10 @@
                             <a href="#" data-reveal-id="social05"><img src="/images/social/05.jpg" alt="IWLife"></a>
                          </div>
                          <div id="social05" class="reveal-modal large" data-reveal>
-                                      <img src="/images/social/05.jpg" alt="IWLife">
+                                      <figure>
+                                       <img src="/images/social/05.jpg" alt="IWLife">
+                                        <figcaption>Live at the McDonald's Owner/Operator Awards &amp; Recognition Event #PRlife</figcaption>   
+                                     </figure>
                                         <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
                          </div><!--reveal modal-->
                         <!--image right-->
@@ -163,7 +172,10 @@
                             <a href="#" data-reveal-id="social06"><img src="/images/social/06.jpg" alt="IWLife"></a>
                         </div>
                          <div id="social06" class="reveal-modal large" data-reveal>
-                                      <img src="/images/social/06.jpg" alt="IWLife">
+                                     <figure>
+                                       <img src="/images/social/06.jpg" alt="IWLife">
+                                        <figcaption>IWGroup is ready for @NSMDC2014 in #Orlando. Visit booth #1245! #SupplierDiversity</figcaption>   
+                                     </figure>
                                         <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
                          </div><!--reveal modal-->
                     </div>

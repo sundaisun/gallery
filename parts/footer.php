@@ -3,13 +3,13 @@
             <div class="row">
                 <div class="small-12 columns">
                     <ul>
-                        <li><a href="#" class="twitter"><i class="fa fa-twitter-square"></i></a>
+                        <li><a href="https://twitter.com/iwgroup" target="_blank" class="twitter"><i class="fa fa-twitter-square"></i></a>
                         </li>
-                        <li><a href="#" class="facebook"><i class="fa fa-facebook-square"></i></a>
+                        <li><a href="https://www.facebook.com/IWGroup" target="_blank" class="facebook"><i class="fa fa-facebook-square"></i></a>
                         </li>
-                        <li><a href="#" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
+                        <li><a href="https://www.linkedin.com/company/iw-group-inc" target="_blank" class="linkedin"><i class="fa fa-linkedin-square"></i></a>
                         </li>
-                        <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <li><a href="https://instagram.com/iwgroup/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
