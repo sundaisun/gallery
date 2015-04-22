@@ -82,8 +82,8 @@ $include-html-global-classes: $include-html-classes;
  $row-width: rem-calc(1200);
  $row-width-f: 100%;
 // $total-columns: 12;
- $column-gutter: rem-calc(30);
- $grid-gutter: rem-calc(0);
+ $column-gutter: rem-calc(10);
+// $grid-gutter: rem-calc(5);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -118,6 +118,7 @@ $include-html-global-classes: $include-html-classes;
  $black       : #000000;
 
 $fade-orange: #f1a15b;
+$iw-white: #e2e2e2;
 $fb-color:#3b5998;
 $tw-color:#55acee;
 // We use these as default colors throughout

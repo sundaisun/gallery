@@ -1,3 +1,15 @@
+//weather bug font
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 //utilities - functions, mixins
 //gradient overlay mixins
 @mixin gradient(){
@@ -24,6 +36,38 @@
   -o-filter: blur($px);
   -ms-filter: blur($px);
   filter: blur($px);
+}
+
+@mixin saturate($percentage){
+  -webkit-filter: saturate($percentage);
+  -moz-filter: saturate($percentage);
+  -o-filter: saturate($percentage);
+  -ms-filter: saturate($percentage);
+  filter: saturate($percentage);
+}
+
+@mixin grayscale($percentage){
+  -webkit-filter: grayscale($percentage);
+  -moz-filter: grayscale($percentage);
+  -o-filter: grayscale($percentage);
+  -ms-filter: grayscale($percentage);
+  filter: grayscale($percentage);
+}
+
+@mixin brightness($percentage){
+  -webkit-filter: brightness($percentage);
+  -moz-filter: brightness($percentage);
+  -o-filter: brightness($percentage);
+  -ms-filter: brightness($percentage);
+  filter: brightness($percentage);
+}
+
+@mixin tint-shade($darken,$gray){
+  -webkit-filter: brightness($darken) grayscale($gray);
+  -moz-filter: brightness($darken) grayscale($gray);
+  -o-filter: brightness($darken) grayscale($gray);
+  -ms-filter: brightness($darken) grayscale($gray);
+  filter: brightness($darken) grayscale($gray);
 }
 
 //animation mixins

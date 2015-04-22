@@ -37,10 +37,43 @@
     <ul class="left">
          <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="/../work.php">Work</a></li>
          <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="/../clients.php">Clients</a></li>
-         <li <?php if($active == 'contact') {echo 'class="active"';} ?>><a href="/../contact.php">Contact</a></li>
+         <li <?php if($active == 'imprint') {echo 'class="active"';} ?>><a href="/../imprint.php">Imprint</a></li>
     </ul>
     <ul class="right">
-              <li class="ask"><a href="#"><span>Ask us a question</span></a></li>
+              <li class="ask"><a href="#" data-reveal-id="askquestion"><span>Ask us a question</span></a></li>
     </ul>
+  </section>   
+        </nav>
+        <!--ask question starts-->
+        <div id="askquestion" class="reveal-modal" data-reveal >
+            <form>
+                <div class="row">
+<!--                   <div class="large-4 columns">Question Category</div>-->
+                    <div class="large-12 columns">
+                            <select>
+                                <option value="">Question Category</option>
+                                <option value="hiring">Hiring</option>
+                                <option value="lorem">Lorem</option>
+                                <option value="ipsum">Ipsum</option>
+                                <option value="dolor">Dolor</option>
+                            </select>
+                    </div>             
+                </div>
+                <div class="row">
+                    <div class="small-12 large-4 columns">
+                        <input type="text" placeholder="Name" />
+                    </div>
+                    <div class="small-12 large-8 columns">
+                        <input type="text" placeholder="Email" />
+                    </div>
+                    <div class="large-12 columns">
+                        <textarea rows="4" placeholder="Question"></textarea>
+                    </div>
+                    <a href="#"><button>Submit</button></a>
+                </div>
+            </form>
+            <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+        </div>
+        <!--ask question-->
   </section>
         </nav>

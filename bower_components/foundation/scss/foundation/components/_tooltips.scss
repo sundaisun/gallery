@@ -69,6 +69,8 @@ $tooltip-max-width: 300px !default;
         display: block;
         #{$default-float}: $tooltip-pip-size;
         position: absolute;
+        //arrow position
+            left:48%;
         width: 0;
         height: 0;
         border: solid $tooltip-pip-size;

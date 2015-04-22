@@ -30,7 +30,13 @@
             });
         wow.init();
     </script>
-   
+    <script>
+    $(document).foundation('reveal',{
+        animation:'fade',
+        animation_speed:300,
+        close_on_background_click: true
+    });
+    </script>
 <script>
     //sticky footer
          $(window).bind("load", function () {
@@ -46,6 +52,54 @@
         }
     });
 </script>
+<script src="/bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>
+<script>
+$(document).ready(function() {
+  $.simpleWeather({
+    location: 'Los Angeles, CA',
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+  
+      $("#weather-la").html(html);
+    },
+    error: function(error) {
+      $("#weather-la").html('<p>'+error+'</p>');
+    }
+  });
+
+  $.simpleWeather({
+    location: 'San Francisco, CA',
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+  
+      $("#weather-sf").html(html);
+    },
+    error: function(error) {
+      $("#weather-sf").html('<p>'+error+'</p>');
+    }
+  });
+
+  $.simpleWeather({
+    location: 'New York, NY',
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+  
+      $("#weather-ny").html(html);
+    },
+    error: function(error) {
+      $("#weather-ny").html('<p>'+error+'</p>');
+    }
+  });
+    
+});
+</script>
+
 </body>
 
 </html>
