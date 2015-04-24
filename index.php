@@ -13,7 +13,7 @@
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat praesentium adipisci est magnam.</p>
                        </div>
                    </div>
-                    <a href="works/nytristate.php"><img src="images/tristate-thumb-rec.jpg"></a>
+                    <a href="works/nytristate.php" onClick="ga('send', 'event', 'NY-Tristate', 'NY-Tristate-HomePageCaseStudy-Click');"><img src="images/tristate-thumb-rec.jpg"></a>
                 </div>
                  <!-- case study end -->
                 <!-- personality -->
@@ -63,23 +63,27 @@
                 <!-- work end -->
                 <!-- social -->
                 <div class="small-6 medium-3 columns square">
-                  <a href="#" data-reveal-id="social02">
+<!--                  <a href="#" data-reveal-id="social02">-->
+                     <a href="https://twitter.com/iwgroup" target="_blank">
                       <div class="overlay">
                           <div class="overlay-inner">
                               
-                              <p>#awards #IWLife</p>
+                              <p><i class="fa fa-twitter-square"></i><br>#awards #IWLife</p>
                           </div>
                       </div>
                     <img src="images/social/02.jpg">
                   </a>
                 </div>
                 <!--reveal modal-->
+<!--
                 <div id="social02" class="reveal-modal large" data-reveal>
                      <figure>
                           <img src="/images/social/02.jpg" alt="IWLife">
                           <figcaption>#awards #IWLife</figcaption>                      </figure>
                      <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
-                </div><!--reveal modal-->
+                </div>
+-->
+                <!--reveal modal-->
                 <!-- social end -->
                 <!-- case study -->
                  <div class="small-12 medium-6 columns rect">
@@ -89,7 +93,7 @@
                           <p>Quas ipsum animi labore velit recusandae, ab iure eius omnis.</p>
                       </div>
                   </div>
-                    <a href="#"><img src="images/bboy-thumb-rec.jpg"></a>
+                    <a href="#" onClick="ga('send', 'event', 'BBoyRoyale','BBoyRoyale-HomgePageCaseStudy-Click');"><img src="images/bboy-thumb-rec.jpg"></a>
                 </div>
                 <!-- case study end -->
         </div>
@@ -98,23 +102,26 @@
         <div class="row">
                <!-- social -->
                 <div class="small-6 medium-3 columns square">
-                  <a href="#" data-reveal-id="social03">
+<!--                  <a href="#" data-reveal-id="social03">-->
+                  <a href="https://www.facebook.com/IWGroup" target="_blank">
                    <div class="overlay">
                        <div class="overlay-inner">
-                           
-                           <p>We want spam, ramen, and BRAINS!!! #AAJATriviaBowl</p>
+                           <p><i class="fa fa-facebook-square"></i><br>We want spam, ramen, and BRAINS!!! #AAJATriviaBowla</p>
                        </div>
                    </div>
                     <img src="images/social/03.jpg">
                   </a>
                 </div>
                 <!--reveal modal-->
+<!--
                 <div id="social03" class="reveal-modal large" data-reveal>
                      <figure>
                           <img src="/images/social/03.jpg" alt="IWLife">
                           <figcaption>We want spam, ramen, and BRAINS!!! #AAJATriviaBowl</figcaption>                      </figure>
                      <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
-                </div><!--reveal modal-->
+                </div>
+-->
+                <!--reveal modal-->
                 <!-- social end -->
                 <!-- work -->
                 <div class="small-6 medium-3 columns square">
@@ -165,23 +172,26 @@
                 <!-- personality end -->
                 <!-- social -->
                  <div class="small-6 medium-3 columns square medium-push-6">
-                  <a href="#" data-reveal-id="social04">
+<!--                  <a href="#" data-reveal-id="social04">-->
+                     <a href="https://twitter.com/iwgroup" target="_blank">
                       <div class="overlay">
                           <div class="overlay-inner">
-                              
-                              <p>Leaning Forward: what You Need To Do Now with #SonyaLocket, Vice President of Public Affairs, #BETNetworks, #DrJaneSmith, #LEADS #IWGroup #nitaSong #lisaFrison VP. #wellsFargo</p>
+                              <p><i class="fa fa-twitter-square"></i><br>Leaning Forward: what You Need To Do Now with #SonyaLocket, Vice President of Public Affairs, #BETNetworks, #DrJaneSmith, #LEADS #IWGroup #nitaSong #lisaFrison VP.</p>
                           </div>
                       </div>
                     <img src="images/social/04.jpg">
                   </a>
                  </div>
                 <!--reveal modal-->
+<!--
                 <div id="social04" class="reveal-modal large" data-reveal>
                      <figure>
                           <img src="/images/social/04.jpg" alt="IWLife">
-                          <figcaption>Leaning Forward: what You Need To Do Now with #SonyaLocket, Vice President of Public Affairs, #BETNetworks, #DrJaneSmith, #LEADS #IWGroup #nitaSong #lisaFrison VP. #wellsFargo</figcaption>                      </figure>
+                          <figcaption>Leaning Forward: what You Need To Do Now with #SonyaLocket, Vice President of Public Affairs, #BETNetworks, #DrJaneSmith, #LEADS #IWGroup #nitaSong #lisaFrison VP.</figcaption>                      </figure>
                      <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
-                </div><!--reveal modal-->
+                </div>
+-->
+                <!--reveal modal-->
                 <!-- social end -->
                 <!-- case study -->
                  <div class="small-12 medium-6 columns rect medium-pull-3">
@@ -191,7 +201,7 @@
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat praesentium adipisci est magnam.</p>
                        </div>
                    </div>
-                    <a href="#"><img src="images/godiva-thumb-rec.jpg"></a>
+                    <a href="#" onClick="ga('send', 'event', 'Godiva', 'Godiva-HomePageCaseStudy-Click');"><img src="images/godiva-thumb-rec.jpg"></a>
                 </div>
                 <!-- case study end -->
                 
@@ -200,43 +210,49 @@
         <div class="row">
                <!-- social -->
                 <div class="small-6 medium-3 columns square">
-                  <a href="#" data-reveal-id="social05">
+<!--                  <a href="#" data-reveal-id="social05">-->
+                  <a href="https://instagram.com/iwgroup/" target="_blank">
                       <div class="overlay">
                           <div class="overlay-inner">
-                              
-                              <p>Live at the McDonald's Owner/Operator Awards &amp; Recognition Event #PRlife</p>
+                              <p><i class="fa fa-instagram"></i><br>Live at the McDonald's Owner/Operator Awards &amp; Recognition Event #PRlife</p>
                           </div>
                       </div>
                     <img src="images/social/05.jpg">
                   </a>
                 </div>
                 <!--reveal modal-->
+<!--
                 <div id="social05" class="reveal-modal large" data-reveal>
                      <figure>
                           <img src="/images/social/05.jpg" alt="IWLife">
                           <figcaption>Live at the McDonald's Owner/Operator Awards &amp; Recognition Event #PRlife</figcaption>                      </figure>
                      <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
-                </div><!--reveal modal-->
+                </div>
+-->
+                <!--reveal modal-->
                 <!-- social end -->
                 <!-- social -->
                 <div class="small-6 medium-3 columns square">
-                  <a href="#" data-reveal-id="social06">
+<!--                  <a href="#" data-reveal-id="social06">-->
+                     <a href="https://www.facebook.com/IWGroup" target="_blank">
                       <div class="overlay">
                           <div class="overlay-inner">
-                              
-                              <p>IWGroup is ready for @NSMDC2014 in #Orlando. Visit booth #1245! #SupplierDiversity</p>
+                              <p><i class="fa fa-facebook-square"></i><br>IWGroup is ready for @NSMDC2014 in #Orlando. Visit booth #1245! #SupplierDiversity</p>
                           </div>
                       </div>
                     <img src="images/social/06.jpg">
                   </a>
                 </div>
                 <!--reveal modal-->
+<!--
                 <div id="social06" class="reveal-modal large" data-reveal>
                      <figure>
                           <img src="/images/social/06.jpg" alt="IWLife">
                           <figcaption>IWGroup is ready for @NSMDC2014 in #Orlando. Visit booth #1245! #SupplierDiversity</figcaption>                      </figure>
                      <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
-                </div><!--reveal modal-->
+                </div>
+-->
+                <!--reveal modal-->
                 <!-- social end -->
                 <!-- case study -->
                  <div class="small-12 medium-6 columns rect">

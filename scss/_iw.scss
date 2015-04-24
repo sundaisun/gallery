@@ -59,7 +59,7 @@ header .header {
     text-align: center;
     color: $monsoon;
     h1{
-        font-family:$font-family-sans-serif;
+        font-family:$header-sans;
     }
 }
 
@@ -352,15 +352,17 @@ figure figcaption{
     padding-top:10px;
 }
 
-.desc-inner{
+.overlay-inner{
     i.fa-facebook-square{
-        color:$fb-color;
-        font-size:2em;
+//        color:lighten($fb-color,15%);
+        color:$white-smoke;
+        font-size:1em;
         display:inline-block;
     }
     i.fa-twitter-square{
-        color:$tw-color;
-        font-size:2em;
+//        color:lighten($tw-color,15%);
+        color:$white-smoke;
+        font-size:1em;
         display:inline-block;
     }
 }
@@ -470,6 +472,10 @@ span.tip-bottom{
 //    }
 //}
 //WORK PAGE
+#work-wrapper h2{
+    font-family: $font-family-sans-serif;
+    margin-bottom:1rem;
+}
 #work-wrapper .work-grids{
     .intro{
         padding-top:7%;
@@ -876,9 +882,10 @@ div.work-recommend div{
         font-size: 20px;
         line-height: 24px;
     }
-    .landing-grids .text-only p {
-        font-size: 14px;
-        font-weight: 400;
+    .square .overlay-inner p {
+//        font-size: 10px;
+//        font-weight: 400;
+        display:none;
     }
     
     .work-grids .rect .overlay-inner{

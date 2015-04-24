@@ -124,7 +124,7 @@
                                 <p>McDonald's multicultural competition featuring award-winning breakdancers from diverse ethnic backgrounds.</p>
                             </div>
                         </div>
-                       <img src="/images/bboy.jpg">
+                       <img src="images/bboy.jpg">
                        </a>
                     </div>
                 </div>
