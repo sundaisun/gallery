@@ -21,10 +21,10 @@
                   <div class="overlay">
                       <div  class="overlay-inner">
                       <h3>IW Trivia</h3>
-                      <img src="images/banana.jpg">
+                      <img src="images/staff/stan-type.jpg">
                       </div>
                   </div>
-                    <a href="#"><img src="images/staff/harry.jpg"></a>
+                    <a href="#"><img src="images/staff/stan.jpg"></a>
                 </div>
                 <!-- personality end -->
                 <!-- social -->
@@ -52,6 +52,7 @@
         <div class="row">
                <!-- work -->
                 <div class="small-6 medium-3 columns square">
+                  <a href="#" data-reveal-id="ofyq-mcrib">
                    <div class="overlay">
                        <div class="overlay-inner">
                            <h3>work</h3>
@@ -59,6 +60,7 @@
                        </div>
                    </div>
                     <a href="works/lacf.php"><img src="images/lacf.jpg"></a>
+                  </a>
                 </div>
                 <!-- work end -->
                 <!-- social -->
@@ -125,12 +127,15 @@
                 <!-- social end -->
                 <!-- work -->
                 <div class="small-6 medium-3 columns square">
+                 <a href="#" data-reveal-id="walmart-cn">
                   <div class="overlay">
                       <div class="overlay-inner">
                           <h3>work</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat praesentium adipisci est magnam.</p>
                       </div>
                   </div>
                     <a href="#"><img src="images/walmart.jpg"></a>
+                 </a>
                 </div>
                 <!-- work end -->
                 <!-- mantra -->
@@ -150,10 +155,10 @@
                   <div class="overlay">
                       <div  class="overlay-inner">
                       <h3>IW Trivia</h3>
-                      <img src="images/banana-g.jpg">
+                      <img src="images/staff/telly-type.jpg">
                       </div>
                   </div>
-                    <a href="#"><img src="images/staff/harry.jpg"></a>
+                    <a href="#"><img src="images/staff/telly.jpg"></a>
                 </div>
                 <!-- personality end -->
         </div>
@@ -270,12 +275,14 @@
             <div class="row">
              <!-- work -->
               <div class="small-6 medium-3 columns square">
+                 <a href="#" data-reveal-id="walmart-anthemic">
                   <div class="overlay">
                       <div class="overlay-inner">
                           <h3>work</h3>
                       </div>
                   </div>
                     <a href="#"><img src="images/mccafe.png"></a>
+                  </a>
                 </div>
             <!-- work end -->
             <!-- personality -->
@@ -329,5 +336,28 @@
             </div>
     </div>
     <!--landing grids-->
+    
+<!--reveal modal-->
+     <div id="ofyq-mcrib" class="reveal-modal large" data-reveal>
+        <div class="flex-video" style="display: block;">
+            <iframe src="https://player.vimeo.com/video/119892235" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+     </div>
+    <div id="walmart-cn" class="reveal-modal large" data-reveal>
+        <div class="flex-video" style="display: block;">
+            <iframe src="https://player.vimeo.com/video/125929615" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+     </div>
+    <div id="walmart-anthemic" class="reveal-modal large" data-reveal>
+        <div class="flex-video" style="display: block;">
+            <iframe src="https://player.vimeo.com/video/125929616" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
+    </div>
+<!--reveal modal-->
+
+
 </section>
 <?php include( "parts/footer-loader.php"); ?>
