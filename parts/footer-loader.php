@@ -14,6 +14,9 @@
                     </ul>
                 </div>
                 <p>2015 IW Group, Inc. All rights reserved.</p>
+                <div class="small-3 columns small-centered">
+                    <img src="images/parent.png">
+                </div>
             </div>
         </div>
     </footer>
@@ -21,8 +24,8 @@
 </div><!--loader-wrapper-->
 
 
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script>
     $(document).foundation('reveal',{
         animation:'fade',
@@ -30,10 +33,10 @@
         close_on_background_click: true
     });
     </script>
-    <script src="/js/classie.js"></script>
-    <script src="/js/pathLoader.js"></script>
-    <script src="/js/loader.js"></script>
-    <script src="/js/app.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/pathLoader.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/app.js"></script>
 <!--    <script src="/js/typed.js"></script>-->
 <!--
     <script>
@@ -46,7 +49,7 @@
   });
 </script>
 -->
-<script src="/js/wow.js"></script>
+<script src="js/wow.js"></script>
     <script>
         var wow = new WOW(
             {

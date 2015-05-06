@@ -32,7 +32,7 @@ button{
         padding:10px 30px;
         outline:none;
         color:$fade-orange;
-        &:hover{
+        &:hover, &:active, &:focus{
             background-color:darken($fade-orange,10%);
             color:white;
         }
@@ -48,6 +48,7 @@ form{
 #askquestion{
     max-width:1000px;
 }
+
 
 //HEADER
 header .header {
@@ -263,7 +264,7 @@ nav.top-bar{
         color: white;
         font-family: $header-sans;
         text-transform: uppercase;
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 700;
     }
     h1 {
@@ -453,10 +454,19 @@ figure figcaption{
     }
 }
 
-span.tip-bottom{
-    margin-top:-130px;
+.tip-bottom{
+    border:0;
+    &:hover{
+        cursor: auto;
+        border:0;
+    }
 }
 
+ span.tooltip.tip-bottom{
+        margin:0 auto;
+        text-align: center;
+        margin-top:-2%;
+    }
 //SVG COLORS
 //.clients-grids div.row div svg path,
 //.clients-grids div.row div svg circle,
@@ -472,9 +482,10 @@ span.tip-bottom{
 //    }
 //}
 //WORK PAGE
-#work-wrapper h2{
-    font-family: $font-family-sans-serif;
+#work-wrapper h2, .clients-grids h2{
+    font-family: $font-family-sans-serif !important;
     margin-bottom:1rem;
+    text-align: left;
 }
 #work-wrapper .work-grids{
     .intro{
@@ -516,6 +527,7 @@ span.tip-bottom{
         color: darken($white-smoke, 68%);
         font-size: 56px;
         font-weight:bold;
+        line-height:62px;
         padding-bottom:20px;
         @include ease-in-out(0.4s);
          &:hover {color: darken($white-smoke, 100%);}}
@@ -567,24 +579,20 @@ span.tip-bottom{
 .work-detail .work-category{
     margin-top:5%;
     margin-bottom:5%;
-    background-color:$tuatara;
+    background-color:$iw-grey;
     .content{
-        background-color:$tuatara;
+        background-color:$iw-grey;
         padding-top:50px;
         padding-bottom:50px;
         text-align: center;
         h4{
-            color:rgba($white-smoke, 0.85);
+            color: darken($white-smoke, 60%);
             font-family: $header-sans;
             text-transform: uppercase;
             font-weight: 700;
         }
-        p{
-            color:$white-smoke;
-        }
         ul{
             list-style:none;
-            color:$white-smoke;
             margin-left:0;
             margin-top:20px;
         }
@@ -596,7 +604,6 @@ span.tip-bottom{
     text-transform:uppercase;
     font-weight:700;
     font-size:1.2em;
-    color:darken($white-smoke,45%);
     text-align: center;
     margin-top:4%;
     margin-bottom:4%;
@@ -655,7 +662,7 @@ div.work-recommend div{
         right:0;
         z-index:1;
         background-size:cover;
-        background-position:top;
+        background-position:center;
         filter:saturate(5%);
         -webkit-filter:saturate(5%);
     }
@@ -689,6 +696,12 @@ div.work-recommend div{
         font-family: $header-sans;
         text-align: center;
     }
+    h2{
+        font-family: $font-family-sans-serif !important;
+        margin-bottom:1rem;
+        text-align: left;
+    }
+    
     @extend .clients-grids;
     .intro {
         padding-left: 30px;
@@ -751,7 +764,35 @@ div.work-recommend div{
 #reco-godiva{
     background-image:url(../images/work-inner/godiva-bg.jpg);
 }
-
+#reco-anthemicus{
+    background-image:url(../images/walmart-us.jpg);
+}
+#reco-cc{
+    background-image:url(../images/cc.jpg);
+}
+#reco-ew{
+    background-image: url(../images/ewpr.jpg);
+    background-position: top;
+}
+#reco-worldcup{
+    background-image: url(../images/worldcup.jpg);
+}
+#reco-bboy{
+    background-image: url(../images/bboy.jpg);
+}
+#reco-ofyq{
+    background-image: url(../images/ofyq.jpg);
+}
+#reco-shiseido{
+    background-image: url(../images/shiseido.jpg);
+    background-position:top;
+}
+#reco-sce{
+    background-image: url(../images/sce.jpg);
+}
+#reco-anthemiccn{
+    background-image:url(../images/walmart-cn.jpg);
+}
 
 //WEATHER BUG
 .weather {
@@ -825,7 +866,7 @@ div.work-recommend div{
   color: $fade-orange;
   font-size: 1.5rem;
   font-weight: 300;
-  text-align: center;
+  text-align: center !important;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
@@ -833,6 +874,20 @@ div.work-recommend div{
   margin: 0 20px;
 }
 
+//MODAL STOP MOVING WHEN SCROLL
+#askquestion.reveal-modal.open {
+  position:fixed;
+  top:40%!important; /* override inline style injected from JS */
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+#footprint.reveal-modal.open {
+  position:fixed;
+  top:50%!important; /* override inline style injected from JS */
+  left:50%;
+  transform:translate(-50%, -50%);
+}
 
 //MEDIA QUERY
 @media #{$large-up}
@@ -889,6 +944,12 @@ div.work-recommend div{
 
 @media #{$medium-only}
 {
+    span.tooltip.tip-bottom{
+        width:25%;
+         min-width: 25%;
+         max-width:25%;
+         margin-top:-5%;
+    }
     //SHRINK H1 SIZE FOR MED
     .desc .desc-inner h1 {
         font-size: 20px;
@@ -915,6 +976,12 @@ div.work-recommend div{
 }
 @media #{$small-only}
 {
+        span.tooltip.tip-bottom{
+        width:95%;
+         min-width: 95%;
+         max-width:95%;
+         margin-top:-5%;
+    }
     //nav ask question style
     section.top-bar-section ul.right{
     li.ask a span{
@@ -1006,11 +1073,14 @@ div.work-recommend div{
 //        height: 300px !important;
 //    }
     
-    
+    //CLIENTS
+    .clients-grids{
+        padding-top:20%;
+    }
     //CONTACT MAP HEIGHT
-   #contact-map {
-    padding-bottom:70%;
-}
+//   #contact-map {
+//    padding-bottom:70%;
+//}
     
     //WORK DETAIL HEADER
     .work-detail-wrapper{

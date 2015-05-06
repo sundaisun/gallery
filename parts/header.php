@@ -28,48 +28,49 @@
 <!--      main content     -->
       <nav class="top-bar" data-topbar role="navigation">
           <ul class="title-area">
-            <a href="/../index.php"><li class="name"></li></a>
+            <a href="/index.php"><li class="name"></li></a>
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
 
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-         <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="/../work.php">Work</a></li>
-         <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="/../clients.php">Clients</a></li>
-         <li <?php if($active == 'imprint') {echo 'class="active"';} ?>><a href="/../imprint.php">Imprint</a></li>
+         <li <?php if($active == 'work') {echo 'class="active"';} ?>><a href="/work.php">Work</a></li>
+         <li <?php if($active == 'clients') {echo 'class="active"';} ?>><a href="/clients.php">Clients</a></li>
+         <li <?php if($active == 'imprint') {echo 'class="active"';} ?>><a href="/imprint.php">Imprint</a></li>
     </ul>
     <ul class="right">
-              <li class="ask"><a href="#" data-reveal-id="askquestion"><span>Ask us a question</span></a></li>
+              <li class="ask"><a href="#" data-reveal-id="askquestion" onclick="ga('send', 'event', 'Ask', 'AskQuestion-Click');"><span>Ask us a question</span></a></li>
     </ul>
   </section>   
         </nav>
         <!--ask question starts-->
         <div id="askquestion" class="reveal-modal" data-reveal >
-            <form>
+            <!-- Alan changed form to form action -->
+            <form action="askquestion.php" method="post">
+            <!-- end -->
                 <div class="row">
 <!--                   <div class="large-4 columns">Question Category</div>-->
                     <div class="large-12 columns">
-                            <select>
-                                <option value="">Question Category</option>
-                                <option value="hiring">Hiring</option>
-                                <option value="lorem">Lorem</option>
-                                <option value="ipsum">Ipsum</option>
-                                <option value="dolor">Dolor</option>
+                            <select name="category">
+                                <option value="default">Question Category</option>
+                                <option value="Are you hiring?">Are you hiring?</option>
+                                <option value="Would like to work together">Would you like to work together?</option>
+                                <option value="I'm curious about">I'm curious about...</option>
                             </select>
                     </div>             
                 </div>
                 <div class="row">
                     <div class="small-12 large-4 columns">
-                        <input type="text" placeholder="Name" />
+                        <input type="text" name="Name" placeholder="Name" />
                     </div>
                     <div class="small-12 large-8 columns">
-                        <input type="text" placeholder="Email" />
+                        <input type="text" name="Email" placeholder="Email" />
                     </div>
                     <div class="large-12 columns">
-                        <textarea rows="4" placeholder="Question"></textarea>
+                        <textarea rows="4" name="Question" placeholder="Question"></textarea>
                     </div>
-                    <a href="#"><button>Submit</button></a>
+                    <button type="submit" value="Send">Submit</button></a>
                 </div>
             </form>
             <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>

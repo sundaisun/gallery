@@ -1,10 +1,12 @@
 <?php $active="contact"; include("parts/header.php"); ?>
    </header>
     <!--HEADER-->
-<div id="contact-wrapper">
+<div id="contact-wrapper" style="margin-top:0;">
 <section>
+      <div class="imprint-grids">
        <div class="row intro">
-        <p>We’ve been up, down, over and around for our clients. Wherever the job takes us, we’re happy to go, even if it’s overseas. Our brick and mortars may be stateside but our presence is worldwide.</p>
+       <h2>Going the distance, no matter the distance.</h2>
+        <p style="padding-top:0;">We’ve been up, down, over and around for our clients. Wherever the job takes us, we’re happy to go, even if it’s overseas. Our brick and mortars may be stateside but our presence is worldwide.</p>
         </div>
         <div class="row offices">
             <div class="small-12 medium-4 columns wow fadeIn">
@@ -31,51 +33,82 @@
 <!--            <iframe src="https://mapsengine.google.com/map/embed?mid=zCQdS7kxy0Fs.kpRJpU2qsn78" width="640px" height="507px"></iframe>-->
         </div>
         <!--reveal modal-->
-        <div id="footprint" class="reveal-modal large" data-reveal>
+        <div id="footprint" class="reveal-modal large" data-reveal
+           style="top:10%;"
+           >
             <ul class="photos" data-orbit>
                 <li class="active">
                     <img src="images/map/ofyq-1.jpg" alt="Our Food Your Questions">
                     <div class="orbit-caption">
-                        Fresno, CA • McDonald's • Our Food, Your Questions.
+                        Fresno, CA | McDonald's | Our food. Your questions.
                     </div>
                 </li>
                 <li>
                     <img src="images/map/ofyq-2.jpg" alt="Our Food Your Questions">
                     <div class="orbit-caption">
-                        Fresno, CA • McDonald's • Our Food, Your Questions.
+                        Fresno, CA | McDonald's | Our food. Your questions.
                     </div>
                 </li>
                 <li>
                     <img src="images/map/ofyq-3.jpg" alt="Our Food Your Questions">
                     <div class="orbit-caption">
-                        Caldwell, ID • McDonald's • Our Food, Your Questions.
+                        Caldwell, ID | McDonald's | Our food. Your questions.
                     </div>
                 </li>
                 <li>
                     <img src="images/map/ofyq-4.jpg" alt="Our Food Your Questions">
                     <div class="orbit-caption">
-                        Caldwell, ID • McDonald's • Our Food, Your Questions.
+                        Caldwell, ID | McDonald's | Our food. Your questions.
                     </div>
                 </li>
                 <li>
                     <img src="images/map/walmart-cn-1.jpg" alt="Walmart China">
                     <div class="orbit-caption">
-                        Shanghai, China • Walmart • Anthemic (China)
+                        Shanghai, China | Walmart | Anthemic (China)
                     </div>
                 </li>
                  <li>
                     <img src="images/map/walmart-cn-2.jpg" alt="Walmart China">
                     <div class="orbit-caption">
-                        Shanghai, China • Walmart • Anthemic (China)
+                        Shanghai, China | Walmart | Anthemic (China)
                     </div>
-                </li>               
+                </li> 
+                <li>
+                    <img src="images/map/la-office.jpg" alt="LA Office">
+                    <div class="orbit-caption">
+                        Los Angeles, CA | The IW Team in LA in a collaborative brainstorming session
+                    </div>
+                </li>     
+                <li>
+                    <img src="images/map/nielsen.jpg" alt="Nielsen at Kollaboration 2012">
+                    <div class="orbit-caption">
+                       Los Angeles, CA | Nielsen | The Nielsen team at Kollaboration, an event showcasing Asian American vocal talent
+                    </div>
+                </li>      
+                <li>
+                    <img src="images/map/bill-biden.jpg" alt="Bill and Biden">
+                    <div class="orbit-caption">
+                       Washington DC | VP Joe Biden congratulates IW Chairman Bill Imada on his appointment to the President’s Advisory Commission on Asian American and Pacific Islanders
+                    </div>
+                </li>  
+                <li>
+                    <img src="images/map/toyota.jpg" alt="Toyota">
+                    <div class="orbit-caption">
+                       Dallas,TX | Toyota | The IW team celebrates Toyota’s move from Los Angeles to their new home in Plano
+                    </div>
+                </li>    
+                 <li>
+                    <img src="images/map/bill-obama.jpg" alt="Bill and President Obama">
+                    <div class="orbit-caption">
+                       Washington DC | IW Chairman Bill Imada in roundtable discussions with President Obama’s Advisory Commission on Asian American and Pacific Islanders
+                    </div>
+                </li>    
             </ul>       
             <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
         </div>
         <!--reveal modal ends-->
-
+</div><!--imprint grids-->
 </section>
 </div>
-
 
 <?php include("parts/footer.php");  ?>

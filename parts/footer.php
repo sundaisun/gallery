@@ -14,6 +14,9 @@
                     </ul>
                 </div>
                 <p>2015 IW Group, Inc. All rights reserved.</p>
+                 <div class="small-3 columns small-centered">
+                    <img src="/images/parent.png">
+                </div>
             </div>
         </div>
     </footer>

@@ -5,10 +5,11 @@
 <div class="work-detail" id="godiva">
     <section>
        <div class="row work-detail-wrapper">
-        <h3>case study</h3>
-        <h1>Godiva Year of the Horse</h1>
-        <p>In 2013, IW Group dove straight into launching Godiva in the Chinese segment with a larger test campaign introducing a limited edition Autumn Moon chocolate collection box priced at $50 in CA and NY. The agency not only met their sales goal, but in some cases surpassed the sales, as many people left empty-handed from stores, and all boxes online were sold.</p>
-        <p>Following the success of the Autumn Moon campaign, GODIVA decided to establish an ongoing relationship with its Chinese-American consumer.</p>
+        <h3>GODIVA</h3>
+        <h1>Lunar New Year</h1>
+        <p>In 2013, IW opened a box of luxurious chocolates with Godiva and together launched the first ever Chinese-targeted campaign featuring Godiva’s Autumn Moon Chocolates Collection.</p>
+        <p>IW helped Godiva sell-thru the entire online inventory; surpass sales in key target markets and and sell out numerous stores. An empty shelf is a happy shelf.</p>
+        <p>After the first taste of success, we continued our successful partnership. Meet our second collaboration: The Year of the Horse Campaign.</p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
@@ -17,42 +18,59 @@
            </div><!--row hero-->
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
-           <h4>Challenge</h4>
-           <p>Launching a luxury chocolate brand, with a specific product in a niche market segment, with limited budgets, whose measure of success was based solely upon sales.  Add to this, the fact that even though this brand is popular in Asia, there had never been any sustained outreach towards Asian-Americans previously.
-           </p>
+           <h4>Complexities</h4>
+              <ul>
+                 <li>Expand beyond Chinese, and target Korean and Vietnamese consumers 
+Limited budget</li>
+                 <li>No longstanding communication with Asian-American target
+Niche market</li>
+                 <li>High price point product</li>
+              </ul>
        </div>
        <div class="work-category">
           <div class="row content">
              <div class="small-12 medium-4 columns">
-              <h4>Client</h4>
+              <h4>Target</h4>
               <ul>
-              <li>Godiva</li>
+               <li>Status Seekers and Sincere Givers</li>
+               <li>High Net Worth Luxury Seekers</li>
               </ul>
              </div>
              <div class="small-12 medium-4 columns">
-              <h4>Roles</h4>
-              <ul>
-                  <li>Branding</li>
-                  <li>Public Relations</li>
-                  <li>Social Media</li>
-              </ul>
+               <h4>Evaluation</h4>
+                <p>Reach a 70% sales goal</p>
              </div>
-            <div class="small-12 medium-4 columns">
-              <h4>Year</h4>
-              <ul>
-                  <li>2014</li>
-              </ul>
+                <div class="small-12 medium-4 columns">
+                  <h4>Award</h4>
+                  <ul>
+                      <li>ANA 2014 Multicultural Excellence Awards - Asian Category</li>
+                  </ul>
              </div>              
-          </div><!--content-->
-       </div><!--work-category-->
+          </div>
+          <!--content-->
+       </div>
+       <!--work-category-->
        <div class="row white-bg-text">
-           <h4>Our Approach</h4>
-           <p>Identifying the target audience was crucial to the success of this campaign. The chocolate collections were priced at $38, $50 and $120 - not affordable by all; and working within limited budgets it was imperative to first hone in on our consumer, and then identify the means to reach him/her. The strategy was to have a well-integrated plan with a message that would resonate strongly with our primary audience - GODIVA brings you immense luck with their Year of the Horse collection, so don’t miss out on this limited time offer.</p><p>This was conveyed through advertising, earned media (Chinese, Korean, and Vietnamese), press and blogger events, as well as a fully integrated social media activation via Facebook sweepstakes. Lastly, establishing a partnership with a very popular Chinese-American YouTube celebrity singer, who wrote and made a video of a song specially written for GODIVA.</p>
+           <h4>Full Flavor Solution</h4>
+           <p>An integrated approach:</p>
+               <ul>
+                   <li>Unique PR and Blogger events in NY and LA</li>
+                   <li>Eye catching print ads</li>
+                   <li>Social media
+                       <ul>
+                           <li>Trending topic using #GODIVALNY</li>
+                           <li>Facebook Sweepstakes</li>
+                       </ul>
+                   </li>
+                   <li>An original song and music video collaboration with popular Chinese-American YouTube celebrity singer, Jason Chen</li>
+               </ul>
+<!--
            <ul class="approach row">
                <li class="small-12 medium-4 columns wow fadeInUp"><i class="fa fa-exchange"></i><br>Multi-lingual<br>Advertising</li>
                <li class="small-12 medium-4 columns wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-ticket"></i><br>Facebook<br>sweepstakes</li>
                <li class="small-12 medium-4 columns wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-star"></i><br>YouTube Celebrity<br>Collaboration</li>
            </ul>
+-->
        </div>
        <div class="images">
        <div class="row"><img class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/godiva/print.jpg" alt="Print Ad"><img style="padding-bottom:10px;" class="small-12 medium-6 columns wow fadeIn" src="../images/work-inner/godiva/youtube.png" alt="Youtube"><img class="small-12 medium-6 columns wow fadeIn" src="../images/godiva.jpg" alt="Youtube"></div>
@@ -61,28 +79,37 @@
            <div class="row">
               <h4>Result</h4>
                <ul>
-                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quos exercitationem optio voluptate beatae repellat, reiciendis minima consectetur fugit cupiditate tenetur ullam numquam, tempore soluta, deserunt ex expedita voluptates accusamus.</li>
+                   <li>648 sweepstakes entries in one week</li>
+                   <li>118K YouTube views in 6 weeks</li>
+                   <li>138M Impressions: 98M Paid and 40M Earned</li>
+                   <li>Achieved a 90% sales goal, surpassing our projected goal</li>
                </ul>
+               <p>After a successful 2014 Year of the Horse campaign, we followed up with a Year of the Ram campaign that hit a 100% sales goal.</p>
+               <p>Success is the sweetest luxury.</p>
            </div>
        </div>
     </section>
     <section>
        <hr>
         <div class="work-recommend row-f">
+               <a href="walmart-anthemic.php">
                <div class="recommend-left small-6 columns">
-                <div class="reco-bg" id="reco-cdc"></div>
+                <div class="reco-bg" id="reco-anthemicus"></div>
                 <div class="reco-content">
                 <h5>Previous Project</h5>
-                <a href="cdc.php"><h1>CDC Protect Family</h1></a>
+                <h1>Promise</h1>
                 </div>
                </div>
+               </a>
+               <a href="covered-california.php">
                <div class="recommend-right small-6 columns">
-                <div class="reco-bg" id="reco-godiva"></div>
+                <div class="reco-bg" id="reco-cc"></div>
                 <div class="reco-content">
                 <h5>Next Project</h5>
-                <a href="godiva.php"><h1>Godiva Year of the Horse</h1></a>
+                <h1>Affordable Care Act</h1>
                 </div>
-               </div>               
+               </div>
+               </a>            
         </div>
     </section>
 </div>
