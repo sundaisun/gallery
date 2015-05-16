@@ -9,7 +9,7 @@
         <h1>Our food. Your questions.</h1>
         <p>For the first time in its 60+ years of history, we helped McDonald's open its doors to tough questions about its food.</p>
 <p>
-To help spark conversations and truly show the consumer the truth behind McDonald’s food, we worked with TV-personality Grant Imahara to address questions from some of our most skeptical detractors about items like the McRib, fries, and hamburgers.</p>
+To help spark conversations and truly show the consumer the truth behind McDonald’s food, we worked with TV-personality, Grant Imahara, to address questions from some of our most skeptical detractors about items like the McRib, fries, and hamburgers.</p>
 <p>
 We amassed over 34 million YouTube views, and helped start conversations that answered over 42,000 questions about McDonald’s and its food.
 </p>
