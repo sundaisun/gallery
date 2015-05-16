@@ -28,7 +28,7 @@
                         <div class="overlay">
                             <div class="overlay-inner">
                                  <h3 style="text-transform:none;">McDONALD'S</h3>
-                                <p>Our annual Education Workshop guides aspirations for higher education.</p>
+                                <p>Our annual Education Workshop series guides aspirations for higher education.</p>
                             </div>
                         </div>
                         <img src="images/ewpr.jpg">
@@ -40,7 +40,7 @@
                        <div class="overlay">
                             <div class="overlay-inner">
                                 <h3>Walmart</h3>
-                                <p>Walmart empowers people’s drive to build a better life.</p>
+                                <p>Walmart empowers people’s dream to build a better life.</p>
                             </div>
                         </div>
                         <img src="images/walmart-us.jpg">
@@ -68,7 +68,7 @@
                        <a href="works/covered-california.php">
                         <div class="overlay">
                             <div class="overlay-inner">
-                                <h3>Covered California</h3>
+                                <h3>Affordable Care Act</h3>
                                 <p>We help successfully launch affordable healthcare in California.</p>
                             </div>
                         </div>

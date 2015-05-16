@@ -1,4 +1,4 @@
-<?php $active="contact"; include("parts/header.php"); ?>
+<?php $active="imprint"; include("parts/header.php"); ?>
    </header>
     <!--HEADER-->
 <div id="contact-wrapper" style="margin-top:0;">
@@ -33,8 +33,7 @@
 <!--            <iframe src="https://mapsengine.google.com/map/embed?mid=zCQdS7kxy0Fs.kpRJpU2qsn78" width="640px" height="507px"></iframe>-->
         </div>
         <!--reveal modal-->
-        <div id="footprint" class="reveal-modal large" data-reveal
-           style="top:10%;"
+        <div id="footprint" class="reveal-modal xlarge" data-reveal
            >
             <ul class="photos" data-orbit>
                 <li class="active">

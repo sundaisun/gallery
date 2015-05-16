@@ -874,21 +874,6 @@ div.work-recommend div{
   margin: 0 20px;
 }
 
-//MODAL STOP MOVING WHEN SCROLL
-#askquestion.reveal-modal.open {
-  position:fixed;
-  top:40%!important; /* override inline style injected from JS */
-  left:50%;
-  transform:translate(-50%, -50%);
-}
-
-#footprint.reveal-modal.open {
-  position:fixed;
-  top:50%!important; /* override inline style injected from JS */
-  left:50%;
-  transform:translate(-50%, -50%);
-}
-
 //MEDIA QUERY
 @media #{$large-up}
 {
@@ -930,6 +915,22 @@ div.work-recommend div{
 //    .work-grids .rect .overlay:hover > .overlay-inner {
 //        @include translateY(-50px);
 //    }
+    
+//MODAL STOP MOVING WHEN SCROLL
+#askquestion.reveal-modal.open {
+  position:fixed;
+  top:40%!important; /* override inline style injected from JS */
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+#footprint.reveal-modal.open {
+  position:fixed;
+  top:50%!important; /* override inline style injected from JS */
+  left:50%;
+  transform:translate(-50%, -50%);
+}    
+
 }
 @media #{$small-only}, #{$medium-only}
 {
@@ -958,7 +959,7 @@ div.work-recommend div{
     .square .overlay-inner p {
 //        font-size: 10px;
 //        font-weight: 400;
-        display:none;
+//        display:none;
     }
     
     .work-grids .rect .overlay-inner{
@@ -1082,6 +1083,8 @@ div.work-recommend div{
 //    padding-bottom:70%;
 //}
     
+    
+    
     //WORK DETAIL HEADER
     .work-detail-wrapper{
     h3 {
@@ -1120,4 +1123,12 @@ div.work-recommend div{
                   animation: none !important;
 }
     
+}
+
+@media #{$tablet-size}{
+    .square .overlay-inner p {
+//        font-size: 10px;
+//        font-weight: 400;
+        display:none;
+    }
 }

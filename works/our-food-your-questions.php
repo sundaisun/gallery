@@ -40,7 +40,7 @@ We amassed over 34 million YouTube views, and helped start conversations that an
                 <div class="reco-bg" id="reco-cc"></div>
                 <div class="reco-content">
                 <h5>Previous Project</h5>
-                <h1>Affordable Care Act</h1>
+                <h1>Covered California</h1>
                    </div>
                </div>
                </a>

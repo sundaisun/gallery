@@ -5,9 +5,9 @@
 <div class="work-detail" id="coveredcalifornia">
     <section>
        <div class="row work-detail-wrapper">
-        <h3>Covered California</h3>
-        <h1>Affordable Care Act</h1>
-        <p>Covered California is the California state initiative for affordable health care. IW Group partnered with Axis and Weber Shandwick to create an impactfulcampaign targeting key Asian ethnicities in California. With in-depth consumer insights and an enrollment goal of 21%, IW group planned and executed two TV spots, print, digital, collateral, and OOH campaigns in nine Asian languages (including Arabic and Farsi), which delivered and met the client goals, over a two-phase period.</p>
+        <h3>Affordable Care Act</h3>
+        <h1>Covered California</h1>
+        <p>Covered California is the California state initiative for the Affordable Care Act (ACA). IW Group partnered with Axis and Weber Shandwick to create an impactful campaign targeting key Asian ethnicities in California. With in-depth consumer insights, IW group planned and executed two TV spots, print, digital, collateral, and OOH campaigns in nine Asian languages (including Arabic and Farsi), which delivered and met the client goals, over a two-phase period.</p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">

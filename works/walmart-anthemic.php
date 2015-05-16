@@ -8,7 +8,7 @@
         <h3>walmart u.s.</h3>
         <h1>Promise</h1>
            <p>Save Money. Live Better.</p>
-           <p>These four words gave us the freedom to explore and bring the brand to life for Asian Americans. Most Asian Americans share the experience of being an immigrant. By capturing the humanity of their journey, we were able to connect on a deeper level. One based on their innate sense of purpose to fulfill a personal, filial and cultural duty to “provide” for others.</p>
+           <p>These four words gave us the freedom to explore and bring the brand to life for Asian Americans. Most Asian Americans share the experience of being an immigrant. By capturing the humanity of their journey, we were able to connect on a deeper level -- one based on their innate sense of purpose to fulfill a personal, filial and cultural duty to “provide” for others.</p>
            <p>With this film, Walmart recognizes Asian Americans’ ambition and commits to helping them achieve their dreams.</p>
        </div><!--row-->
 <!--

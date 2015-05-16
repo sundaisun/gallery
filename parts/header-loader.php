@@ -9,11 +9,10 @@
     <meta name="description" content="IW Group is a multicultural marketing agency with a total market approach. IW is a leader in strategy, advertising, PR, digital and events.">
     <meta name="keywords" content="IW,advertising,Asian,PR">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="author" content="Sun Dai">
     <meta property="og:site_name" content="IW Group">
     <meta property="og:title" content="IW Group | Total Market Thought Leaders">
     <meta property="og:description" content="IW Group is a multicultural marketing agency with a total market approach. IW is a leader in strategy, advertising, PR, digital and events.">
-
+    <meta property="og:image" content="http://staging.iwgroupinc.com/2014/IW/redesign/images/logo.png">
     <link rel="stylesheet" href="stylesheets/app.css" />
     <!--with backslash in the begining, you are making files relative to root folder-->
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/5c5a5723-82d0-4ca5-b695-f38dcb91eca3.css"/>
@@ -60,32 +59,7 @@
         <!--ask question starts-->
         <div id="askquestion" class="reveal-modal" data-reveal >
             <!-- Alan changed form to form action -->
-            <form action="askquestion.php" method="post">
-            <!-- end -->
-                <div class="row">
-<!--                   <div class="large-4 columns">Question Category</div>-->
-                    <div class="large-12 columns">
-                            <select name="category">
-                                <option value="default">Question Category</option>
-                                <option value="Are you hiring?">Are you hiring?</option>
-                                <option value="Would like to work together">Would you like to work together?</option>
-                                <option value="I'm curious about">I'm curious about...</option>
-                            </select>
-                    </div>             
-                </div>
-                <div class="row">
-                    <div class="small-12 large-4 columns">
-                        <input type="text" name="Name" placeholder="Name" />
-                    </div>
-                    <div class="small-12 large-8 columns">
-                        <input type="text" name="Email" placeholder="Email" />
-                    </div>
-                    <div class="large-12 columns">
-                        <textarea rows="4" name="Question" placeholder="Question"></textarea>
-                    </div>
-                    <button type="submit" value="Send">Submit</button></a>
-                </div>
-            </form>
+             <?php include("contact-form.php"); ?>
             <a class="close-reveal-modal"><i class="fa fa-times-circle-o"></i></a>
         </div>
         <!--ask question-->

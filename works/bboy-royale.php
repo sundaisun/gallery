@@ -6,8 +6,9 @@
     <section>
        <div class="row work-detail-wrapper">
         <h3 style="text-transform:inherit;">McDONALD’s NY TRI-STATE</h3>
-        <h1>B-Boy Royale</h1>
-        <p>Once a year, dance crews from across the nation descend upon New York City to battle in the largest breakdancing competition of the year – McDonald’s B-Boy Royale. Competitors go head-to-head for a chance at a cash grand prize and the crown of NYC’s best. All proceeds benefit Ronald McDonald House Charities® New York Tri-State Area.</p>
+        <h1>McDonald's B-Boy Royale</h1>
+        <p>Seeking to re-energize the McDonald's brand and gain new relevance with New York Tri-State Millennials, we produced McDonald’s first ever “B-Boy Royale” – a breakdancing competition featuring dance battles, musical performances and extensive real-time social media integration.</p>
+        <p>The event received unanimously positive response from the public, the hip hop and breakdance community as well as local media; including a positive review from the New York Times that went viral. The unprecedented success of the program has led to “McDonald’s B-Boy Royale” becoming an annual event.</p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
@@ -16,10 +17,7 @@
        </div><!--work hero wrapper-->
        <div class="row white-bg-text">
        <h4>WHAT WE NEEDED TO DO</h4>
-            <ul>
-                <li>Establish B-Boy Royale as the premier NYC-based breakdance competition</li>
-                <li>Re-energize the relationship between McDonald’s and Millennials.</li>
-            </ul>
+                <p>Re-energize the McDonald’s brand and gain new relevance among Millennials in the New York Tri-State area.</p>
        </div>
 <!--
        <div class="work-category">
@@ -52,9 +50,10 @@
        <div class="row white-bg-text">
            <h4>HOW WE DID IT</h4>
            <ul>
-               <li>Stay true to breakdancing’s NYC roots</li>
-               <li>Leverage total market interest in urban culture</li>
-               <li>Integrated approach using a unique social media integration, PR, and production design</li>
+               <li>Create a local breakdancing competition that stayed true to the art form’s NYC roots</li>
+               <li>Feature award-winning dance teams</li>
+               <li>Build relationships with Millennial influencers, leading b-boys and organizations to gain acceptance in the breakdance community; where corporate-sponsored events are traditionally shunned</li>
+               <li>Place emphasis on supporting and empowering the community</li>
            </ul>
 <!--
            <ul class="approach row">
@@ -75,15 +74,15 @@
                    <li>Sold-out show</li>
                    <li>Earned total media impressions: 135M+</li>
                    <li>Extended coverage in media and urban blogs</li>
-                   <li><em>New York Times</em> – positive review by dance critic Brian Seibert highlighting the diversity of performers at McDonald’s B-Boy Royale</li>
-                   <li><em>NY1 News</em> – in-studio segment featuring McDonald’s B-Boy Royale performers conducting a “Breakdancing 101” workshop with host Stephanie Simon </li>
-                   <li>#McDBBoyRoyale became a trending topic in the U.S.</li>
-                   <li>99% neutral to positive sentiment across all media coverage</li>
-                   <li>Mnet America broadcasted a McDonald’s B-Boy Royale special nationwide in Fall 2014</li>
+                   <li>New York Times – positive review by dance critic Brian Seibert highlighting the diversity of performers accompanied by slide show</li>
+                   <li>NY1 News – in-studio segment featuring McDonald’s B-Boy Royale talent conducting a “Breakdancing 101” workshop</li>
+                   <li>MediaPost – feature on the unique way that McDonald’s is targeting English speaking Asian Millennials through B-Boy Royale</li>
+                   <li>#McDBBoyRoyale became a trending topic on Twitter on the night of the event</li>
+                   <li>99% neutral-positive sentiment across all media coverage</li>
                    <li>Created McDonald’s New York Tri-State’s first multicultural millennial program that effectively reached both ethnic audiences and the total market</li>
+                   <li>McDonald’s USA expressing interest to turn B-Boy Royale into a national total market program</li>
                </ul>
-               <p>
-                When the dust settled, one crew took home the crown but we proved we could connect to Millenials and their influencers through authenticity and unbelievable dance moves. Do not try this at home… Or do try them, and enter next year’s competition.
+               <p>When the dust settled, one crew took home the crown, but we proved we could connect to Millennials and their influencers through authenticity and unbelievable dance moves. Do not try this at home… Or do try them, and enter next year’s competition.
                </p>
            </div>
        </div>

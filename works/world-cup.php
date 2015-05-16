@@ -89,7 +89,7 @@ The World Cup is just as popular for Asian Americans.  They love coming together
                 <div class="reco-bg" id="reco-bboy"></div>
                 <div class="reco-content">
                 <h5>Next Project</h5>
-               <h1>BBoy Royale</h1>
+               <h1>B-Boy Royale</h1>
                 </div>
                </div>   
                </a>            

@@ -10,16 +10,17 @@
         <p>In the U.S., more than 75 percent of Asian American consumers are first-generation immigrants. Within this segment, we identified a critical and unmet need: an understanding of the college admission process. So to build brand affinity in the community, we developed the McDonald’s Education Workshop.</p>
 <p>The Education Workshop is the first nationwide program to support Asian Americans in the pursuit of their academic dreams and acts as a one-stop information hub for parents and their college-bound children to gain knowledge, tools, and inspiration for higher education. </p>
 <p>Through this effort, McDonald’s roots grew in the community and in the consumers’ hearts.</p>
-
-
-
 </p>
        </div><!--row-->
        <div class="work-hero-wrapper">
            <div class="row work-hero">
+           <img src="../images/edu_workshop.jpg" alt="Education Workshop Poster">
+<!--
                <div class="work-hero-vid">
 <iframe src="https://player.vimeo.com/video/126324927" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div><!--work hero vid-->
+              </div>
+-->
+              <!--work hero vid-->
               <br>
               <br>
            </div><!--row hero-->
@@ -40,7 +41,7 @@
                 <div class="reco-bg" id="reco-bboy"></div>
                 <div class="reco-content">
                 <h5>Previous Project</h5>
-                <h1>BBoy Royale</h1>
+                <h1>B-Boy Royale</h1>
                    </div>
                </div>
                </a>

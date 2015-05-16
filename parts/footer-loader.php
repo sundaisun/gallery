@@ -37,6 +37,7 @@
     <script src="js/pathLoader.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/app.js"></script>
+    <script src="/js/contact-form.js"></script>
 <!--    <script src="/js/typed.js"></script>-->
 <!--
     <script>
